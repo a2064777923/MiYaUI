@@ -1,0 +1,79 @@
+/*头部透明*/
+@media screen and (min-width: 769px){
+.jiheme_home .home .new-header .header {
+    background: rgba(0,0,0,0.08);
+}
+.jiheme_home .home .site .top-search input,.jiheme_home .home .site  .search-button-action i{
+    color: #fff;
+}
+.jiheme_home .home .header{
+	color:var(--key-color);
+}
+.jiheme_home .home .action .header  {
+	color:var(--header-bg);
+}
+.jiheme_home .home #primary-home{
+    margin-top: -70px!important;
+}
+.slogan-text.por.fl {
+    margin-top: 0px!important;
+}
+.ji_haeder .top-style-blur {
+    background-color:var(--main-bg-color);
+}
+.jiheme_home .home  .jitheme-toggle i {
+    color: #fff;
+}
+.jiheme_home .home .top-menu ul li.depth-0 > a{
+    font-size: 17px;
+    color: #fff;
+}
+.jiheme_home .home .onecad_btn i{
+    color: #fff;
+}
+.jiheme_home .home .ji_haeder .onecad_btn i{
+    color: var(--key-color);
+}
+.jiheme_home .home .ji_haeder .top-menu ul li.depth-0 > a , .jiheme_home .home .site.ji_haeder #jitheme_top_vipb a{
+    font-size: 17px;
+    color: var(--key-color);
+}
+#logo2{
+    display: none;
+}
+.jiheme_home .home  #logo2 {
+    display: block!important;
+}
+.jiheme_home .home  #logo1{
+    display: none!important;
+}
+.jiheme_home .home  .action #logo2{
+    display:none!important;
+}
+.jiheme_home .home  .action #logo1{
+    display:block!important;
+}
+.jiheme_home .home .action .top-menu ul li.depth-0.current-menu-item > a {
+    color: var(--b2color);
+}
+.jiheme_home .home .action .site-header-in {
+    box-shadow: var(--box-ty)!important;
+}
+.jiheme_home .home .site .site-header-in {
+    box-shadow: 0px 5px 40px 0px rgba(17,58,93,.1);
+}
+
+.jitheme_a{
+    color: var(--b2color);
+    text-decoration: underline;    
+}
+.home_row {
+    position: relative;
+    margin-bottom: 16px;
+}
+.header .button, .header .login-button button{
+    background: var(--b2color)!important;
+    color: #fff!important;
+    border-color: var(--b2color)!important;
+}
+}

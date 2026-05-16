@@ -1,0 +1,37 @@
+{
+	"name": "xhtheme-ai-toolbox",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"package": "cd .. && zip -r xhtheme-ai-toolbox.zip xhtheme-ai-toolbox -x 'xhtheme-ai-toolbox/node_modules/*' -x 'xhtheme-ai-toolbox/src/*' -x 'xhtheme-ai-toolbox/.DS_Store' -x 'xhtheme-ai-toolbox/**/.DS_Store' -x 'xhtheme-ai-toolbox/*.zip' -x 'xhtheme-ai-toolbox/**/*.zip' -x 'xhtheme-ai-toolbox/package.json' -x 'xhtheme-ai-toolbox/package-lock.json' -x 'xhtheme-ai-toolbox/webpack.config.js' -x 'xhtheme-ai-toolbox/postcss.config.js' -x 'xhtheme-ai-toolbox/tailwind.config.js'"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4.0.14",
+		"@wordpress/scripts": "^30.13.0",
+		"autoprefixer": "^10.4.21",
+		"copy-webpack-plugin": "^13.0.1",
+		"css-loader": "^7.1.2",
+		"css-minimizer-webpack-plugin": "^7.0.3",
+		"cssnano": "^7.1.2",
+		"postcss": "^8.5.3",
+		"postcss-loader": "^8.1.1",
+		"sass": "^1.95.1",
+		"sass-loader": "^16.0.6",
+		"style-loader": "^4.0.0",
+		"tailwindcss": "^3.3.5",
+		"terser-webpack-plugin": "^5.3.10"
+	},
+	"files": [
+		"*"
+	],
+	"dependencies": {
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.5",
+		"babel-plugin-emotion": "^11.0.0",
+		"react": "^18.3.1"
+	}
+}

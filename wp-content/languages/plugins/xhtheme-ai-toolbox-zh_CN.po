@@ -1,0 +1,1159 @@
+# Translation of Plugins - XHTheme AI Toolbox - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - XHTheme AI Toolbox - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-24 15:28:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - XHTheme AI Toolbox - Stable (latest release)\n"
+
+#: classes/class-xhtheme-postauto.php:911
+msgid "Request error or timeout, please try again later!"
+msgstr "请求错误或超时，稍后再试！"
+
+#: classes/class-xhtheme-admin.php:1079
+msgid "We read every feedback carefully ❤️"
+msgstr "您的每一条反馈我们都会认真阅读 ❤️"
+
+#: classes/class-xhtheme-admin.php:1078
+msgid "Skip & Deactivate"
+msgstr "跳过反馈，直接停用"
+
+#: classes/class-xhtheme-admin.php:1077
+msgid "Submit & Deactivate"
+msgstr "提交反馈并停用"
+
+#: classes/class-xhtheme-admin.php:1076
+msgid "How can we improve..."
+msgstr "请告诉我们如何改进..."
+
+#: classes/class-xhtheme-admin.php:1075
+msgid "Feedback or suggestions (optional)"
+msgstr "其他反馈或建议（可选）"
+
+#: classes/class-xhtheme-admin.php:1074
+msgid "Your feedback helps us improve"
+msgstr "感谢您的使用，您的反馈将帮助我们不断改进"
+
+#: classes/class-xhtheme-admin.php:1073
+msgid "Leaving?"
+msgstr "即将离开？"
+
+#: classes/class-xhtheme-admin.php:1070
+msgid "We are happy to listen..."
+msgstr "随便说说，我们都很乐意倾听..."
+
+#: classes/class-xhtheme-admin.php:1069
+msgid "Mind sharing more?"
+msgstr "方便和我们聊聊吗？"
+
+#: classes/class-xhtheme-admin.php:1068
+msgid "Your feedback helps us improve..."
+msgstr "您的反馈会帮助我们变得更好..."
+
+#: classes/class-xhtheme-admin.php:1067
+msgid "What attracted you to switch?"
+msgstr "方便说说是什么吸引了您吗？"
+
+#: classes/class-xhtheme-admin.php:1066
+msgid "Describe the problem briefly..."
+msgstr "简单说说是什么问题，我们会认真查看..."
+
+#: classes/class-xhtheme-admin.php:1065
+msgid "What issue did you encounter? 🔧"
+msgstr "方便描述一下遇到的问题吗？我们会尽快修复 🔧"
+
+#: classes/class-xhtheme-admin.php:1064
+msgid "Your ideas matter, share your suggestions..."
+msgstr "您的想法对我们非常重要，期待您的建议..."
+
+#: classes/class-xhtheme-admin.php:1063
+msgid "What feature do you need? 💡"
+msgstr "方便分享一下您期望的功能吗？💡"
+
+#: classes/class-xhtheme-admin.php:1060
+msgid "Other"
+msgstr "其他原因"
+
+#: classes/class-xhtheme-admin.php:1059
+msgid "Temporary, will re-enable later"
+msgstr "临时停用，稍后会重新启用"
+
+#: classes/class-xhtheme-admin.php:1058
+msgid "Switching to another plugin"
+msgstr "切换到其他插件"
+
+#: classes/class-xhtheme-admin.php:1057
+msgid "Found a bug or error"
+msgstr "遇到问题或错误"
+
+#: classes/class-xhtheme-admin.php:1056
+msgid "Missing features I need"
+msgstr "功能不符合需求 / 缺少需要的功能"
+
+#: classes/class-xhtheme-admin.php:1021
+msgid "Configuration saved successfully"
+msgstr "配置保存成功"
+
+#: classes/class-xhtheme-admin.php:884
+msgid "Invalid AppID, please check your input"
+msgstr "AppID 无效，请检查您的输入"
+
+#. translators: %s: Settings → Permalinks link
+#: classes/class-xhtheme-admin.php:747
+msgid "Please re-enable REST API, then go to %s page and click \"Save Changes\"."
+msgstr "请重新启用 REST API，然后前往%s页面并点击\"保存更改\"。"
+
+#: classes/class-xhtheme-admin.php:743
+msgid "Settings → Permalinks"
+msgstr "设置 → 固定链接"
+
+#: classes/class-xhtheme-admin.php:737
+msgid "How to restore functionality?"
+msgstr "如何恢复功能？"
+
+#: classes/class-xhtheme-admin.php:724
+msgid "Learn More"
+msgstr "了解更多"
+
+#: classes/class-xhtheme-admin.php:721
+msgid "Your theme or plugin may have an option to disable REST API which is currently enabled, causing some plugin features to malfunction."
+msgstr "您所用的【主题/插件】可能包含禁用REST API功能的选项并已开启，导致插件部分功能无法正常工作。"
+
+#: classes/class-xhtheme-admin.php:713
+msgid "Error Reason"
+msgstr "错误原因"
+
+#: classes/class-xhtheme-admin.php:709
+msgid "Feature Error"
+msgstr "功能异常"
+
+#: classes/class-xhtheme-admin.php:213 classes/class-xhtheme-admin.php:214
+msgid "Setup Wizard"
+msgstr "新站配置向导"
+
+#: classes/class-xhtheme-admin.php:54
+msgid "AI-generated summary of the article content"
+msgstr "AI 生成的文章内容摘要"
+
+#. translators: %s: Number of discussions
+#: templates/single-thread-s2.php:189
+msgid "%s discussions"
+msgstr "%s 个讨论"
+
+#: templates/single-thread-s2.php:160
+msgid "View More Topics"
+msgstr "查看更多话题"
+
+#: templates/single-thread-s2.php:157
+msgid "Further Reading"
+msgstr "延伸阅读"
+
+#: templates/single-thread-s2.php:105
+msgid "Uncategorized"
+msgstr "未分类"
+
+#: templates/single-thread-s2.php:42
+msgid " participants"
+msgstr " 参与者"
+
+#: templates/comments-thread.php:168
+msgid "Network error, please try again later"
+msgstr "网络错误，请稍后再试"
+
+#: templates/comments-thread.php:163
+msgid "Publishing failed, please try again"
+msgstr "发布失败，请重试"
+
+#: templates/comments-thread.php:158
+msgid "Reply published successfully!"
+msgstr "回复发布成功！"
+
+#: templates/comments-thread.php:131
+msgid "Publishing..."
+msgstr "发布中..."
+
+#: templates/comments-thread.php:118
+msgid "Please enter comment content"
+msgstr "请输入评论内容"
+
+#: templates/comments-thread.php:103
+msgid "Reply to comment..."
+msgstr "回复评论..."
+
+#: templates/comments-thread.php:63
+msgid "No comments yet, be the first to share your opinion!"
+msgstr "暂无评论，快来分享你的观点吧！"
+
+#: templates/comments-thread.php:45
+msgid "Publish"
+msgstr "发布"
+
+#: templates/comments-thread.php:41
+msgid "Share your thoughts..."
+msgstr "分享你的想法..."
+
+#. translators: %s: Number of comments
+#: templates/comments-thread.php:31
+msgid "%s comments"
+msgstr "%s 条评论"
+
+#: templates/block-single-thread.php:27
+msgid "Join Topic Discussion"
+msgstr "加入话题讨论"
+
+#: classes/class-xhtheme-walker-thread-comment.php:86
+#: classes/class-xhtheme-walker-thread-comment.php:164
+msgid "Reply"
+msgstr "回复"
+
+#: classes/class-xhtheme-walker-thread-comment.php:47
+msgid "Your comment is waiting for moderation."
+msgstr "您的评论正在等待审核。"
+
+#: classes/class-xhtheme-walker-thread-comment.php:37
+#: classes/class-xhtheme-walker-thread-comment.php:124
+msgid "ago"
+msgstr "前"
+
+#: classes/class-xhtheme-walker-thread-comment.php:33
+#: classes/class-xhtheme-walker-thread-comment.php:139
+msgid "Author"
+msgstr "作者"
+
+#: classes/class-xhtheme-thread.php:1512
+msgid "Liked successfully"
+msgstr "点赞成功"
+
+#: classes/class-xhtheme-thread.php:1512
+msgid "Like cancelled"
+msgstr "取消点赞"
+
+#: classes/class-xhtheme-thread.php:1478
+msgid "Comment does not exist"
+msgstr "评论不存在"
+
+#: classes/class-xhtheme-thread.php:1444
+msgid "No more content"
+msgstr "没有更多内容了"
+
+#: classes/class-xhtheme-thread.php:1410
+msgid "Comment publication failed"
+msgstr "评论发布失败"
+
+#: classes/class-xhtheme-thread.php:1408
+msgid "Comment published successfully"
+msgstr "评论发布成功"
+
+#: classes/class-xhtheme-thread.php:1384
+msgid "Please login or fill in your nickname and email"
+msgstr "请登录或填写您的昵称和邮箱"
+
+#: classes/class-xhtheme-thread.php:1374
+msgid "Please login first!"
+msgstr "请先登录！"
+
+#: classes/class-xhtheme-thread.php:1370 classes/class-xhtheme-thread.php:1473
+msgid "Invalid parameters"
+msgstr "无效参数"
+
+#: classes/class-xhtheme-thread.php:1286
+msgid "Full-width thread page title block with subtitle"
+msgstr "带副标题的全宽话题页面标题块"
+
+#: classes/class-xhtheme-thread.php:1285
+msgid "Thread Page Title"
+msgstr "话题页面标题"
+
+#: classes/class-xhtheme-thread.php:1283
+msgid "Edit page to modify display content!"
+msgstr "编辑页面以修改显示内容！"
+
+#: classes/class-xhtheme-thread.php:1226
+msgid "For displaying thread content!"
+msgstr "用于显示话题内容！"
+
+#: classes/class-xhtheme-thread.php:1225
+msgid "Thread Content Page"
+msgstr "话题内容页面"
+
+#: classes/class-xhtheme-thread.php:1208
+msgid "Clean page template for displaying thread list!"
+msgstr "用于显示话题列表的简洁页面模板！"
+
+#: classes/class-xhtheme-thread.php:1207
+msgid "Thread List Page"
+msgstr "话题列表页面"
+
+#: classes/class-xhtheme-thread.php:1190 build/settings.js:1
+msgid "General Discussion"
+msgstr "一般讨论"
+
+#: classes/class-xhtheme-thread.php:1189 build/settings.js:1 build/wizard.js:1
+msgid "Observer Analysis"
+msgstr "观察者分析"
+
+#: classes/class-xhtheme-thread.php:1188 build/settings.js:1
+msgid "Domain Expert"
+msgstr "领域专家"
+
+#: classes/class-xhtheme-thread.php:1187 build/settings.js:1 build/wizard.js:1
+msgid "Personal Blogger"
+msgstr "个人博主"
+
+#: classes/class-xhtheme-thread.php:1170 build/settings.js:1
+msgid "Argument Supplement"
+msgstr "论点补充"
+
+#: classes/class-xhtheme-thread.php:1169 build/settings.js:1 build/wizard.js:1
+msgid "Long-tail Prediction"
+msgstr "长尾预测"
+
+#: classes/class-xhtheme-thread.php:1168 build/settings.js:1 build/wizard.js:1
+msgid "Expert Analysis"
+msgstr "专家分析"
+
+#: classes/class-xhtheme-thread.php:1167 build/settings.js:1 build/wizard.js:1
+msgid "Related Q&A"
+msgstr "相关问答"
+
+#: classes/class-xhtheme-thread.php:778
+msgid "All Perspectives"
+msgstr "所有视角"
+
+#: classes/class-xhtheme-thread.php:761
+msgid "All Thread Types"
+msgstr "所有话题类型"
+
+#: classes/class-xhtheme-thread.php:676
+msgid "Writing Perspective"
+msgstr "写作视角"
+
+#: classes/class-xhtheme-thread.php:675
+msgid "Thread Type"
+msgstr "话题类型"
+
+#: classes/class-xhtheme-thread.php:358
+msgid "Read More"
+msgstr "阅读更多"
+
+#: classes/class-xhtheme-thread.php:308 templates/comments-thread.php:26
+#: templates/single-thread-s2.php:54
+msgid "Join Discussion"
+msgstr "加入讨论"
+
+#. translators: %d: Reading time in minutes
+#: classes/class-xhtheme-thread.php:268
+msgid "%d min read"
+msgstr "%d 分钟阅读"
+
+#: classes/class-xhtheme-thread.php:258
+msgid " ago"
+msgstr " 前"
+
+#: classes/class-xhtheme-thread.php:236
+msgid "Load More"
+msgstr "加载更多"
+
+#: classes/class-xhtheme-thread.php:213
+msgid "No topics available"
+msgstr "暂无话题"
+
+#: classes/class-xhtheme-thread.php:185
+msgid "Thread page has been moved to drafts!"
+msgstr "话题页面已移至草稿！"
+
+#: classes/class-xhtheme-thread.php:179
+msgid "Closed!"
+msgstr "已关闭！"
+
+#: classes/class-xhtheme-thread.php:164
+msgid "Thread page created successfully! "
+msgstr "话题页面创建成功！ "
+
+#: classes/class-xhtheme-thread.php:158
+msgid "Failed to create page: "
+msgstr "创建页面失败： "
+
+#: classes/class-xhtheme-thread.php:145
+msgid "Popular Topics"
+msgstr "热门话题"
+
+#: classes/class-xhtheme-thread.php:124 classes/class-xhtheme-thread.php:168
+msgid "Edit Page"
+msgstr "编辑页面"
+
+#: classes/class-xhtheme-thread.php:122 classes/class-xhtheme-thread.php:166
+msgid "View page"
+msgstr "查看页面"
+
+#: classes/class-xhtheme-thread.php:120
+msgid "Thread page has been published! "
+msgstr "话题页面已发布！ "
+
+#: classes/class-xhtheme-admin.php:811
+msgid "Configure Automation"
+msgstr "配置自动化"
+
+#: classes/class-xhtheme-admin.php:808
+msgid "Configure automation rules to automatically apply AI capabilities to your posts and save time."
+msgstr "配置自动化规则以自动将 AI 功能应用于您的文章并节省时间。"
+
+#: classes/class-xhtheme-admin.php:788
+msgid "Go to Settings"
+msgstr "前往设置"
+
+#: classes/class-xhtheme-admin.php:785
+msgid "Please complete the AppID configuration to start using the plugin features."
+msgstr "请完成 AppID 配置以开始使用插件功能。"
+
+#: classes/class-xhtheme-admin.php:627
+msgid "Processing failed, please try again later!"
+msgstr "处理失败，请稍后再试！"
+
+#: function/function.php:132
+msgid "OneNav-compatible site models with auto-generated reviews, tags, and categories."
+msgstr "适配OneNav主题的网站模型，可以生成评论、标签、自动分类等功能方便快捷。"
+
+#: function/function.php:129
+msgid "OneNav Theme"
+msgstr "OneNav主题"
+
+#: function/function.php:127
+msgid "OneNav Theme Website"
+msgstr "OneNav主题网站"
+
+#: function/function.php:113
+msgid "WooCommerce product models with auto-generated reviews, tags, and categories."
+msgstr "适配Woocommerce插件的产品模型，可以生成评论、标签、自动分类等功能方便快捷。"
+
+#: function/function.php:110
+msgid "Woocommerce Plugin"
+msgstr "Woocommerce插件"
+
+#: function/function.php:94
+msgid "B2 Theme-compatible business district models with auto-generated reviews, tags, English slugs, and categories."
+msgstr "适配B2主题自带的商圈模型，可以生成评论、标签、英文别名、自动分类等功能方便快捷。"
+
+#: function/function.php:91
+msgid "B2 Theme"
+msgstr "B2主题"
+
+#: function/function.php:89
+msgid "B2 Theme Shopping District"
+msgstr "B2主题商圈"
+
+#: function/function.php:72
+msgid "Auto-generate summaries, English slugs, images, reviews, tags, and categories with ease."
+msgstr "为文章生成摘要、英文别名、图片、评论、标签、自动分类等功能方便快捷。"
+
+#: function/function.php:69
+msgid "WordPress"
+msgstr "WordPress"
+
+#: function/function.php:67
+msgid "WordPress Post"
+msgstr "WordPress文章"
+
+#: classes/class-xhtheme-tool.php:236 build/wizard.js:1
+msgid "User"
+msgstr "用户"
+
+#: classes/class-xhtheme-tool.php:233
+msgid "AI Guest"
+msgstr "AI游客"
+
+#: classes/class-xhtheme-tool.php:228
+msgid "Automatically generate users when publishing"
+msgstr "发布时自动生成用户"
+
+#: classes/class-xhtheme-tool.php:222
+msgid "Comment type is determined after publication"
+msgstr "评论类型以发布后为准"
+
+#: classes/class-xhtheme-tool.php:219
+msgid "AI Comments - Mixed Mode"
+msgstr "AI评论-混合模式"
+
+#: classes/class-xhtheme-tool.php:216
+msgid "User Profile"
+msgstr "用户信息"
+
+#: classes/class-xhtheme-thread.php:1004
+msgid "Associated post is not published, delaying topic content generation!"
+msgstr "关联文章未发布，延迟话题内容生成！"
+
+#: classes/class-xhtheme-postauto.php:688
+msgid "Post does not exist or has been deleted!"
+msgstr "文章不存在或已被删除！"
+
+#: classes/class-xhtheme-postauto.php:665
+msgid "Automation rules saved successfully"
+msgstr "自动化规则保存成功"
+
+#: classes/class-xhtheme-postauto.php:600
+msgid "Invalid rules data"
+msgstr "无效的规则数据"
+
+#: classes/class-xhtheme-cronqueue.php:872
+msgid "Task timeout, attempting execution!"
+msgstr "任务超时，尝试执行！"
+
+#: classes/class-xhtheme-cronqueue.php:863
+msgid "Parent task error, association failed!"
+msgstr "父任务错误，关联失败！"
+
+#: classes/class-xhtheme-cronqueue.php:417
+msgid "Failed to delete cron"
+msgstr "删除任务失败"
+
+#: classes/class-xhtheme-cronqueue.php:416
+msgid "Failed to delete any items"
+msgstr "删除项目失败"
+
+#. translators: %d: number of items successfully deleted
+#: classes/class-xhtheme-cronqueue.php:405 build/settings.js:1
+msgid "Successfully deleted %d items"
+msgstr "成功删除了 %d 个项目"
+
+#: classes/class-xhtheme-cronqueue.php:327
+msgid "No tasks need to be retried"
+msgstr "没有需要重试的任务"
+
+#: classes/class-xhtheme-cronqueue.php:277
+msgid "No tasks were retried"
+msgstr "没有任务被重试"
+
+#. translators: %d: number of tasks successfully retried
+#: classes/class-xhtheme-cronqueue.php:265
+#: classes/class-xhtheme-cronqueue.php:321 build/settings.js:1
+msgid "Successfully retried %d tasks"
+msgstr "成功重试了 %d 个任务"
+
+#: classes/class-xhtheme-cronqueue.php:190
+#: classes/class-xhtheme-cronqueue.php:362
+msgid "Cron ID(s) are required"
+msgstr "任务ID不能为空"
+
+#: classes/class-xhtheme-comment.php:167 classes/class-xhtheme-tool.php:216
+#: classes/class-xhtheme-tool.php:225
+msgid "AI User"
+msgstr "AI用户"
+
+#: classes/class-xhtheme-aiimage.php:517 classes/class-xhtheme-aiimage.php:660
+msgid "APPID is empty, cannot continue generation!"
+msgstr "APPID为空，无法继续生成！"
+
+#: classes/class-xhtheme-aiimage.php:146
+msgid "Failed to generate image prompt!"
+msgstr "生成图片提示词失败！"
+
+#: classes/class-xhtheme-aiimage.php:87 classes/class-xhtheme-postauto.php:746
+#: classes/class-xhtheme-postauto.php:756
+msgid "Category not match"
+msgstr "分类不匹配"
+
+#: classes/class-xhtheme-admin.php:618 classes/class-xhtheme-admin.php:834
+msgid "Insufficient permissions"
+msgstr "权限不足"
+
+#: classes/class-xhtheme-aiblock.php:995
+msgid "This AI-generated excerpt will be displayed at the beginning of your post if enabled."
+msgstr "如果启用，这个AI生成的摘要将显示在您文章的开头。"
+
+#: classes/class-xhtheme-aiblock.php:981
+msgid "No AI excerpt has been generated yet."
+msgstr "尚未生成AI摘要。"
+
+#: classes/class-xhtheme-aiblock.php:959
+msgid "AI Excerpt"
+msgstr "AI摘要"
+
+#: classes/class-xhtheme-admin.php:659
+msgid "Notice hidden successfully"
+msgstr "通知隐藏成功"
+
+#: classes/class-xhtheme-admin.php:648
+msgid "Theme key is required"
+msgstr "主题标记不能为空"
+
+#: classes/class-xhtheme-admin.php:398
+msgid "Manage AI Task Queue"
+msgstr "管理AI任务队列"
+
+#: classes/class-xhtheme-admin.php:395
+msgid "AI Queue"
+msgstr "AI队列"
+
+#: function/function.php:130
+msgid "Website"
+msgstr "网站"
+
+#: function/function.php:92 function/function.php:111
+msgid "Product"
+msgstr "产品"
+
+#: classes/class-xhtheme-tool.php:460
+msgid "Guest"
+msgstr "访客"
+
+#: classes/class-xhtheme-tool.php:375
+msgid "Dawn"
+msgstr "黎明"
+
+#: classes/class-xhtheme-tool.php:374
+msgid "Spark"
+msgstr "火花"
+
+#: classes/class-xhtheme-tool.php:373
+msgid "Hope"
+msgstr "希望"
+
+#: classes/class-xhtheme-tool.php:372
+msgid "Cloud"
+msgstr "云"
+
+#: classes/class-xhtheme-tool.php:371
+msgid "Lone Wolf"
+msgstr "独狼"
+
+#: classes/class-xhtheme-tool.php:370
+msgid "Trend"
+msgstr "趋势"
+
+#: classes/class-xhtheme-tool.php:369
+msgid "Lightyear"
+msgstr "光年"
+
+#: classes/class-xhtheme-tool.php:368
+msgid "Silence"
+msgstr "沉默"
+
+#: classes/class-xhtheme-tool.php:367
+msgid "Passion"
+msgstr "激情"
+
+#: classes/class-xhtheme-tool.php:366
+msgid "Smile"
+msgstr "微笑"
+
+#: classes/class-xhtheme-tool.php:365
+msgid "Future"
+msgstr "未来"
+
+#: classes/class-xhtheme-tool.php:364
+msgid "Breeze"
+msgstr "微风"
+
+#: classes/class-xhtheme-tool.php:363
+msgid "Phantom"
+msgstr "幽灵"
+
+#: classes/class-xhtheme-tool.php:362
+msgid "Nightwhisper"
+msgstr "夜语"
+
+#: classes/class-xhtheme-tool.php:361
+msgid "Fawn"
+msgstr "小鹿"
+
+#: classes/class-xhtheme-tool.php:360
+msgid "Aurora"
+msgstr "极光"
+
+#: classes/class-xhtheme-tool.php:359
+msgid "Dreamer"
+msgstr "梦想家"
+
+#: classes/class-xhtheme-tool.php:358
+msgid "Shadow"
+msgstr "阴影"
+
+#: classes/class-xhtheme-tool.php:357
+msgid "Windwalker"
+msgstr "风行者"
+
+#: classes/class-xhtheme-tool.php:356
+msgid "Starlight"
+msgstr "星光"
+
+#: classes/class-xhtheme-postauto.php:120
+msgid "Message from [XHTheme AI Toolbox] (the message will no longer be displayed after disabling automatic classification or setting the default category)!"
+msgstr "[XHTheme AI Toolbox] 的消息（在禁用自动分类或设置默认分类后，消息将不再显示）！"
+
+#: classes/class-xhtheme-postauto.php:118
+msgid "Set now"
+msgstr "立即设置"
+
+#: classes/class-xhtheme-postauto.php:107
+msgid "「Site category column」"
+msgstr "「网址分类栏目」"
+
+#. translators: %s: site category column name
+#: classes/class-xhtheme-postauto.php:106
+msgid "Please set the default category for %s to avoid AI mistakes in processing intelligent classification!"
+msgstr "请为 %s 设置默认分类，以避免AI在处理智能分类时出错！"
+
+#. translators: instruction for setting default category
+#: classes/class-xhtheme-postauto.php:91
+msgid "Please set the default category for the site category column to avoid AI mistakes in processing intelligent classification!"
+msgstr "请为网址分类栏目设置默认分类，以避免AI在处理智能分类时出错！"
+
+#: classes/class-xhtheme-postauto.php:66
+msgid "Default site category"
+msgstr "默认网址分类"
+
+#: classes/class-xhtheme-comment.php:392
+msgid "Function changed, please delete the task!"
+msgstr "功能已更改，请删除任务！"
+
+#: classes/class-xhtheme-comment.php:386
+msgid "Parameter missing!"
+msgstr "参数缺失！"
+
+#: classes/class-xhtheme-aiblock.php:912
+msgid "Used to replace the HTML title ( &lt;title&gt; ) content of the tag page."
+msgstr "用于替换标签页面的HTML标题（ &lt;title&gt; ）内容。"
+
+#: classes/class-xhtheme-aiblock.php:906
+msgid "Custom Title"
+msgstr "自定义标题"
+
+#: function/function.php:108
+msgid "Woocommerce Product"
+msgstr "Woocommerce产品"
+
+#: function/function.php:70
+msgid "Post"
+msgstr "文章"
+
+#. translators: %s: scheduled date and time
+#. translators: %s: Scheduled date and time in Y-m-d H:i format
+#: classes/class-xhtheme-postauto.php:135 classes/class-xhtheme-tool.php:245
+msgid "Schedule [%s]"
+msgstr "将于[%s]自动发布"
+
+#: classes/class-xhtheme-cronqueue.php:478
+msgid "Query Images"
+msgstr "查询图片"
+
+#: classes/class-xhtheme-cronqueue.php:475
+msgid "Images Word"
+msgstr "图片关键词"
+
+#: classes/class-xhtheme-cronqueue.php:278
+msgid "Only failed tasks can be retried"
+msgstr "只有失败的任务才能重试"
+
+#: classes/class-xhtheme-cronqueue.php:266
+msgid "Task has been queued for retry"
+msgstr "任务已加入重试队列"
+
+#: classes/class-xhtheme-aiimage.php:787
+msgid "Model response: Task execution failed!"
+msgstr "模型响应：任务执行失败！"
+
+#: classes/class-xhtheme-aiimage.php:642
+msgid "Image prompt is empty, cannot continue generation!"
+msgstr "图片提示词为空，无法继续生成！"
+
+#: classes/class-xhtheme-aiimage.php:509 classes/class-xhtheme-aiimage.php:543
+#: classes/class-xhtheme-aiimage.php:634 classes/class-xhtheme-aiimage.php:691
+#: classes/class-xhtheme-aiimage.php:792
+msgid "Unknown error, waiting to retry!"
+msgstr "未知错误，等待重试！"
+
+#: classes/class-xhtheme-aiimage.php:506 classes/class-xhtheme-aiimage.php:789
+msgid "Model response: Task does not exist or status unknown!"
+msgstr "模型响应：任务不存在或状态未知！"
+
+#: classes/class-xhtheme-aiimage.php:504
+msgid "Model response: Task has been canceled!"
+msgstr "模型响应：任务已被取消！"
+
+#: classes/class-xhtheme-aiimage.php:498
+msgid "Model response: Image URL is empty!"
+msgstr "模型响应：图片URL为空！"
+
+#: classes/class-xhtheme-aiimage.php:494 classes/class-xhtheme-aiimage.php:555
+msgid "Model task in progress, waiting for next query!"
+msgstr "模型任务处理中，等待下次查询！"
+
+#: classes/class-xhtheme-aiimage.php:468
+msgid "Task ID is empty, cannot get image!"
+msgstr "任务ID为空，无法获取图片！"
+
+#: classes/class-xhtheme-aiimage.php:474 classes/class-xhtheme-aiimage.php:579
+#: classes/class-xhtheme-aiimage.php:741
+msgid "Please configure the Bailian Platform API-KEY first!"
+msgstr "请先配置百炼平台API-KEY！"
+
+#: classes/class-xhtheme-aiimage.php:248 classes/class-xhtheme-aiimage.php:259
+#: classes/class-xhtheme-aiimage.php:302
+msgid "AI Image Generation Failed Notification"
+msgstr "AI图像生成失败通知"
+
+#: classes/class-xhtheme-aiblock.php:568 build/settings.js:1
+msgid "Best"
+msgstr "推荐"
+
+#: classes/class-xhtheme-aiblock.php:565 build/settings.js:1
+msgid "Auto Mode"
+msgstr "自动模式"
+
+#: classes/class-xhtheme-thread.php:739
+msgid "Published"
+msgstr "已发布"
+
+#: classes/class-xhtheme-postauto.php:227 build/blocks.js:1
+msgid "Configure now"
+msgstr "现在去配置"
+
+#: classes/class-xhtheme-postauto.php:225 build/blocks.js:1
+msgid "Queue automation tasks not configured."
+msgstr "队列自动化任务未配置。"
+
+#: classes/class-xhtheme-admin.php:419
+msgid "Document"
+msgstr "在线文档"
+
+#: classes/class-xhtheme-postauto.php:1012
+msgid "Error, please try again!"
+msgstr "错误，请重试！"
+
+#: classes/class-xhtheme-postauto.php:984
+msgid "Failed to add task to queue"
+msgstr "添加任务到队列失败"
+
+#: classes/class-xhtheme-postauto.php:931
+msgid "Invalid task type"
+msgstr "无效的任务类型"
+
+#: classes/class-xhtheme-postauto.php:711
+msgid "Invalid task definition [code:002]"
+msgstr "无效的任务定义 [代码:002]"
+
+#: classes/class-xhtheme-aiimage.php:74 classes/class-xhtheme-postauto.php:674
+msgid "Invalid parameters [code:003]"
+msgstr "无效的参数 [代码:003]"
+
+#: classes/class-xhtheme-postauto.php:232 build/blocks.js:1
+msgid "AI queue skips draft articles."
+msgstr "AI队列会跳过草稿文章。"
+
+#: classes/class-xhtheme-postauto.php:169
+#: classes/class-xhtheme-postauto.php:217 build/blocks.js:1
+msgid "Join AI Queue"
+msgstr "加入AI队列"
+
+#: classes/class-xhtheme-cronqueue.php:466
+msgid "Topic Content"
+msgstr "话题内容"
+
+#: classes/class-xhtheme-cronqueue.php:463 build/settings.js:1
+msgid "AI Topics"
+msgstr "AI话题"
+
+#: classes/class-xhtheme-cronqueue.php:406
+msgid "Cron deleted successfully"
+msgstr "计划任务删除成功"
+
+#: classes/class-xhtheme-cronqueue.php:89
+msgid "Generate Topics"
+msgstr "生成话题"
+
+#: classes/class-xhtheme-cronqueue.php:85
+msgid "Extract AI Summary"
+msgstr "提取AI摘要"
+
+#: classes/class-xhtheme-cronqueue.php:81
+msgid "Generate AI Comments"
+msgstr "生成AI评论"
+
+#: classes/class-xhtheme-cronqueue.php:77
+msgid "AI Extract Tags"
+msgstr "AI提取标签"
+
+#: classes/class-xhtheme-comment.php:405
+msgid "No article found."
+msgstr "未找到文章。"
+
+#: classes/class-xhtheme-admin.php:198 classes/class-xhtheme-admin.php:199
+msgid "Automation Settings"
+msgstr "自动化设置"
+
+#: classes/class-xhtheme-admin.php:178 classes/class-xhtheme-admin.php:188
+msgid "Task Queue"
+msgstr "任务队列"
+
+#: classes/class-xhtheme-admin.php:168 classes/class-xhtheme-admin.php:169
+msgid "Feature Settings"
+msgstr "功能设置"
+
+#: classes/class-xhtheme-admin.php:82
+msgid "Trending Topics"
+msgstr "热门话题"
+
+#. translators: %s is the number of participants in the thread.
+#: templates/single-thread.php:73
+msgid "%s participant"
+msgid_plural "%s participants"
+msgstr[0] "%s 位参与者"
+
+#: templates/single-thread.php:60
+msgid "Recommended Threads"
+msgstr "推荐话题"
+
+#: templates/single-thread.php:48
+msgid "Back to Original Post"
+msgstr "返回原文"
+
+#: templates/single-thread.php:26
+msgid "Thread Source:"
+msgstr "话题来源："
+
+#: classes/class-xhtheme-thread.php:1150
+msgid "This thread does not exist, please try to access another thread!"
+msgstr "此话题不存在，请尝试访问其他话题！"
+
+#: classes/class-xhtheme-cronqueue.php:131
+#: classes/class-xhtheme-postauto.php:979 classes/class-xhtheme-thread.php:735
+msgid "AI queue processing"
+msgstr "AI 队列处理中"
+
+#: classes/class-xhtheme-thread.php:696
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#: classes/class-xhtheme-thread.php:695
+msgid "View Post"
+msgstr "查看文章"
+
+#: classes/class-xhtheme-postauto.php:160 classes/class-xhtheme-thread.php:677
+#: classes/class-xhtheme-tool.php:193 build/settings.js:1
+msgid "Status"
+msgstr "状态"
+
+#: classes/class-xhtheme-thread.php:674
+msgid "Related Post"
+msgstr "相关文章"
+
+#: classes/class-xhtheme-thread.php:578
+msgid "New Thread"
+msgstr "新话题"
+
+#: classes/class-xhtheme-thread.php:577
+msgid "Add New Thread"
+msgstr "添加新话题"
+
+#: classes/class-xhtheme-thread.php:576
+msgid "All Threads"
+msgstr "所有话题"
+
+#: classes/class-xhtheme-thread.php:575 classes/class-xhtheme-thread.php:838
+#: build/blocks.js:1
+msgid "Threads"
+msgstr "话题"
+
+#: classes/class-xhtheme-comment.php:353
+msgid "Avatar Localization Failure Notification"
+msgstr "头像本地化失败通知"
+
+#: classes/class-xhtheme-comment.php:350
+msgid "This email was automatically sent by \"Xinghe AI Toolbox\" plugin!"
+msgstr "此邮件由\"星河AI工具箱\"插件自动发送！"
+
+#: classes/class-xhtheme-comment.php:349
+msgid "3. Contact \"Xinghe AI Toolbox\" author for help. Website: https://www.xhtheme.com"
+msgstr "3. 联系\"星河AI工具箱\"作者寻求帮助。网站: https://www.xhtheme.com"
+
+#: classes/class-xhtheme-comment.php:348
+msgid "2. Check error logs for details"
+msgstr "2. 检查错误日志获取详情"
+
+#: classes/class-xhtheme-comment.php:347
+msgid "1. Ensure /wp-content/uploads/avatars directory is writable"
+msgstr "1. 确保/wp-content/uploads/avatars目录可写"
+
+#: classes/class-xhtheme-comment.php:346
+msgid "Recommended checks:"
+msgstr "推荐检查项:"
+
+#: classes/class-xhtheme-comment.php:345
+msgid "3. Network connection issues"
+msgstr "3. 网络连接问题"
+
+#: classes/class-xhtheme-comment.php:344
+msgid "2. Remote image server downtime"
+msgstr "2. 远程图片服务器宕机"
+
+#: classes/class-xhtheme-comment.php:343
+msgid "1. Insufficient upload directory permissions"
+msgstr "1. 上传目录权限不足"
+
+#: classes/class-xhtheme-comment.php:342
+msgid "Possible reasons:"
+msgstr "可能原因:"
+
+#: classes/class-xhtheme-comment.php:341
+msgid "The system has detected multiple failures in avatar localization (more than 10 times today). This may cause some comments to fail to display custom avatars."
+msgstr "系统检测到头像本地化多次失败(今日超过10次)。这可能导致部分评论无法显示自定义头像。"
+
+#: classes/class-xhtheme-comment.php:340
+msgid "Dear Website Administrator:"
+msgstr "尊敬的网站管理员:"
+
+#: classes/class-xhtheme-aiblock.php:49
+msgid "Free Users"
+msgstr "免费用户"
+
+#: classes/class-xhtheme-aiblock.php:47
+msgid "Trial Member"
+msgstr "试用会员"
+
+#: classes/class-xhtheme-aiblock.php:45
+msgid "Member users"
+msgstr "会员用户"
+
+#. Plugin URI of the plugin
+#: aitoolbox.php
+msgid "https://www.xhtheme.com/xhtheme-ai-toolbox.html"
+msgstr "https://www.xhtheme.com/xhtheme-ai-toolbox.html"
+
+#: classes/class-xhtheme-postauto.php:1049 build/blocks.js:1
+msgid "Comments"
+msgstr "评论"
+
+#: templates/comments-thread.php:183 build/settings.js:1 build/wizard.js:1
+#: src/components/i18n.js:162
+msgid "Cancel"
+msgstr "取消"
+
+#: classes/class-xhtheme-admin.php:53 build/settings.js:1
+#: src/components/i18n.js:75 src/components/i18n.js:174
+msgid "AI Smart Summary"
+msgstr "AI 智能摘要"
+
+#: classes/class-xhtheme-cronqueue.php:121 build/settings.js:1
+#: src/components/i18n.js:65
+msgid "Error"
+msgstr "错误"
+
+#: classes/class-xhtheme-cronqueue.php:472 build/blocks.js:1
+#: src/components/blockI18n.js:85
+msgid "Metadata"
+msgstr "元数据"
+
+#: classes/class-xhtheme-tool.php:192
+msgid "Source"
+msgstr "来源"
+
+#: classes/class-xhtheme-cronqueue.php:460 classes/class-xhtheme-tool.php:177
+#: build/settings.js:1 src/components/i18n.js:62
+msgid "AI Comments"
+msgstr "AI评论"
+
+#: classes/class-xhtheme-cronqueue.php:543
+msgid "Every 5 minutes"
+msgstr "每5分钟"
+
+#: classes/class-xhtheme-aiblock.php:301
+msgid "Model list updated!"
+msgstr "模型列表已更新！"
+
+#: classes/class-xhtheme-aiblock.php:198
+msgid "Due to the update of the AI model list, the model you specified for specific functions has become invalid or changed. The system has automatically switched to automatic selection mode for you. If you need to specify a model, please go to the backend AI configuration page to reselect. Thank you for your support!"
+msgstr "由于AI模型列表更新，您为特定功能指定的模型已失效或变更。系统已自动为您切换至自动选择模式。如需指定模型，请前往后台AI配置页面重新选择。感谢您的支持！"
+
+#: classes/class-xhtheme-aiblock.php:197
+msgid "AI model list has been updated, your specified model is invalid and the system has switched to automatic mode"
+msgstr "AI模型列表已更新，您指定的模型已失效，系统已切换至自动模式"
+
+#: classes/class-xhtheme-aiblock.php:162
+msgid "Due to the failure to obtain APPID information, the AI interface is unavailable. The current scheduled task has been temporarily stopped and will be retried after 2 hours!"
+msgstr "由于未能获取APPID信息，AI接口不可用。当前定时任务已暂停，将在2小时后重试！"
+
+#: classes/class-xhtheme-aiblock.php:161
+msgid "[XHTheme AI Toolbox] APPID information not configured, scheduled task has been suspended"
+msgstr "[星河AI工具箱] APPID信息未配置，定时任务已暂停"
+
+#: classes/class-xhtheme-admin.php:415 build/settings.js:1
+#: src/components/i18n.js:194
+msgid "Settings"
+msgstr "设置"
+
+#. Description of the plugin
+#: aitoolbox.php
+msgid "Through AI, content generation/optimization, automatic comment generation and scheduled publishing, TAG extraction, summary generation, automatic aliasing, and automatic category allocation are achieved, significantly improving the efficiency and quality of content creation."
+msgstr "通过 AI 实现内容生成/优化、自动评论生成和定时发布、标签提取、摘要生成、自动别名和自动分类分配，显著提高内容创建的效率和质量。"
+
+#: classes/class-xhtheme-cronqueue.php:469 build/settings.js:1
+#: src/components/i18n.js:13 src/components/i18n.js:63 src/settings.js:441
+msgid "AI Tags"
+msgstr "AI标签"
+
+#: classes/class-xhtheme-cronqueue.php:457
+#: classes/class-xhtheme-postauto.php:1032
+#: classes/class-xhtheme-postauto.php:1036 build/settings.js:1
+#: src/components/i18n.js:12 src/components/i18n.js:61 src/settings.js:434
+msgid "AI Summary"
+msgstr "AI摘要"
+
+#: classes/class-xhtheme-aiblock.php:465
+msgid "Please enter a tag name!"
+msgstr "请输入标签名称！"
+
+#: classes/class-xhtheme-aiblock.php:460
+msgid "Tag status retrieved!"
+msgstr "标签状态已获取！"
+
+#: classes/class-xhtheme-aiblock.php:397
+msgid "You do not have permission to call the current interface!"
+msgstr "您没有权限调用当前接口！"
+
+#: classes/class-xhtheme-aiblock.php:394
+msgid "Content information retrieved!"
+msgstr "内容信息已获取！"
+
+#: classes/class-xhtheme-admin.php:489
+msgid "Settings saved"
+msgstr "设置已保存"
+
+#: classes/class-xhtheme-admin.php:448
+msgid "Settings data format error"
+msgstr "设置数据格式错误"
+
+#: classes/class-xhtheme-admin.php:442
+msgid "No settings data received"
+msgstr "未收到设置数据"
+
+#: classes/class-xhtheme-admin.php:434 classes/class-xhtheme-admin.php:613
+#: classes/class-xhtheme-admin.php:643 classes/class-xhtheme-admin.php:828
+msgid "Security check failed"
+msgstr "安全检查失败"
+
+#: classes/class-xhtheme-admin.php:157 classes/class-xhtheme-admin.php:158
+msgid "AI Toolbox"
+msgstr "AI工具箱"
+
+#. Author URI of the plugin
+#: aitoolbox.php
+msgid "https://www.xhtheme.com"
+msgstr "https://www.xhtheme.com"
+
+#. Author of the plugin
+#: aitoolbox.php
+msgid "XHTheme"
+msgstr "星河主题"
+
+#. Plugin Name of the plugin
+#: aitoolbox.php classes/class-xhtheme-admin.php:706
+#: classes/class-xhtheme-admin.php:784 classes/class-xhtheme-admin.php:807
+#: classes/class-xhtheme-aiblock.php:900
+#: classes/class-xhtheme-block-template.php:43
+msgid "XHTheme AI Toolbox"
+msgstr "星河AI工具箱"

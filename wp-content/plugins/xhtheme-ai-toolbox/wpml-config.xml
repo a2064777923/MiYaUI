@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+    <admin-texts>
+        <key name="xhtheme_ai_toolbox_settings">
+            <!-- AI Summary Settings -->
+            <key name="summaryTitle" />
+            <key name="summaryDesc" />
+            <!-- AI Thread Settings -->
+            <key name="primaryThreadTitle" />
+            <key name="primaryThreadDesc" />
+        </key>
+    </admin-texts>
+
+    <!-- Post Custom Fields -->
+    <custom-fields>
+        <!-- AI Excerpt / AI 摘要 -->
+        <custom-field action="translate">_xhai_excerpt</custom-field>
+    </custom-fields>
+
+    <!-- Term/Taxonomy Custom Fields -->
+    <custom-term-fields>
+        <!-- Tag/Term SEO Title / 标签SEO标题 -->
+        <custom-term-field action="translate">_seotitle</custom-term-field>
+    </custom-term-fields>
+</wpml-config>

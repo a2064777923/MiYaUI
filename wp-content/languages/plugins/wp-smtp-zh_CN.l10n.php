@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2023-10-17 00:26:23+0000','plural-forms'=>'nplurals=1; plural=0;','project-id-version'=>'Plugins - Solid Mail – SMTP email and logging made by SolidWP - Stable (latest release)','language'=>'zh_CN','messages'=>['Mail Logs'=>'邮件日志','Logs'=>'日志','Settings'=>'设置','From Name'=>'发件人昵称','SMTP Host'=>'SMTP服务器地址','SMTP Port'=>'SMTP端口','SMTP Authentication'=>'SMTP认证']];

@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "onecad"; /* Project id 3151013 */
+  src: url('iconfont.woff2?t=1656692749700') format('woff2'),
+       url('iconfont.woff?t=1656692749700') format('woff'),
+       url('iconfont.ttf?t=1656692749700') format('truetype');
+}
+
+.onecad {
+  font-family: "onecad" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.One-gift:before {
+  content: "\e6fa";
+}
+
+.One-integral:before {
+  content: "\e6fb";
+}
+
+.One-nav-list:before {
+  content: "\e6fd";
+}
+
+.One-play:before {
+  content: "\e701";
+}
+
+.One-rising:before {
+  content: "\e703";
+}
+
+.One-QRcode:before {
+  content: "\e704";
+}
+
+.One-integral-fill:before {
+  content: "\e726";
+}
+
+.One-Moneymanagement:before {
+  content: "\e759";
+}
+
+.One-packaging:before {
+  content: "\e75b";
+}
+
+.One-online-tracking:before {
+  content: "\e75c";
+}
+
+.One-signboard:before {
+  content: "\e765";
+}
+
+.One-shuffling-banner:before {
+  content: "\e764";
+}
+
+.One-Similarproducts:before {
+  content: "\e766";
+}
+
+.One-set:before {
+  content: "\e76c";
+}
+
+.One-discounts:before {
+  content: "\e771";
+}
+
+.One-nightmode:before {
+  content: "\e773";
+}
+
+.One-vip:before {
+  content: "\e774";
+}
+
+.One-becomeagoldsupplier:before {
+  content: "\e7d4";
+}
+
+.One-browse_fill:before {
+  content: "\e6e4";
+}
+
+.One-like_fill:before {
+  content: "\e707";
+}
+
+.One-message_fill:before {
+  content: "\e70d";
+}
+
+.One-time_fill:before {
+  content: "\e735";
+}
+
+.One-history:before {
+  content: "\e6f8";
+}
+
+.One-icon-test:before {
+  content: "\e622";
+}
+
+.One-icon-test1:before {
+  content: "\e623";
+}
+
+.One-icon-test2:before {
+  content: "\e624";
+}
+
+.One-icon-test3:before {
+  content: "\e625";
+}
+
+.One-icon-test4:before {
+  content: "\e626";
+}
+
+.One-icon-test5:before {
+  content: "\e627";
+}
+
+.One-icon-test6:before {
+  content: "\e628";
+}
+
+.One-icon-test7:before {
+  content: "\e629";
+}
+
+.One-icon-test8:before {
+  content: "\e62a";
+}
+
+.One-icon-test9:before {
+  content: "\e62b";
+}
+
+.One-icon-test10:before {
+  content: "\e62c";
+}
+
+.One-cad-lv2:before {
+  content: "\e619";
+}
+
+.One-cad-lv3:before {
+  content: "\e61a";
+}
+
+.One-cad-lv1:before {
+  content: "\e61b";
+}
+
+.One-cad-lv4:before {
+  content: "\e61c";
+}
+
+.One-cad-lv7:before {
+  content: "\e61d";
+}
+
+.One-cad-lv9:before {
+  content: "\e61e";
+}
+
+.One-cad-lv5:before {
+  content: "\e61f";
+}
+
+.One-cad-lv6:before {
+  content: "\e620";
+}
+
+.One-cad-lv8:before {
+  content: "\e621";
+}
+
+.One-cad-lv0:before {
+  content: "\e606";
+}
+
+.One-jingxuan:before {
+  content: "\e604";
+}
+
+.One-tianxie:before {
+  content: "\e632";
+}
+
+.One-wenda2:before {
+  content: "\e673";
+}
+
+.One-wenda3:before {
+  content: "\e60e";
+}
+
+.One-tubiao_wen:before {
+  content: "\e60f";
+}
+
+.One-wenda:before {
+  content: "\e889";
+}
+
+.One-wenda1:before {
+  content: "\e8cd";
+}
+

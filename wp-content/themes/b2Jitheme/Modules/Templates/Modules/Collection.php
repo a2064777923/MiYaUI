@@ -1,0 +1,471 @@
+<?php namespace B2\Modules\Templates\Modules;
+
+use B2\Modules\Templates\Collection as Coll;
+use B2\Modules\Common\Post;
+
+class Collection{
+
+    public function init($data,$i){
+        $type = str_replace('-','_',$data['collection_type']);
+        
+        return self::$type($data,$i);
+    }
+
+    public static function collection_1($data,$i,$return = false){
+
+        $i = isset($data['key']) ? $data['key'] : 'ls'.round(100,999);
+        
+        $collection_data = self::get_data($data);
+
+        $open = self::open_type($data);
+
+        if(empty($collection_data)) return;
+        $html = '
+        <div class="home-collection-box-1 home-collection home-collection-item-'.$i.'">
+        <a class="collection-previous collection-button" href="javascript:void(0)">
+            <svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow"></path></svg>
+        </a>
+        <div class="collection-out-row">
+        <div class="collection-out">
+        <ul class="home-collection-silder">';
+
+        //$size = self::get_size($data);
+
+        $collection_name = b2_get_option('normal_custom','custom_collection_name');
+
+        foreach ($collection_data as $k => $v) {
+            $posts = $v['posts'];
+
+            $count = isset($posts['count']) && $posts['count'] ? (int)$posts['count'] : 0;
+
+            $qishu = get_term_meta($v['id'], 'b2_tax_index', true);
+
+            $list = '';
+
+            if((string)$data['collection_count'] !== '0'){
+                $list .= '<div class="home-collection-row-2">';
+                if(!empty($posts['data'])){
+                    foreach ($posts['data'] as $key => $value) {
+                        $list .= '<div>'.b2_get_img(array('src'=>$value['thumb'],'class'=>array('b2-radius'),'alt'=>$value['title'])).'
+                        <a href="'.$value['href'].'">'.$value['title'].'</a></div>';
+                    }
+                }
+                $list .= '</div>';
+            }
+            
+            $html .= '<li>
+                    <div class="home-collection-content">
+                        <div>
+                            <div class="home-collection-in b2-radius box">
+                                <div class="home-collection-image">
+                                    <div>
+                                    '.($qishu ? '<span class="collection-number ar b2-color b2-radius">'.sprintf(__('%s：第%s期','b2'),$collection_name,$qishu).'</span>' : '').'
+                                    <a class="link-block" href="'.$v['link'].'" '.$open.'></a>
+                                    '.b2_get_img(array('src'=>$v['thumb'],'class'=>array('home-collection-thumb'),'alt'=>$v['name'])).'
+                                    </div>
+                                </div>
+                                <div class="home-collection-info">
+                                    <a href="'.$v['link'].'" '.$open.'><h2>'.$v['name'].'</h2></a>
+                                    <div class="home-collection-row-1">
+                                        <span>'.sprintf(__('更新%s篇','b2'),$count).'</span>
+                                        <a href="'.$v['link'].'" '.$open.'>'.__('前往','b2').'</a>
+                                    </div>
+                                    '.$list.'
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>';
+        }
+
+        $html .= '</ul></div></div>
+        <a class="collection-next collection-button" href="javascript:void(0)">
+            <svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
+        </a>
+        </div>';
+
+        return $html;
+    }
+
+    public static function collection_2($data,$i,$return = false){
+
+        $i = isset($data['key']) ? $data['key'] : 'ls'.round(100,999);
+        
+        $collection_data = self::get_data($data);
+
+        $open = self::open_type($data);
+
+        if(empty($collection_data)) return;
+        $html = '<div class="collection-box">';
+
+        $collection_name = b2_get_option('normal_custom','custom_collection_name');
+
+        //$size = self::get_size($data);
+
+        foreach ($collection_data as $k => $v) {
+            $posts = $v['posts'];
+
+            $count = $posts['count'];
+
+            $posts = $posts['data'];
+
+            $qishu = get_term_meta($v['id'], 'b2_tax_index', true);
+
+            $list = '';
+
+            $posts_list = '';
+
+            if(!empty($posts)){
+                foreach ($posts as $key => $value) {
+                    $posts_list .= '<li><span><a href="'.$value['cat']['link'].'">'.$value['cat']['name'].'</a></span><a href="'.$value['href'].'" class="post-link">'.$value['title'].'</a></li>';
+                }
+            }
+
+            $html .= '
+            <div class="collection-item">
+                <div class="box b2-radius">
+                    '.($qishu ? '<div class="collection-number ar b2-radius">
+                    <span>'.sprintf(__('%s：第%s%s%s期','b2'),$collection_name,'<b>',$qishu,'</b>').'</span>
+                </div>' : '').'
+                    <div class="collection-title">
+                        <div class="collection-thumb">
+                            <a href="'.$v['link'].'" target="_blank">
+                                '.b2_get_img(array('src'=>$v['thumb'],'alt'=>$v['name'])).'
+                            </a>
+                        </div>
+                        <div class="collection-info b2-mg">
+                            <h2><a href="'.$v['link'].'" target="_blank">'.$v['name'].'</a></h2>
+                            <div class="collection-count">
+                            '.(!empty($posts) ? Post::time_ago($posts[0]['date']).__('更新','b2').' · ' : '').''.$count.__('篇文章','b2').'
+                            </div>
+                        </div>
+                    </div>
+                    '.($posts_list ? '<ul class="collection-posts">
+                    '.$posts_list.'
+                </ul>' : '').'
+                </div>
+            </div>';
+           
+        }
+
+        $html .= '</div>';
+
+        // $r = round(1/$data['collection_row_count'],6)*100;
+        // $style = '
+        //     <style>
+        //         .home-collection-item-'.$i.' ul li{
+        //             width:'.$r.'%;
+        //             height:auto
+        //         }
+        //     </style>
+        // ';
+
+        return $html;
+    }
+
+    public static function collection_3($data,$i,$return = false){
+        $i = isset($data['key']) ? $data['key'] : 'ls'.round(100,999);
+        
+        $data['collection_count'] = 4;
+        $collection_data = self::get_data($data);
+
+        $open = self::open_type($data);
+
+        if(empty($collection_data)) return;
+        $html = '<div class="collection-box-3 collection-box collection-index-'.$i.'">
+        <a class="collection-previous collection-button" href="javascript:void(0)">
+            <svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow"></path></svg>
+        </a>
+        <div class="collection-box-3-in home-collection-silder">';
+
+        //$size = self::get_size($data);
+
+        foreach ($collection_data as $k => $v) {
+            $posts = $v['posts'];
+
+            $count = $posts['count'];
+
+            $posts = $posts['data'];
+
+            $qishu = get_term_meta($v['id'], 'b2_tax_index', true);
+            $qishu = $qishu ? $qishu : 0;
+
+            $list = '';
+
+            $posts_list = '';
+
+            if(!empty($posts)){
+                foreach ($posts as $key => $value) {
+                    $thumb = b2_get_thumb(array(
+                        'thumb'=>$value['thumb_full'],
+                        'width'=>120,
+                        'height'=>90
+                    ));
+
+                    $posts_list .= '<li data-title="'.$value['title'].'" class="b2tooltipbox">
+                    <div>'.b2_get_img(array('src'=> $thumb,'alt'=>$value['title'])).'<a href="'.$value['href'].'" class="post-link link-block" target="_blank"></a>
+                    </div>
+                    </li>';
+                }
+            }
+
+            $html .= '
+            <div class="coll-3-box">
+                <div class="coll-3-box-in box b2-radius">
+                    <div class="coll-3-top">
+                        '.b2_get_img(array('src'=>$v['thumb'],'alt'=>$v['name'])).'
+                        <a href="'.$v['link'].'" target="_blank" class="link-block"></a>
+                        <span>'.sprintf(__('第%s%s%s期','b2'),'<b>',$qishu,'</b>').'</span>
+                    </div>
+                    <div class="cat-info"><span class="mr-1"><a href="'.$v['link'].'" target="_blank">'.$v['name'].'<span class="jitheme_zt jitheme_color">'.$count.__('篇','b2').'</span></a></span></div>
+                </div>
+            </div>';
+           
+        }
+
+        $html .= '</div><a class="collection-next collection-button" href="javascript:void(0)">
+        <svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 65,95 L 20,50  L 65,5 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
+    </a></div>';
+
+        return apply_filters('b2_collection_3',$html);
+    }
+
+    public static function collection_4($data,$i,$return = false){
+        $title = self::get_cmodules_title($data);
+        $i = isset($data['key']) ? $data['key'] : 'ls'.round(100,999);
+        
+        $collection_data = self::get_data($data);
+        $collection_html ='<div><a href="/collection" class="cat-list post-load-button picked"><span data-type="cat">全部</span></a>';
+        
+        foreach ($collection_data as $k => $v) {
+            $collection_html .='<a href="'.$v['link'].'" class="cat-list post-load-button "><span data-type="cat">'.$v['name'].'</span></a>';
+        }
+        $collection_html .='</div><div><a href="/collection" target="_blank" class="cat-list post-load-button post-load-button-more"><span data-type="cat">查看全部<i class="b2font b2-arrow-right-s-line "></i></span></a></div>';
+        
+        $open = self::open_type($data);
+        $img  = self::jitheme_post_title_img($data);
+        if(empty($collection_data)) return;
+        $html = '<div class="jitheme-zt home-authors">
+                    <div class="post-modules-top jitheme-post-title ">
+                          <div class="modules-title-box"><div class="Onecad_title">'.$img.'<div>'.$data['title'].'</div><div>'.$data['desc'].'</div></div></div>
+                          <div class="post-list-cats post-list-cats-has-title post-carts-list-row">
+                              '.$collection_html.'
+                          </div>
+                      </div>    
+                        <div class="author-items">';
+
+        $collection_name = b2_get_option('normal_custom','custom_collection_name');
+
+        //$size = self::get_size($data);
+
+        foreach ($collection_data as $k => $v) {
+            if($k > 3){
+                break;
+            }
+            $posts = $v['posts'];
+
+            $count = $posts['count'];
+
+            $posts = $posts['data'];
+
+            $qishu = get_term_meta($v['id'], 'b2_tax_index', true);
+
+            $list = '';
+            $posts_list = '';
+            if(!empty($posts)){
+                foreach ($posts as $key => $value) {
+                    $posts_list .= '
+                    <div class="ap-item">
+                        <a class="ap-item-wrap has-thumb" href="'.$value['href'].'"target="_blank">
+                            <div class="ap-item-thumb  jitheme-radius">
+                                '.b2_get_img(array('src'=>$value['thumb_full'],'class'=>array('b2-radius'),'alt'=>$value['title'])).'
+                            </div>
+                            <div class="ap-item-main">
+                                <h3 class="ap-item-title">'.$value['title'].'</h3>
+                                <h4 class="ap-item-meta">
+                                    <div class="jitheme_cat"><div class="post-list-cat">'.$value['cat']['name'].'</div></div>
+                                </h4>
+                            </div>
+                        </a>
+                    </div>';
+                }
+            }
+            $html .= '<div class="item item-author">
+                        <div class="item-wrapa b2-radius box">
+                            <a class="item-thumb a_mask_light" href="'.$v['link'].'" target="_blank">
+                                '.jithem_jianbian().'
+                                <div class="thumb">'.b2_get_img(array('src'=>$v['thumb'],'alt'=>$v['name'])).'</div>
+                                <i class="thumb-tag">专题</i>
+                            </a>
+                            <div class="item-main">
+                                <h3 class="item-title">
+                                    <a class="title-a" href="'.$v['link'].'" target="_blank">'.$v['name'].'</a>
+                                </h3>
+                                <h4 class="item-desc">
+                                    <i class="thumb-views">'.sprintf(__('%s：第%s%s%s期','b2'),$collection_name,'<b>',$qishu,'</b>').'</i>
+                                    <i class="thumb-count">'.(!empty($posts) ? Post::time_ago($posts[0]['date']).__('更新','b2').' · ' : '').''.$count.__('篇文章','b2').'</i>
+                                </h4>
+                                '.($posts_list ? '<ul class="">
+                                        '.$posts_list.'
+                                    </ul>' : '').'
+                                <div class="item-btns">
+                                    <a class="jitheme-jb-btn" href="'.$v['link'].'" '.$open.'target="_blank">'.__('查看专题','b2').'</a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>';
+           
+        }
+
+        $html .= '</div>
+            </div>';
+
+        // $r = round(1/$data['collection_row_count'],6)*100;
+        // $style = '
+        //     <style>
+        //         .home-collection-item-'.$i.' ul li{
+        //             width:'.$r.'%;
+        //             height:auto
+        //         }
+        //     </style>
+        // ';
+
+        return $html;
+    }
+
+    public static function get_data($data){
+
+        $terms = get_terms(array(
+            'taxonomy' => 'collection',
+            'hide_empty' => false,
+            'order'=>'desc',
+            'orderby' => 'meta_value_num',
+            'meta_query' => array(
+                'relation' => 'OR',
+                array(
+                    'key' => 'b2_tax_index',
+                    'type' => 'NUMERIC',
+                ),
+                array(
+                    'key' => 'b2_tax_index',
+                    'compare' => 'NOT EXISTS'
+                )
+            ),
+            'cache_domain'=>'b2_collection',
+            'slug'    => isset($data['collections']) ? $data['collections'] : '',
+        ));
+
+        if(empty($terms)) return array();
+
+        $size = array(
+            'w'=>185,
+            'h'=>250
+        );
+
+        if($data['collection_type'] === 'collection-2'){
+            $size = array(
+                'w'=>542,
+                'h'=>217
+            );
+        }
+
+        if($data['collection_type'] === 'collection-3'){
+            $size = array(
+                'w'=>350,
+                'h'=>188
+            );
+        }
+
+        $arr = array();
+        foreach ($terms as $k => $v) {
+            $thumb = get_term_meta($v->term_id,'b2_tax_img',true);
+
+            $thumb = b2_get_thumb(array(
+                'thumb'=>$thumb,
+                'width'=>$size['w'],
+                'height'=>$size['h']
+            ));
+
+            $arr[] = array(
+                'id'=>$v->term_id,
+                'thumb'=>$thumb,
+                'name'=>$v->name,
+                'posts'=>$data['collection_count'] ? Coll::get_collection_post_list($v->term_id,$data['collection_count']) : array(),
+                'desc'=>$v->description ? $v->description : '',
+                'link'=>get_term_link($v->term_id)
+            );
+        }
+
+        return $arr;
+    }
+
+    public static function get_size($data){
+        if(!$data['collection_thumb_ratio']) return 1;
+        //获取缩略图比例
+        $ratio = explode('/',$data['collection_thumb_ratio']);
+        $w_ratio = $ratio[0];
+        $h_ratio = $ratio[1];
+
+        $page_width = $data['width'];
+
+        $data['collection_row_count'] = $data['collection_row_count'] ? $data['collection_row_count']  : 1;
+
+        $w = ($page_width - ($data['collection_row_count'] - 1)*B2_GAP) / $data['collection_row_count'];
+
+        //计算高度
+        $h = round($w/$w_ratio*$h_ratio,6);
+
+        return apply_filters('b2_collection_thumb_size', array(
+            'w'=>$w,
+            'h'=>$h,
+            'page_w'=>$page_width,
+            'ratio'=>round($h_ratio/$w_ratio*100,6),
+            'padding'=>round(($h+40*$data['collection_count']+67+8)/$w*100,6)
+        ));
+    }
+
+    public static function open_type($data){
+        //是否新窗口打开
+        $open = isset($data['collection_open']) ? $data['collection_open'] : '';
+
+        if(!$open){
+            return ' target="__blank"';
+        }else{
+            return '';
+        }
+    }
+    public static function jitheme_post_title_img($data){
+        //是否新窗口打开
+        $post_title_img = isset($data['module_title_img']) ? $data['module_title_img'] : '';
+
+        if($post_title_img){
+            return '<img alt="'.$data['title'].'" src="'.$data['module_title_img'].'">';
+        }else{
+            return '';
+        }
+    }
+    public static function get_cmodules_title($data){
+
+        $post_meta = isset($data['post_meta']) && is_array($data['post_meta']) ? $data['post_meta'] : array();
+        $title = in_array('title',$post_meta);
+        $html = '';
+        $desc = in_array('desc',$post_meta);
+        $img  = self::jitheme_post_title_img($data);
+        $html .= '<div class="modules-title-box">';
+        if($title && isset($data['title'])){
+            $html .= '<div class="Onecad_title">'.$img.'<div>'.$data['title'].'</div>';
+            
+        }
+         if($desc && isset($data['desc'])){
+             $html .= '<div>'.$data['desc'].'</div>';
+         }
+        $html .= '</div></div>';
+
+        if(!$title){
+            return '';
+        }else{
+            return $html;
+        }
+    }
+}

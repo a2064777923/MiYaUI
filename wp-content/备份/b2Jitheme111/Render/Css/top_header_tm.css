@@ -1,0 +1,85 @@
+/*头部透明*/
+@media screen and (min-width: 769px){
+.home .new-header .header {
+    background: rgba(0,0,0,0.08);
+}
+ .home .site #jitheme_header_top02 .onecad_search_box .top-search-select span, .home .site #jitheme_header_top02 .onecad_search_box i ,.home .site .top-search input,.home .site  .search-button-action i,.site #jitheme_header_top02 .top-search input::placeholder{
+    color: #fff;
+}
+.home .header{
+	color:var(--key-color);
+}
+.home .action .header  {
+	color:var(--header-bg);
+}
+.home #primary-home{
+    margin-top: -70px!important;
+}
+.slogan-text.por.fl {
+    margin-top: 0px!important;
+}
+.ji_haeder .top-style-blur {
+    background-color:var(--main-bg-color);
+}
+.home  .jitheme-toggle i {
+    color: #fff;
+}
+.home .top-menu ul li.depth-0 > a {
+    font-size: 16px;
+    color: #fff;
+}
+.home .action  .top-menu ul li.depth-0 > a {
+    padding: 0 12px!important;
+}
+.home .onecad_btn i{
+    color: #fff;
+}
+.home .ji_haeder .onecad_btn i{
+    color: var(--key-color);
+}
+.home .ji_haeder .top-menu ul li.depth-0 > a {
+    font-size: 16px;
+    color: var(--key-color);
+}
+#logo2{
+    display: none;
+}
+.home  #logo2 {
+    display: block!important;
+}
+.home  #logo1{
+    display: none!important;
+}
+.home  .action #logo2{
+    display:none!important;
+}
+.home  .action #logo1{
+    display:block!important;
+}
+.home .top-menu ul li.depth-0.current-menu-item > a {
+    color: var(--b2color);
+}
+.home .action .top-menu ul li.depth-0.current-menu-item > a {
+    color: var(--b2color);
+}
+.home .action .site-header-in {
+    box-shadow: var(--box-ty)!important;
+}
+.home .site .site-header-in {
+    box-shadow: 0px 5px 40px 0px rgba(17,58,93,.1);
+}
+
+.jitheme_a{
+    color: var(--b2color);
+    text-decoration: underline;    
+}
+.home_row {
+    position: relative;
+    margin-bottom: 16px;
+}
+.header .button, .header .login-button button{
+    background: var(--b2color)!important;
+    color: #fff!important;
+    border-color: var(--b2color)!important;
+}
+}

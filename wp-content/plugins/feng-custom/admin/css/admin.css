@@ -1,0 +1,128 @@
+/**
+ *
+ * option
+ */
+.form-table th sup {
+    font-weight: 200;
+}
+
+input.small-text,
+input[type=number].small-text {
+    width: 90px;
+}
+
+.help_btn {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 10px;
+    color: #646970;
+    border: 1px solid #646970;
+    border-radius: 50%;
+}
+
+.help_btn:hover {
+    color: #2271b1;
+    font-weight: bold;
+    border-color: #2271b1;
+}
+
+.field-box {
+    padding: 0px 15px 10px 0px;
+    margin-bottom: 9px;
+    line-height: 1.3;
+}
+
+.field-spacing span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.field-spacing input,
+.field-spacing label {
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+
+.field-spacing input {}
+
+.field-spacing label {
+    color: #646970;
+}
+
+.feng-custom-wrap {
+    position: relative;
+}
+
+.feng-custom-wrap .notice {
+    display: none;
+}
+
+/**
+ * 
+ * link-rss
+ */
+
+.links-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.links-list table th,
+.links-list table td {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.links-list td.site {
+    min-width: 220px;
+}
+
+.links-list td.action {
+    min-width: 190px;
+    text-align: center;
+}
+
+
+.links-list .check-time {
+    font-weight: bold;
+}
+
+.links-list .check-time span {
+    font-weight: normal;
+}
+
+.links-list .error span {
+    color: red;
+    font-weight: bold;
+}
+
+.links-list .ok {
+    color: green;
+    font-weight: bold;
+}
+
+.links-list .warning {
+    color: orange;
+}
+
+.loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loading .message {
+    margin-top: 60px;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+}

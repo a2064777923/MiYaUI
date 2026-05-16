@@ -1,0 +1,31 @@
+/*右下角二维码猫耳朵*/
+.bar-item-desc.bar-qrcode-box li {
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+    padding: 24px 12px 14px;
+    border-radius: 8px;
+    background: url(/wp-content/themes/b2-pinkcatyu/img/bg-cat-main-code.png) no-repeat 50%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+/*小工具头部*/
+.widget-area .inner-wrapper-sticky {
+    height: auto;
+    padding: 38px 0px 0px;
+    background: url(/wp-content/themes/b2-pinkcatyu/img/bg-cat-main.png) center top / 100% no-repeat;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+}
+.widget-area .inner-wrapper-sticky .b2-widget-user, .widget-area .inner-wrapper-sticky .b2-widget-author, #primary-home .widget-area .mobile-hidden {
+    border-radius: 20px;
+}
+
+ /*小工具标题*/   
+.b2-widget-title h2, .widget > h2 {
+    padding: 8px 5px 8px 42px!important;
+    background: url(/wp-content/themes/b2-pinkcatyu/img/mao2.svg) 2px center no-repeat;
+    background-size: 30px 20px;
+    color: #566889;
+}

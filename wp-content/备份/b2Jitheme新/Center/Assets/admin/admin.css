@@ -1,0 +1,136 @@
+/*#wp-admin-bar-OneCAD-menu-id .ab-item{*/
+/*    background-color: #ff5252!important;*/
+/*    color: #fff!important;*/
+/*}*/
+/*#wp-admin-bar-OneCAD-menu-id:hover .ab-item{*/
+/*    background-color: #ff6000!important;*/
+/*    color: #fff!important;*/
+/*}*/
+/*#wp-admin-bar-OneCAD-menu-link .ab-item{*/
+/*    background-color: #11c15b!important;*/
+/*    color: #fff!important;*/
+/*}*/
+/*#wp-admin-bar-OneCAD-menu-link:hover .ab-item{*/
+/*    background-color: #28bc5b!important;*/
+/*    color: #fff!important;*/
+/*}*/
+.license-container{padding-top: 35px;border-radius: 4px;}
+.license-container .license-field{display:block;margin-bottom:15px}
+.license-container .license-field th {line-height: 2;font-size: 14px;width: 100px;display: block;text-align: left;    text-align-last: justify;}
+.license-container .license-field input{font-weight: 600;}
+.license-container .license-field .button-secondary {padding: 0 15px !important;color: #ffffff;border-color: #ffffff;background: #03a9f4;}
+.license-container .license-field .button-deactivate {background: #ff5722;}
+.license-container .notice-error,.license-container div.error{background:rgba(220,50,50,.11);margin:0}
+.license-container .td{
+    color: #fff;
+    background-color: #28a745;
+    padding:0px 5px
+}
+.license-container .span{
+    color: #fff;
+    background-color: #E91E63;
+    padding:0px 5px
+}
+body {
+    background: #fff!important;
+    color: #3c434a;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-width: 600px;
+}
+.license-container .home{
+    width: 150px;
+    float: left;
+    /* position: absolute; */
+    top: 23px;
+     margin-top: -8px;
+    margin-right: 10px;
+}
+.license-container .license-title{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: 500;
+    
+}
+
+.license-container .license-info li{list-style:none;padding:0}
+.license-container .license-info-title{width:150px;display:inline-block;position:relative;padding-right:5px}
+.license-container .license-info-title:after{content:":";position:absolute;right:2px}
+.license-container .license-valid,.license-container .license-invalid{padding:0px 5px 2px;color:#fff;background-color:#8fcc77;border-radius:3px}
+.license-container .license-invalid{background-color:#f44336}
+.license-container .license-key{font-weight:700;opacity:.8}
+.license-container .green-btn{padding:0px 5px 2px;color:#fff;background-color:#8fcc77;border-radius:3px;text-decoration:none;-webkit-box-shadow:0 0 3px -1px rgba(0,0,0,.38);-moz-box-shadow:0 0 3px -1px rgba(0,0,0,.38);box-shadow:0 0 3px -1px rgba(0,0,0,.38)}
+.license-container .green-btn:hover{color:#fff;background-color:#84bc6c}
+.license-container .blue-btn{padding:0px 5px 2px;color:#fff;background-color:#20b1d2;border-radius:3px;text-decoration:none;-webkit-box-shadow:0 0 3px -1px rgba(0,0,0,.38);-moz-box-shadow:0 0 3px -1px rgba(0,0,0,.38);box-shadow:0 0 3px -1px rgba(0,0,0,.38)}
+.license-container .blue-btn:hover{color:#fff;background-color:#219dbf}
+.license-container .license-field label{display:block;margin-bottom:5px}
+.license-container .license-active-btn{margin-top:25px}
+
+.btn-sm {/* margin-left: 6px; */color: #fff;padding: 5px;/* border-radius: 4px; */height: 20px;display: inline-block;}
+.btn-sma {
+    color: #fff;
+    padding: 5px 5px;
+    /* border-radius: 4px; */
+    height: 20px;
+    display: inline-block;
+}
+.btn-hot{background: #f2f9f2;color: green;}
+.btn-success{background: #f2f9f2;color: green;}
+.btn-warning{background: #ff5722;}
+@media screen and (max-width: 782px){
+    .license-container .license-title {font-size: 16px;}
+    .license-container{margin: 10px;padding: 10px;}
+}
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+    color: #000;}
+.notice, div.error, div.updated {
+    margin: 5px 0px 2px;
+}
+.notice-success, div.updated {
+    border-left-color: #0dd633;
+}
+.cmb-th {
+    font-weight: 500!important;
+}
+.cmb2-wrap input.cmb2-text-small, .cmb2-wrap input.cmb2-timepicker {
+    width: 25em!important;
+}
+.lv-icon.user-vip {
+    height: 18px;
+    line-height: 18px;
+    padding: 0px!important;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.lv-icon.user-lv i {
+    background-color: unset!important;
+    transform: scale(1)!important;
+    padding: 0px!important;
+}
+.lv-icon.user-vip i {
+    border: 0px solid #1e73be!important;
+}
+.jitheme_box {
+    background-color: #eee;
+    padding: 15px;
+}
+.cmb2-wrap textarea {
+    width: 700px!important;
+    padding: 8px;
+}
+.jitheme_code{ background-color:#ccc}
+#cmb2-metabox-jitheme_taxs,#cmb2-metabox-jitheme_col{background-color: #eee;padding: 15px;}
+.jitheme-module{background-color: #fafafa!important}
+.b2-domain-list span {
+    height: 26px;
+    line-height: 26px;
+    color: green;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-right:15px;
+}

@@ -1,0 +1,49 @@
+.red-color{
+    color: var(--this-red-color)!important;
+    background-color:var(--this-red-bg)!important ;
+}
+.blue-color{
+    color: var(--this-blue-color)!important;
+    background-color:var(--this-blue-bg)!important ;
+}
+.web-color{
+    color: var(--b2color)!important;
+    background-color:var(--b2lightcolor)!important ;
+}
+.jitheme-button button{
+    border: 0px;
+}
+.jitheme-button button i{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+/*vips*/
+.gdd-quick-link-buy-vip__popover--btn {
+    color: #fff;
+}
+.user-panel-info h1 span img {
+    margin-top: 3px;
+}
+/*用户中心*/
+#author .user-panel-info h1{
+    display: flex;
+}
+#author .user-panel-info h1 span {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/*用户信息MSG*/
+.message-icon {
+    width: 52px;
+    flex: 0;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    line-height: 40px;
+}
+.message-list li .avatar {
+    width: 40px;
+    height: 40px;
+}

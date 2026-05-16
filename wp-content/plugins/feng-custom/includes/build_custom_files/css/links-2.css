@@ -1,0 +1,19 @@
+/* links-2.css */
+.fct-link-card {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	width: 335px;
+	height: 130px;
+	overflow: hidden;
+	color: var(--fct-links-text);
+	background-color: var(--fct-links-bg);
+	padding: 0px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.fct-link-card .info {
+	padding: 10px;
+}

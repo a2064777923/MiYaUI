@@ -1,0 +1,162 @@
+/*.b2-document-content.wrapper{*/
+/*    width: 1200px;*/
+/*}*/
+/*文档内页样式*/
+.mini-document-cat-box .document-cat-item {
+    width: 20%!important;
+} 
+.mini-document-cat-box .post-type-archive-document #primary-home{
+    margin-top: 250px!important;
+}
+.user-w-announcement li a::before {
+    top: 0.45rem;
+}
+.mini-document-box .document-top {
+    background-color: unset!important;
+}
+.mini-document-cat-box .document-cat-item{
+    border-right: 1px solid var(--border-color);
+}
+.mini-document-cat-box .document-cat-item:last-child {
+    border-right: none;
+}
+.mini-document-box .entry-content {
+    font-size: 14px;
+}
+.mini-document-cat-box .document-cat-item p {
+    font-size: 14px!important;
+    line-height: 18px;
+    margin-top: 10px;
+    color: var(--text-2);
+    letter-spacing: 1px;
+}
+#Mini-document-top .search-form-document input {
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 15px
+}
+
+#Mini-document-top .search-form-document button {
+    font-size: 14px;
+    display: inline-block;
+    color: #ffffff;
+    width: 80px;
+    height: 36px;
+    padding: 0;
+    line-height: 38px;
+    text-align: center;
+    background: var(--b2color);
+    border: 0;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    transition: all .1s;
+    left: unset
+}
+
+#Mini-document-top .search-form-document {
+    width: 800px
+}
+@media screen and (max-width: 768px){
+    
+}
+/*文档内页*/
+.mini-document-left-item ul {
+     margin-left: 0px; 
+    max-height: 500px;
+    overflow: overlay;
+}
+.mini-document-left-item ul li:before {
+    content: "\eba3";
+    font-family: "b2font";
+    left: 0;
+    top: 6px;
+    color: #FF3657;
+    font-size: 14px;
+    line-height: 28px;
+}
+.mini-document-meta{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.mini-document-left-item.document-left-item ul {
+    margin-left: 0px;
+}
+.mini-document-left-item .b2-hover a {
+    color: #333!important;
+    font-weight: 400;
+    font-size: 12px;
+}
+.mini-document-left-item ul li {
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: var(--b2color);
+    line-height: 2rem;
+}
+.mini-document-left-item.document-left-item {
+    padding: 1.3rem;
+    font-size: var(--font-size);
+    line-height: 1.4;
+}
+.mini-document-left-item.document-left-item h2 {
+    font-size: 1rem;
+    padding: 0px 0px 0.7rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.mini-document-left-item.document-left-item h2 i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.mini-document-box h1 {
+    font-size: 1.3rem!important;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 12px;
+}
+.mini-document-footer {
+    margin-top: 20px;
+    float: none;
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+}
+.mini-document-box.box {
+    padding-top: 10px!important;
+}
+.mini-document-footer time {
+    float: right;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+}
+/* 滚动条轨道（滑道） */
+.mini-document-left-item ul::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 更改此处为您想要的颜色 */
+  width: 5px; /* 更改此处为您想要的宽度 */
+}
+
+/* 自定义滚动条样式 */
+.mini-document-left-item ul::-webkit-scrollbar {
+  width: 5px; /* 设置滚动条宽度 */
+}
+
+.mini-document-left-item ul::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* 滚动条轨道背景色 */
+}
+
+.mini-document-left-item ul::-webkit-scrollbar-thumb {
+  background-color: #888; /* 滚动条滑块颜色 */
+}
+
+.mini-document-left-item ul::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* 滑块悬停时的颜色 */
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/提醒</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="最新活动_移动端" transform="translate(-25.000000, -409.000000)">
+            <g id="编组-2" transform="translate(25.000000, 405.000000)">
+                <g id="Group" transform="translate(0.000000, 4.000000)">
+                    <path d="M14,8 C14,4.691 11.309,2 8,2 C4.691,2 2,4.691 2,8 C2,11.309 4.691,14 8,14 C11.309,14 14,11.309 14,8 Z M16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,-8.8817842e-16 8,-8.8817842e-16 C12.418278,-8.8817842e-16 16,3.581722 16,8 Z M9,7.586 L11.707,10.292 L10.293,11.707 L7,8.414 L7,4 L9,4 L9,7.586 Z" id="形状" fill="#4E4E4E" fill-rule="nonzero"></path>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

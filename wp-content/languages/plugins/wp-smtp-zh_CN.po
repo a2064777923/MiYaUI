@@ -1,0 +1,48 @@
+# Translation of Plugins - Solid Mail – SMTP email and logging made by SolidWP - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Solid Mail – SMTP email and logging made by SolidWP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-17 00:26:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Solid Mail – SMTP email and logging made by SolidWP - Stable (latest release)\n"
+
+#: inc/Admin.php:44 inc/Admin.php:45
+msgid "Mail Logs"
+msgstr "邮件日志"
+
+#: wp-smtp.php:91
+msgid "Logs"
+msgstr "日志"
+
+#: inc/Admin.php:58 inc/Admin.php:59 wp-smtp.php:94
+#: admin-react/routes/settings/index.js:79 assets/js/settings.js:88
+msgid "Settings"
+msgstr "设置"
+
+#: src/Mail/Connectors/ConnectorSMTP.php:358
+msgid "From Name"
+msgstr "发件人昵称"
+
+#: src/Mail/Connectors/ConnectorSMTP.php:359
+#: admin-react/routes/connections/connectors/amazon-ses/index.js:69
+#: admin-react/routes/connections/connectors/smtp-provider/index.js:86
+#: assets/js/index.js:137
+msgid "SMTP Host"
+msgstr "SMTP服务器地址"
+
+#: src/Mail/Connectors/ConnectorSMTP.php:360
+#: admin-react/routes/connections/connectors/smtp-provider/index.js:97
+#: assets/js/index.js:137
+msgid "SMTP Port"
+msgstr "SMTP端口"
+
+#: src/Mail/Connectors/ConnectorSMTP.php:361
+#: admin-react/routes/connections/connectors/smtp-provider/index.js:123
+#: assets/js/index.js:137
+msgid "SMTP Authentication"
+msgstr "SMTP认证"

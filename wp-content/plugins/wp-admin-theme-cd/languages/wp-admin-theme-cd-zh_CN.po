@@ -1,0 +1,2569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Admin Theme CD\n"
+"POT-Creation-Date: 2019-03-27 20:02+0800\n"
+"PO-Revision-Date: 2019-03-27 20:04+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-admin-theme-cd.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/db-widget-count-comments.php:15
+msgid "Approved"
+msgstr "批准"
+
+#: inc/db-widget-count-comments.php:16 inc/db-widget-count-pages.php:16
+#: inc/db-widget-count-posts.php:16 inc/db-widget-count-recipes.php:16
+msgid "Pending"
+msgstr "待定"
+
+#: inc/db-widget-count-comments.php:17
+msgid "Spam"
+msgstr "垃圾邮件"
+
+#: inc/db-widget-count-comments.php:18
+msgid "Trash"
+msgstr "垃圾"
+
+#: inc/db-widget-count-comments.php:33 inc/db-widget-count-comments.php:51
+msgid "Comments"
+msgstr "评论"
+
+#: inc/db-widget-count-pages.php:15 inc/db-widget-count-posts.php:15
+#: inc/db-widget-count-recipes.php:15
+msgid "Draft"
+msgstr "草稿"
+
+#: inc/db-widget-count-pages.php:17 inc/db-widget-count-posts.php:17
+#: inc/db-widget-count-recipes.php:17
+msgid "Private"
+msgstr "私人"
+
+#: inc/db-widget-count-pages.php:18 inc/db-widget-count-posts.php:18
+#: inc/db-widget-count-recipes.php:18
+msgid "Future"
+msgstr "未来"
+
+#: inc/db-widget-count-pages.php:33
+msgid "Published Pages"
+msgstr "发布的页面"
+
+#: inc/db-widget-count-pages.php:51 wp-admin-theme-cd.php:536
+msgid "Pages"
+msgstr "页面"
+
+#: inc/db-widget-count-posts.php:33
+msgid "Published Posts"
+msgstr "发表的帖子"
+
+#: inc/db-widget-count-posts.php:51
+msgid "Posts"
+msgstr "文章"
+
+#: inc/db-widget-count-recipes.php:33
+msgid "Published Recipes"
+msgstr "出版的方法"
+
+#: inc/db-widget-count-recipes.php:51
+msgid "Recipes"
+msgstr "食谱"
+
+#: inc/db-widget-memory.php:88
+msgid "WP PHP Limit"
+msgstr "WP PHP 限制"
+
+#: inc/db-widget-memory.php:92 inc/db-widget-memory.php:104
+#: inc/db-widget-memory.php:116 inc/db-widget-system.php:46
+#: inc/db-widget-system.php:60 inc/optimization.php:141 inc/system-info.php:45
+#: inc/system-info.php:616 inc/system-info.php:627 inc/system-info.php:693
+#: inc/system-info.php:709 inc/system-info.php:1869 wp-admin-theme-cd.php:2897
+msgid "Unlimited"
+msgstr "无限"
+
+#: inc/db-widget-memory.php:100
+#, fuzzy
+msgid "WP PHP Limit (WP Admin only)"
+msgstr "WP PHP限制（仅限WP管理员）"
+
+#: inc/db-widget-memory.php:112
+#, fuzzy
+msgid "Server PHP Limit"
+msgstr "服务器PHP限制"
+
+#: inc/db-widget-memory.php:126
+msgid ""
+"Your Server PHP Memory Limit is unlimited. A defined memory limit helps "
+"prevent poorly written scripts for eating up all available memory on a "
+"server."
+msgstr ""
+"您的服务器PHP内存限制是无限的。 定义的内存限制有助于防止编写糟糕的脚本占用服"
+"务器上的所有可用内存。"
+
+#: inc/db-widget-memory.php:133
+msgid "WordPress <strong>can not</strong> change the PHP ini value at runtime."
+msgstr "WordPress <strong>无法</ strong>在运行时更改PHP ini值。"
+
+#: inc/db-widget-memory.php:135
+msgid "WordPress can change the PHP ini value at runtime."
+msgstr "WordPress可以在运行时更改PHP ini值。"
+
+#: inc/db-widget-memory.php:153 wp-admin-theme-cd.php:3041
+#, fuzzy
+msgid "WP Memory Usage"
+msgstr "WP内存使用情况"
+
+#: inc/db-widget-recent-comments.php:44
+msgid "Approve"
+msgstr "批准"
+
+#: inc/db-widget-recent-comments.php:47
+msgid "Unapprove"
+msgstr "不批准"
+
+#: inc/db-widget-recent-comments.php:63 wp-admin-theme-cd.php:2665
+#: wp-admin-theme-cd.php:2667
+msgid "Edit"
+msgstr "编辑"
+
+#: inc/db-widget-recent-comments.php:72
+msgid "on"
+msgstr "开"
+
+#: inc/db-widget-recent-comments.php:96
+msgid "Recent Comments"
+msgstr "最新评论"
+
+#: inc/db-widget-recent-pages.php:57 inc/db-widget-recent-posts.php:57
+#: inc/db-widget-recent-recipes.php:57
+msgid "No comments"
+msgstr "没有评论"
+
+#: inc/db-widget-recent-pages.php:57 inc/db-widget-recent-posts.php:57
+#: inc/db-widget-recent-recipes.php:57
+msgid "One comment"
+msgstr "一条评论"
+
+#: inc/db-widget-recent-pages.php:57 inc/db-widget-recent-posts.php:57
+#: inc/db-widget-recent-recipes.php:57
+#, php-format
+msgid "% comments"
+msgstr "% 评论"
+
+#: inc/db-widget-recent-pages.php:78
+msgid "Recent Pages"
+msgstr "最近的页面"
+
+#: inc/db-widget-recent-posts.php:78
+msgid "Recent Posts"
+msgstr "最近的帖子"
+
+#: inc/db-widget-recent-recipes.php:78
+msgid "Recent Recipes"
+msgstr "最近食谱"
+
+#: inc/db-widget-search-engine-notice.php:26
+msgid "Your website is currently not visible to search engines!"
+msgstr "您的网站目前对搜索引擎不可见！"
+
+#: inc/db-widget-search-engine-notice.php:40
+msgid "Search Engine Visibility"
+msgstr "搜索引擎可见度"
+
+#: inc/db-widget-system.php:28 inc/optimization.php:54 inc/system-info.php:571
+#: wp-admin-theme-cd.php:153
+msgid "WP Version"
+msgstr "WP版本"
+
+#: inc/db-widget-system.php:32 inc/optimization.php:65 inc/system-info.php:575
+#: inc/system-info.php:1857 wp-admin-theme-cd.php:151
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#: inc/db-widget-system.php:36 inc/optimization.php:76 inc/system-info.php:579
+#: inc/system-info.php:1523
+msgid "MySQL Version"
+msgstr "MySQL版本"
+
+#: inc/db-widget-system.php:40 inc/optimization.php:107 inc/system-info.php:596
+msgid "PHP Memory Server-Limit"
+msgstr "PHP内存服务器限制"
+
+#: inc/db-widget-system.php:44 inc/system-info.php:624
+msgid "PHP Memory Server-Usage"
+msgstr "PHP内存服务器 - 用法"
+
+#: inc/db-widget-system.php:46 inc/db-widget-system.php:48
+#: inc/db-widget-system.php:60 inc/db-widget-system.php:62
+#: inc/system-info.php:616 inc/system-info.php:619 inc/system-info.php:627
+#: inc/system-info.php:630 inc/system-info.php:1869 inc/system-info.php:1872
+msgid "of"
+msgstr "的"
+
+#: inc/db-widget-system.php:54 inc/optimization.php:87 inc/system-info.php:583
+msgid "PHP Memory WP-Limit"
+msgstr "PHP内存WP限制"
+
+#: inc/db-widget-system.php:58 inc/optimization.php:131 inc/system-info.php:613
+msgid "PHP Memory WP-Usage"
+msgstr "PHP内存WP-用法"
+
+#: inc/db-widget-system.php:68 inc/system-info.php:635 inc/system-info.php:1877
+msgid "PHP Max Upload Size (WP)"
+msgstr "PHP Max上传大小（WP）"
+
+#: inc/db-widget-system.php:71
+#, fuzzy
+msgid "Full System Information"
+msgstr "完整的系统信息"
+
+#: inc/db-widget-system.php:87
+msgid "System Info"
+msgstr "系统信息"
+
+#: inc/db-widget-user.php:132 inc/db-widget-user.php:141 inc/system-info.php:68
+#: inc/system-info.php:84 inc/system-info.php:100 inc/system-info.php:121
+#: inc/system-info.php:138 inc/system-info.php:239 inc/system-info.php:262
+#: inc/system-info.php:299 inc/system-info.php:349 inc/system-info.php:387
+#: inc/system-info.php:415 inc/system-info.php:430 inc/system-info.php:439
+#: inc/system-info.php:512 wp-admin-theme-cd.php:2954
+msgid "N/A"
+msgstr "N/A"
+
+#: inc/db-widget-user.php:157 inc/db-widget-user.php:159
+msgid "is"
+msgstr "是"
+
+#: inc/db-widget-user.php:157
+msgid "logged out"
+msgstr "已登出"
+
+#: inc/db-widget-user.php:159
+msgid "logged in"
+msgstr "登录"
+
+#: inc/db-widget-user.php:163
+msgid "Last Login"
+msgstr "上次登录"
+
+#: inc/db-widget-user.php:163
+#, fuzzy
+msgid "Last Logout"
+msgstr "最后退出"
+
+#: inc/db-widget-user.php:219
+msgid "User Activities"
+msgstr "用户活动"
+
+#: inc/ex-import.php:13 inc/ex-import.php:29
+#, fuzzy
+msgid "WP Admin Theme CD - Import & Export"
+msgstr "WP管理主题CD  - 导入和导出"
+
+#: inc/ex-import.php:14
+msgid "WPAT Im-/Export"
+msgstr "WPAT导入/导出"
+
+#: inc/ex-import.php:35
+msgid "Export"
+msgstr "导出"
+
+#: inc/ex-import.php:37
+msgid ""
+"When you click the Export button, the system will generate a JSON file for "
+"you to save on your computer."
+msgstr "单击“导出”按钮时，系统将生成一个JSON文件供您保存在计算机上。"
+
+#: inc/ex-import.php:38
+msgid ""
+"This backup file contains all WP Admin Theme configution and setting options "
+"from this WordPress installation."
+msgstr "此备份文件包含此WordPress安装中的所有WP Admin Theme配置和设置选项。"
+
+#: inc/ex-import.php:39
+msgid ""
+"After exporting, you can either use the JSON file to restore your settings "
+"on this site again or another WordPress site."
+msgstr ""
+"导出后，您可以使用JSON文件再次恢复此站点上的设置或另一个WordPress站点。"
+
+#: inc/ex-import.php:43
+msgid "Export WP Admin Theme options"
+msgstr "导出WP管理主题选项"
+
+#: inc/ex-import.php:46
+msgid "Import"
+msgstr "导入"
+
+#: inc/ex-import.php:51
+msgid "An error occurred."
+msgstr "发生错误。"
+
+#: inc/ex-import.php:67
+#, fuzzy
+msgid "All options are restored successfully."
+msgstr "所有选项都已成功恢复。"
+
+#: inc/ex-import.php:69
+msgid "Invalid file or file size too big."
+msgstr "无效的文件或文件太大。"
+
+#: inc/ex-import.php:76
+msgid "Click the Browse button and choose a JSON file."
+msgstr "单击“浏览”按钮，然后选择一个JSON文件。"
+
+#: inc/ex-import.php:77
+msgid "Press the Import button restore all options."
+msgstr "按导入按钮恢复所有选项。"
+
+#: inc/ex-import.php:83
+msgid "Import options"
+msgstr "导入选项"
+
+#: inc/multisite-sync.php:67 inc/multisite-sync.php:124
+msgid "WP Admin Theme CD - Multisite Update"
+msgstr "WP管理主题CD  - 多站点更新"
+
+#: inc/multisite-sync.php:68
+#, fuzzy
+msgid "WPAT Multisite"
+msgstr "WPAT Multisite"
+
+#: inc/multisite-sync.php:114
+msgid "All network sites has been updated."
+msgstr "所有网络站点都已更新。"
+
+#: inc/multisite-sync.php:130
+msgid ""
+"Update your WP Admin Theme CD options for all network websites together."
+msgstr "一起更新所有网络网站的WP Admin Theme CD选项。"
+
+#: inc/multisite-sync.php:132
+msgid "Share Options"
+msgstr "分享选项"
+
+#: inc/multisite-sync.php:134
+msgid "You will share the following options from Blog ID"
+msgstr "您将从博客ID分享以下选项"
+
+#: inc/multisite-sync.php:134 inc/multisite-sync.php:325
+msgid "Blog Name"
+msgstr "博客名称"
+
+#: inc/multisite-sync.php:134
+#, fuzzy
+msgid "for all network blogs"
+msgstr "更新所有网络博客"
+
+#: inc/multisite-sync.php:139
+msgid "Option"
+msgstr "选项"
+
+#: inc/multisite-sync.php:140
+msgid "Value"
+msgstr "值"
+
+#: inc/multisite-sync.php:144 wp-admin-theme-cd.php:1107
+#: wp-admin-theme-cd.php:1182 wp-admin-theme-cd.php:1203
+#: wp-admin-theme-cd.php:1224 wp-admin-theme-cd.php:1245
+#: wp-admin-theme-cd.php:1343 wp-admin-theme-cd.php:1395
+#: wp-admin-theme-cd.php:1422 wp-admin-theme-cd.php:1453
+#: wp-admin-theme-cd.php:1484 wp-admin-theme-cd.php:1515
+#: wp-admin-theme-cd.php:1547 wp-admin-theme-cd.php:1740
+#: wp-admin-theme-cd.php:1761 wp-admin-theme-cd.php:1782
+#: wp-admin-theme-cd.php:1803 wp-admin-theme-cd.php:1824
+#: wp-admin-theme-cd.php:1845
+msgid "Visible"
+msgstr "可见"
+
+#: inc/multisite-sync.php:145 wp-admin-theme-cd.php:1109
+#: wp-admin-theme-cd.php:1184 wp-admin-theme-cd.php:1205
+#: wp-admin-theme-cd.php:1226 wp-admin-theme-cd.php:1247
+#: wp-admin-theme-cd.php:1345 wp-admin-theme-cd.php:1397
+#: wp-admin-theme-cd.php:1424 wp-admin-theme-cd.php:1455
+#: wp-admin-theme-cd.php:1486 wp-admin-theme-cd.php:1517
+#: wp-admin-theme-cd.php:1549 wp-admin-theme-cd.php:1742
+#: wp-admin-theme-cd.php:1763 wp-admin-theme-cd.php:1784
+#: wp-admin-theme-cd.php:1805 wp-admin-theme-cd.php:1826
+#: wp-admin-theme-cd.php:1847
+msgid "Hidden"
+msgstr "隐藏"
+
+#: inc/multisite-sync.php:146 inc/system-info.php:547
+#: wp-admin-theme-cd.php:1136 wp-admin-theme-cd.php:1282
+#: wp-admin-theme-cd.php:1306 wp-admin-theme-cd.php:1633
+msgid "Enabled"
+msgstr "启用"
+
+#: inc/multisite-sync.php:147 inc/system-info.php:548 inc/system-info.php:721
+#: wp-admin-theme-cd.php:1134 wp-admin-theme-cd.php:1280
+#: wp-admin-theme-cd.php:1308 wp-admin-theme-cd.php:1635
+#: wp-admin-theme-cd.php:2130
+msgid "Disabled"
+msgstr "禁用"
+
+#: inc/multisite-sync.php:148
+msgid "Not selected"
+msgstr "未选择"
+
+#: inc/multisite-sync.php:149 inc/multisite-sync.php:277
+#: inc/multisite-sync.php:285
+msgid "Not added"
+msgstr "未添加"
+
+#: inc/multisite-sync.php:150 wp-admin-theme-cd.php:1890
+#: wp-admin-theme-cd.php:1911 wp-admin-theme-cd.php:1943
+#: wp-admin-theme-cd.php:1973 wp-admin-theme-cd.php:2006
+#: wp-admin-theme-cd.php:2033 wp-admin-theme-cd.php:2073
+#: wp-admin-theme-cd.php:2107 wp-admin-theme-cd.php:2165
+msgid "Activated"
+msgstr "已激活"
+
+#: inc/multisite-sync.php:151 wp-admin-theme-cd.php:1888
+#: wp-admin-theme-cd.php:1909 wp-admin-theme-cd.php:1971
+msgid "Deactivated"
+msgstr "停用"
+
+#: inc/multisite-sync.php:173 inc/multisite-sync.php:191
+#: inc/multisite-sync.php:251 wp-admin-theme-cd.php:1158
+#: wp-admin-theme-cd.php:1266 wp-admin-theme-cd.php:1327
+#: wp-admin-theme-cd.php:1685
+msgid "Pixel"
+msgstr "像素"
+
+#: inc/multisite-sync.php:237 wp-admin-theme-cd.php:257
+msgid "Welcome Back."
+msgstr "欢迎您回来。"
+
+#: inc/multisite-sync.php:317
+msgid "You will update the following network sites"
+msgstr "您即将删除以下站点"
+
+#: inc/multisite-sync.php:325 wp-admin-theme-cd.php:2822
+msgid "ID"
+msgstr "ID"
+
+#: inc/multisite-sync.php:331
+msgid "Update all network blogs"
+msgstr "更新所有网络博客"
+
+#: inc/multisite-sync.php:331
+msgid "Are you sure you want to run the update for all blogs?"
+msgstr "您确定要为所有博客运行更新吗？"
+
+#: inc/optimization.php:13
+msgid "WP Admin Theme CD - Optimization Tipps"
+msgstr "WP Admin主题CD  - 优化提示"
+
+#: inc/optimization.php:14
+msgid "WPAT Optimization"
+msgstr "WPAT优化"
+
+#: inc/optimization.php:29
+msgid "Solved"
+msgstr "已解决"
+
+#: inc/optimization.php:30
+msgid "Unsolved"
+msgstr "未解决"
+
+#: inc/optimization.php:31 inc/system-info.php:549
+msgid "Yes"
+msgstr "是"
+
+#: inc/optimization.php:32 inc/system-info.php:550
+#, fuzzy
+msgid "No"
+msgstr "否"
+
+#: inc/optimization.php:33 inc/system-info.php:551
+msgid "Defined"
+msgstr "定义"
+
+#: inc/optimization.php:34 inc/system-info.php:552
+msgid "Not defined"
+msgstr "未定义"
+
+#: inc/optimization.php:35 inc/system-info.php:553
+msgid "Please enter this security key in the wp-confiq.php file"
+msgstr "请在wp-config.php文件中输入此安全密钥"
+
+#: inc/optimization.php:38
+msgid "WP Admin Theme CD - WP Optimization Tipps"
+msgstr "WP Admin主题CD  -  WP优化提示"
+
+#: inc/optimization.php:40
+msgid "Speed Up your WordPress Admin Area"
+msgstr "加快你的WordPress管理区域"
+
+#: inc/optimization.php:42
+msgid ""
+"Follow the following optimization tipps, to get your WordPress admin area "
+"faster than before. Sometimes the page load time is very ... while we "
+"working on our website..."
+msgstr ""
+"请遵循以下优化提示，以比以前更快地获得WordPress管理区域。 有时页面加载时间非"
+"常...当我们在我们的网站上工作时......"
+
+#: inc/optimization.php:47 inc/system-info.php:565 inc/system-info.php:661
+#: inc/system-info.php:1516 inc/system-info.php:1646 inc/system-info.php:1752
+#: inc/system-info.php:2011
+msgid "Info"
+msgstr "信息"
+
+#: inc/optimization.php:48
+msgid "Status"
+msgstr "状态"
+
+#: inc/optimization.php:49
+msgid "Tipp"
+msgstr "暗示"
+
+#: inc/optimization.php:99 inc/optimization.php:123 inc/system-info.php:588
+#: inc/system-info.php:605
+#, php-format
+msgid ""
+"%s - For better performance, we recommend setting memory to at least 64MB. "
+"See: %s"
+msgstr "%s - 为了获得更好的性能，我们建议将内存设置为至少64MB。 看到：%s"
+
+#: inc/optimization.php:99 inc/optimization.php:123 inc/system-info.php:588
+#: inc/system-info.php:605
+msgid "Increasing memory allocated to PHP"
+msgstr "增加分配给PHP的内存"
+
+#: inc/system-info.php:51 inc/system-info.php:700
+#, php-format
+msgid "The WP PHP Memory Limit is less than the %s Server PHP Memory Limit"
+msgstr "WP PHP内存限制小于 %s 服务器PHP内存限制"
+
+#: inc/system-info.php:62
+#, php-format
+msgid "%s - Recommend  PHP version of 7.2. See: %s"
+msgstr "%s - 推荐7.2版的PHP版本。 看到： %s"
+
+#: inc/system-info.php:62 inc/system-info.php:116
+msgid "WordPress Requirements"
+msgstr "WordPress 要求"
+
+#: inc/system-info.php:116
+#, php-format
+msgid "%s - We recommend a minimum MySQL version of 5.6. See: %s"
+msgstr "%s - 我们推荐MySQL最低版本為5.6. 请看: %s"
+
+#: inc/system-info.php:184
+msgid "Days"
+msgstr "天"
+
+#: inc/system-info.php:184
+msgid "Hours"
+msgstr "小时"
+
+#: inc/system-info.php:184
+msgid "Minutes"
+msgstr "分钟"
+
+#: inc/system-info.php:531 inc/system-info.php:556
+msgid "WP Admin Theme CD - System Info"
+msgstr "WP Admin Theme CD  - 系统信息"
+
+#: inc/system-info.php:532
+msgid "WPAT System Info"
+msgstr "WPAT系统信息"
+
+#: inc/system-info.php:558
+msgid "WordPress Information"
+msgstr "WordPress信息"
+
+#: inc/system-info.php:560
+msgid ""
+"First, you can see the most important information about your WordPress "
+"installation at a glance. Learn more about the <a href=\"https://wordpress."
+"org/about/requirements/\" target=\"_blank\">requirements</a>"
+msgstr ""
+"首先，您可以一目了然地查看有关WordPress安装的最重要信息。 详细了解<a href="
+"\"https://wordpress.org/about/requirements/\" target=\"_blank\">要求</a>"
+
+#: inc/system-info.php:566 inc/system-info.php:662 inc/system-info.php:1517
+#: inc/system-info.php:1647 inc/system-info.php:1753 inc/system-info.php:2012
+msgid "Result"
+msgstr "结果"
+
+#: inc/system-info.php:639
+msgid "WP Home URL"
+msgstr "WP主页链接"
+
+#: inc/system-info.php:643 inc/system-info.php:1413
+msgid "WP Site URL"
+msgstr "网址"
+
+#: inc/system-info.php:647
+msgid "Document Root"
+msgstr "文件根目录"
+
+#: inc/system-info.php:654
+#, fuzzy
+msgid "WordPress Contstants Overview"
+msgstr "WordPress Contstants概述"
+
+#: inc/system-info.php:656
+msgid ""
+"Use the following contstants to manage important settings of your WordPress "
+"installation in the <code>wp-config.php</code> file. Learn more about <a "
+"href=\"https://codex.wordpress.org/Editing_wp-config.php\" target=\"_blank"
+"\">here</a>"
+msgstr ""
+"使用以下常量来管理<code> wp-config.php </ code>文件中WordPress安装的重要设"
+"置。 详细了解<a href=\"https://codex.wordpress.org/Editing_wp-config.php\" "
+"target=\"_blank\">此处</a>"
+
+#: inc/system-info.php:663 inc/system-info.php:1518 inc/system-info.php:1648
+msgid "Example"
+msgstr "例子"
+
+#: inc/system-info.php:668
+msgid "WP Language"
+msgstr "WP语言"
+
+#: inc/system-info.php:679
+#, fuzzy
+msgid "WP Force SSL Admin"
+msgstr "WP Force SSL Admin"
+
+#: inc/system-info.php:690
+#, fuzzy
+msgid "WP PHP Memory Limit"
+msgstr "WP PHP内存限制"
+
+#: inc/system-info.php:697 inc/system-info.php:713
+msgid "defined limit"
+msgstr "定义的限制"
+
+#: inc/system-info.php:706
+#, fuzzy
+msgid "WP PHP Max Memory Limit"
+msgstr "WP PHP最大内存限制"
+
+#: inc/system-info.php:718
+#, fuzzy
+msgid "WP Post Revisions"
+msgstr "WP Post Revisions"
+
+#: inc/system-info.php:729
+#, fuzzy
+msgid "WP Autosave Interval"
+msgstr "WP自动保存间隔"
+
+#: inc/system-info.php:732 inc/system-info.php:741 inc/system-info.php:1038
+#: inc/system-info.php:1890
+msgid "Seconds"
+msgstr "秒"
+
+#: inc/system-info.php:738
+#, fuzzy
+msgid "WP Mail Interval"
+msgstr "WP邮件间隔"
+
+#: inc/system-info.php:749
+#, fuzzy
+msgid "WP Empty Trash"
+msgstr "WP清空废纸篓"
+
+#: inc/system-info.php:760
+msgid "WP Media Trash"
+msgstr "WP媒体垃圾"
+
+#: inc/system-info.php:771
+#, fuzzy
+msgid "WP Cleanup Image Edits"
+msgstr "WP清理图像编辑"
+
+#: inc/system-info.php:782
+msgid "WP Multisite"
+msgstr "WP多站点"
+
+#: inc/system-info.php:793
+msgid "WP Main Site Domain"
+msgstr "主站点域名"
+
+#: inc/system-info.php:804
+#, fuzzy
+msgid "WP Main Site Path"
+msgstr "WP主站点路径"
+
+#: inc/system-info.php:815
+#, fuzzy
+msgid "WP Main Site ID"
+msgstr "WP主站点ID"
+
+#: inc/system-info.php:826
+msgid "WP Main Site Blog ID"
+msgstr "WP主站点博客ID"
+
+#: inc/system-info.php:837
+msgid "WP Allow Subdomain Install"
+msgstr "WP允许子域安装"
+
+#: inc/system-info.php:848
+msgid "WP Allow Subdirectory Install"
+msgstr "WP允许子目录安装"
+
+#: inc/system-info.php:859
+msgid "WP Site Specific Upload Directory"
+msgstr "WP站点特定上载目录"
+
+#: inc/system-info.php:870
+#, fuzzy
+msgid "WP Upload Base Directory"
+msgstr "WP上载基目录"
+
+#: inc/system-info.php:881
+#, fuzzy
+msgid "WP Load Sunrise"
+msgstr "WP Load Sunrise"
+
+#: inc/system-info.php:892
+msgid "WP Debug Mode"
+msgstr "WP调试模式"
+
+#: inc/system-info.php:903
+#, fuzzy
+msgid "WP Debug Log"
+msgstr "WP调试日志"
+
+#: inc/system-info.php:914
+#, fuzzy
+msgid "WP Debug Display"
+msgstr "WP调试显示"
+
+#: inc/system-info.php:925
+#, fuzzy
+msgid "WP Script Debug"
+msgstr "WP脚本调试"
+
+#: inc/system-info.php:936
+msgid "WP Save Queries"
+msgstr "WP保存查询"
+
+#: inc/system-info.php:947
+#, fuzzy
+msgid "WP Automatic Updates"
+msgstr "WP自动更新"
+
+#: inc/system-info.php:958
+#, fuzzy
+msgid "WP Core Updates"
+msgstr "WP核心更新"
+
+#: inc/system-info.php:963
+#, fuzzy
+msgid "Only for minor updates"
+msgstr "仅用于次要更新"
+
+#: inc/system-info.php:971
+#, fuzzy
+msgid "WP Default Theme Updates"
+msgstr "WP默认主题更新"
+
+#: inc/system-info.php:982
+#, fuzzy
+msgid "WP Plugin and Theme Editor"
+msgstr "WP插件和主题编辑器"
+
+#: inc/system-info.php:993
+#, fuzzy
+msgid "WP Plugin and Theme Updates"
+msgstr "WP插件和主题更新"
+
+#: inc/system-info.php:1004
+#, fuzzy
+msgid "WP Default Theme"
+msgstr "WP默认主题"
+
+#: inc/system-info.php:1013
+msgid "WP Alternate Cron"
+msgstr "WP替代Cron"
+
+#: inc/system-info.php:1024
+msgid "WP Cron"
+msgstr "WP自动处理"
+
+#: inc/system-info.php:1035
+msgid "WP Cron Lock Timeout"
+msgstr "WP Cron 锁定超时"
+
+#: inc/system-info.php:1046
+#, fuzzy
+msgid "WP Cache"
+msgstr "WP缓存"
+
+#: inc/system-info.php:1057
+msgid "WP Concatenate Admin JS/CSS"
+msgstr "WP连接管理员 js/css"
+
+#: inc/system-info.php:1062 inc/system-info.php:1076 inc/system-info.php:1090
+#: inc/system-info.php:1104
+msgid "Not available if WP Script Debug is true"
+msgstr "如果WP Script Debug为true，则不可用"
+
+#: inc/system-info.php:1071
+#, fuzzy
+msgid "WP Compress Admin JS"
+msgstr "WP Compress Admin JS"
+
+#: inc/system-info.php:1085
+#, fuzzy
+msgid "WP Compress Admin CSS"
+msgstr "WP Compress Admin CSS"
+
+#: inc/system-info.php:1099
+msgid "WP Enforce GZip Admin JS/CSS"
+msgstr "WP强制执行JS/CSS进行Gzip压缩"
+
+#: inc/system-info.php:1113
+msgid "WP Allow unfiltered HTML"
+msgstr "WP允许未经过滤的HTML"
+
+#: inc/system-info.php:1116
+msgid "for all users"
+msgstr "针对所有用户"
+
+#: inc/system-info.php:1118
+msgid "for users with administrator or editor roles"
+msgstr "适用于具有管理员或编辑角色的用户"
+
+#: inc/system-info.php:1124
+msgid "WP Allow unfiltered Uploads"
+msgstr "WP允许未经过滤的上传"
+
+#: inc/system-info.php:1135
+msgid "WP Block External URL Requests"
+msgstr "WP阻止外部URL请求"
+
+#: inc/system-info.php:1140
+msgid "Accessible Hosts"
+msgstr "无障碍主机"
+
+#: inc/system-info.php:1149
+msgid "WP Redirect Nonexistent Blogs"
+msgstr "WP重定向不存在的博客"
+
+#: inc/system-info.php:1160
+#, fuzzy
+msgid "WP Cookie Domain"
+msgstr "WP Cookie域"
+
+#: inc/system-info.php:1171
+msgid "WP Cookie Hash"
+msgstr "WP Cookie Hash"
+
+#: inc/system-info.php:1182
+msgid "WP Auth Cookie"
+msgstr "授权Cookie"
+
+#: inc/system-info.php:1193
+msgid "WP Secure Auth Cookie"
+msgstr "WP安全认证Cookie"
+
+#: inc/system-info.php:1204
+#, fuzzy
+msgid "WP Cookie Path"
+msgstr "WP Cookie路径"
+
+#: inc/system-info.php:1215
+#, fuzzy
+msgid "WP Site Cookie Path"
+msgstr "WP站点Cookie路径"
+
+#: inc/system-info.php:1226
+#, fuzzy
+msgid "WP Admin Cookie Path"
+msgstr "WP管理员Cookie路径"
+
+#: inc/system-info.php:1237
+msgid "WP Plugins Cookie Path"
+msgstr "WP插件Cookie路径"
+
+#: inc/system-info.php:1248
+#, fuzzy
+msgid "WP Logged In Cookie"
+msgstr "WP登录Cookie"
+
+#: inc/system-info.php:1259
+#, fuzzy
+msgid "WP Test Cookie"
+msgstr "WP测试Cookie"
+
+#: inc/system-info.php:1270
+#, fuzzy
+msgid "WP User Cookie"
+msgstr "WP用户Cookie"
+
+#: inc/system-info.php:1281
+#, fuzzy
+msgid "WP Directory Permission"
+msgstr "WP目录权限"
+
+#: inc/system-info.php:1292
+#, fuzzy
+msgid "WP File Permission"
+msgstr "WP文件权限"
+
+#: inc/system-info.php:1303
+#, fuzzy
+msgid "WP FTP Method"
+msgstr "WP FTP方法"
+
+#: inc/system-info.php:1314
+#, fuzzy
+msgid "WP FTP Base"
+msgstr "WP FTP基础"
+
+#: inc/system-info.php:1325
+msgid "WP FTP Content Dir"
+msgstr "WP FTP内容目录"
+
+#: inc/system-info.php:1336
+msgid "WP FTP Plugin Dir"
+msgstr "WP FTP插件目录"
+
+#: inc/system-info.php:1347
+msgid "WP SSH Public Key"
+msgstr "SSH公钥"
+
+#: inc/system-info.php:1358
+msgid "WP SSH Private Key"
+msgstr "SSH私钥"
+
+#: inc/system-info.php:1369
+#, fuzzy
+msgid "WP FTP Username"
+msgstr "WP FTP用户名"
+
+#: inc/system-info.php:1380
+#, fuzzy
+msgid "WP FTP Password"
+msgstr "WP FTP密码"
+
+#: inc/system-info.php:1391
+#, fuzzy
+msgid "WP FTP Host"
+msgstr "WP FTP主机"
+
+#: inc/system-info.php:1402
+#, fuzzy
+msgid "WP FTP SSL"
+msgstr "WP FTP SSL"
+
+#: inc/system-info.php:1424
+#, fuzzy
+msgid "WP Home"
+msgstr "WP主页链接"
+
+#: inc/system-info.php:1435
+#, fuzzy
+msgid "WP Uploads Path"
+msgstr "WP上传路径"
+
+#: inc/system-info.php:1447
+#, fuzzy
+msgid "WP Template Path"
+msgstr "WP模板路径"
+
+#: inc/system-info.php:1454
+#, fuzzy
+msgid "WP Stylesheet Path"
+msgstr "WP样式表路径"
+
+#: inc/system-info.php:1461
+#, fuzzy
+msgid "WP Content Path"
+msgstr "WP内容路径"
+
+#: inc/system-info.php:1468
+msgid "WP Content URL"
+msgstr "WP内容URL"
+
+#: inc/system-info.php:1475
+msgid "WP Plugin Path"
+msgstr "WP插件路径"
+
+#: inc/system-info.php:1482
+#, fuzzy
+msgid "WP Plugin URL"
+msgstr "WP插件URL"
+
+#: inc/system-info.php:1489
+msgid "WP Language Path"
+msgstr "WP语言路径"
+
+#: inc/system-info.php:1496
+#, fuzzy
+msgid "WP Temporary Files Path"
+msgstr "WP临时文件路径"
+
+#: inc/system-info.php:1509
+msgid "Database Information"
+msgstr "数据库信息"
+
+#: inc/system-info.php:1511
+msgid ""
+"Use the following contstants to manage important database settings of your "
+"WordPress installation in the <code>wp-config.php</code> file. Learn more "
+"about <a href=\"https://codex.wordpress.org/Editing_wp-config.php\" target="
+"\"_blank\">here</a>"
+msgstr ""
+"使用以下常量来管理<code> wp-config.php </ code>文件中WordPress安装的重要数据"
+"库设置。 详细了解<a href=\"https://codex.wordpress.org/Editing_wp-config.php"
+"\" target=\"_blank\">此处</a>"
+
+#: inc/system-info.php:1527
+msgid "DB Name"
+msgstr "数据库名称"
+
+#: inc/system-info.php:1532
+#, fuzzy
+msgid "DB User"
+msgstr "数据库用户"
+
+#: inc/system-info.php:1537
+#, fuzzy
+msgid "DB Host"
+msgstr "数据库主机"
+
+#: inc/system-info.php:1542
+#, fuzzy
+msgid "DB Password"
+msgstr "数据库密码"
+
+#: inc/system-info.php:1547
+#, fuzzy
+msgid "DB Charset"
+msgstr "DB Charset"
+
+#: inc/system-info.php:1552
+#, fuzzy
+msgid "DB Collate"
+msgstr "DB Collate"
+
+#: inc/system-info.php:1563
+#, fuzzy
+msgid "WP Allow DB Repair"
+msgstr "WP允许数据库修复"
+
+#: inc/system-info.php:1574
+msgid "WP Disallow Upgrade Global Tables"
+msgstr "WP Disallow升级全局表"
+
+#: inc/system-info.php:1585
+msgid "WP Custom User Table"
+msgstr "WP自定义用户表"
+
+#: inc/system-info.php:1596
+msgid "WP Custom User Meta Table"
+msgstr "WP自定义用户元表"
+
+#: inc/system-info.php:1607
+msgid "WP Display Database Errors"
+msgstr "WP显示数据库错误"
+
+#: inc/system-info.php:1618
+#, fuzzy
+msgid "WP Database Error Log File"
+msgstr "WP数据库错误日志文件"
+
+#: inc/system-info.php:1629
+msgid "Table Prefix"
+msgstr "表前缀"
+
+#: inc/system-info.php:1633
+#, fuzzy
+msgid "Table Base Prefix"
+msgstr "表格基准前缀"
+
+#: inc/system-info.php:1634
+msgid "defined"
+msgstr "已定义"
+
+#: inc/system-info.php:1639
+#, fuzzy
+msgid "Security Keys"
+msgstr "安全密钥"
+
+#: inc/system-info.php:1641
+msgid ""
+"Use the following contstants to set the security keys for your WordPress "
+"installation in the <code>wp-config.php</code> file. Learn more about <a "
+"href=\"https://codex.wordpress.org/Editing_wp-config.php\" target=\"_blank"
+"\">here</a>"
+msgstr ""
+"使用以下常量在<code> wp-config.php </ code>文件中设置WordPress安装的安全密"
+"钥。 详细了解<a href=\"https://codex.wordpress.org/Editing_wp-config.php\" "
+"target=\"_blank\">此处</a>"
+
+#: inc/system-info.php:1653
+#, fuzzy
+msgid "WP Auth Key"
+msgstr "WP Auth Key"
+
+#: inc/system-info.php:1664
+msgid "WP Secure Auth Key"
+msgstr "WP安全认证Key"
+
+#: inc/system-info.php:1675
+#, fuzzy
+msgid "WP Logged In Key"
+msgstr "WP登录密钥"
+
+#: inc/system-info.php:1686
+#, fuzzy
+msgid "WP Nonce Key"
+msgstr "WP随机密钥"
+
+#: inc/system-info.php:1697
+msgid "WP Auth Salt"
+msgstr "授权编号"
+
+#: inc/system-info.php:1708
+msgid "WP Secure Auth Salt"
+msgstr "WP安全认证"
+
+#: inc/system-info.php:1719
+msgid "WP Logged In Auth Salt"
+msgstr "WP记录"
+
+#: inc/system-info.php:1730
+#, fuzzy
+msgid "WP Nonce Salt"
+msgstr "WP Nonce Salt"
+
+#: inc/system-info.php:1743
+msgid "Server Information"
+msgstr "服务器信息"
+
+#: inc/system-info.php:1745
+msgid ""
+"Interesting information about your web server. You can also use <a href="
+"\"http://linfo.sourceforge.net/\" target=\"_blank\">linfo</a> or <a href="
+"\"https://phpsysinfo.github.io/phpsysinfo/\" target=\"_blank\">phpsysinfo</"
+"a> to get more information about the web server"
+msgstr ""
+"有关您的Web服务器的有趣信息。 您也可以使用<a href=\"http://linfo.sourceforge."
+"net/\" target=\"_blank\"> linfo </a>或<a href =“https://phpsysinfo.github.io/"
+"phpsysinfo/” target =“_ blank”> phpsysinfo </a>以获取有关Web服务器的更多信息"
+
+#: inc/system-info.php:1747
+msgid ""
+"In the most cases you can modify some server settings like \"PHP Memory Limit"
+"\" or \"PHP Post Max Size\" by upload and modify a <code>php.ini</code> file "
+"in the WordPress <code>/wp-admin/</code> folder. Learn more about <a href="
+"\"https://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-"
+"upload-size-in-wordpress/\" target=\"_blank\">here</a>"
+msgstr ""
+"在大多数情况下，您可以通过上传修改一些服务器设置，如“PHP内存限制”或“PHP Post "
+"Max Size”，并修改WordPress <code> / wp-admin /中的<code> php.ini </ code>文"
+"件 </ code>文件夹。 了解有关<a href=\"https://www.wpbeginner.com/wp-"
+"tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/\" "
+"target=\"_blank\">此处的详情</A>"
+
+#: inc/system-info.php:1758
+msgid "OS"
+msgstr "操作系统"
+
+#: inc/system-info.php:1759
+msgid "Bit OS"
+msgstr "位操作系统"
+
+#: inc/system-info.php:1762
+msgid "Software"
+msgstr "软件"
+
+#: inc/system-info.php:1766 wp-admin-theme-cd.php:152
+msgid "IP Address"
+msgstr "IP地址"
+
+#: inc/system-info.php:1770
+msgid "Web Port"
+msgstr "端口"
+
+#: inc/system-info.php:1774
+#, fuzzy
+msgid "Date / Time (WP)"
+msgstr "日期/时间（WP）"
+
+#: inc/system-info.php:1778
+#, fuzzy
+msgid "Timezone (WP)"
+msgstr "时区（WP）"
+
+#: inc/system-info.php:1782
+msgid "Default Timezone is UTC"
+msgstr "默认时区是UTC"
+
+#: inc/system-info.php:1786
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr "默认时区为%s - 它应该是UTC"
+
+#: inc/system-info.php:1793
+msgid "Protocol"
+msgstr "协议"
+
+#: inc/system-info.php:1797
+msgid "Administrator"
+msgstr "管理员"
+
+#: inc/system-info.php:1801
+msgid "CGI Version"
+msgstr "CGI版本"
+
+#: inc/system-info.php:1805
+msgid "CPU Total"
+msgstr "CPU总数"
+
+#: inc/system-info.php:1806
+msgid "Cores"
+msgstr "核"
+
+#: inc/system-info.php:1809
+msgid "CPU Usage"
+msgstr "CPU使用情况"
+
+#: inc/system-info.php:1813
+#, fuzzy
+msgid "CPU Load Average"
+msgstr "CPU负载平均值"
+
+#: inc/system-info.php:1817
+msgid "Disk Space"
+msgstr "磁盘空间"
+
+#: inc/system-info.php:1818
+msgid "Total"
+msgstr "总计"
+
+#: inc/system-info.php:1818
+msgid "Free"
+msgstr "免费"
+
+#: inc/system-info.php:1818
+msgid "Used"
+msgstr "已使用"
+
+#: inc/system-info.php:1821
+#, fuzzy
+msgid "Disk Space Usage"
+msgstr "磁盘空间使用率"
+
+#: inc/system-info.php:1828
+msgid "Memory (RAM) Total"
+msgstr "内存（RAM）总计"
+
+#: inc/system-info.php:1832
+#, fuzzy
+msgid "Memory (RAM) Free"
+msgstr "内存（RAM）免费"
+
+#: inc/system-info.php:1836
+#, fuzzy
+msgid "Memory (RAM) Usage"
+msgstr "内存（RAM）用法"
+
+#: inc/system-info.php:1843
+msgid "Memcached"
+msgstr "内存缓存"
+
+#: inc/system-info.php:1853
+msgid "Uptime"
+msgstr "运行时间"
+
+#: inc/system-info.php:1862
+msgid "PHP Memory Limit (WP)"
+msgstr "PHP内存限制（WP）"
+
+#: inc/system-info.php:1866
+msgid "PHP Memory Usage"
+msgstr "PHP内存使用"
+
+#: inc/system-info.php:1881
+msgid "PHP Post Max Size"
+msgstr "PHP Post Max Size"
+
+#: inc/system-info.php:1885
+msgid "PHP Max Input Vars"
+msgstr "PHP最大输入变量"
+
+#: inc/system-info.php:1889
+msgid "PHP Max Execution Time"
+msgstr "PHP最长执行时间"
+
+#: inc/system-info.php:1893
+msgid "PHP Extensions"
+msgstr "PHP扩展"
+
+#: inc/system-info.php:1897
+msgid "GD Library"
+msgstr "GD图书馆"
+
+#: inc/system-info.php:1901 inc/system-info.php:2024 inc/system-info.php:2092
+msgid "Version"
+msgstr "版本"
+
+#: inc/system-info.php:1908
+msgid "cURL Version"
+msgstr "cURL版本"
+
+#: inc/system-info.php:1912
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN已安装"
+
+#: inc/system-info.php:1918
+msgid "PHP Error Log File Location"
+msgstr "PHP错误日志文件位置"
+
+#: inc/system-info.php:1941
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - some gateway plugins which "
+"use SOAP may not work as expected."
+msgstr "您的服务器没有启用％s类 - 使用SOAP的某些网关插件可能无法按预期工作。"
+
+#: inc/system-info.php:1951
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - HTML/Multipart emails, and "
+"also some extensions, will not work without DOMDocument."
+msgstr ""
+"您的服务器没有启用 <a href=\"%s\">DOMDocument</a>类，HTML/Multipart邮件以及一"
+"些插件将无法工作"
+
+#: inc/system-info.php:1961
+#, php-format
+msgid ""
+"Your server does not support the %s function - this is required to use the "
+"GeoIP database from MaxMind."
+msgstr "您的服务器不支持%s函数——这是需要使用来自MaxMind GeoIP数据库。"
+
+#: inc/system-info.php:1971
+#, php-format
+msgid ""
+"Your server does not support the %s functions - this is required for better "
+"character encoding. Some fallbacks will be used instead for it."
+msgstr ""
+"您的服务器不支持%s 的功能-这是需要更好的字符编码。一些回退将改为使用它。"
+
+#: inc/system-info.php:2006
+msgid "Current Theme"
+msgstr "当前主题"
+
+#: inc/system-info.php:2020 inc/system-info.php:2091
+msgid "Name"
+msgstr "名称"
+
+#: inc/system-info.php:2030
+msgid "Author URL"
+msgstr "作者网址"
+
+#: inc/system-info.php:2034
+msgid "Image Sizes"
+msgstr "图像大小"
+
+#: inc/system-info.php:2038
+msgid "Gutenberg Compatibility"
+msgstr "古腾堡兼容性"
+
+#: inc/system-info.php:2048
+msgid "WooCommerce Compatibility"
+msgstr "WooCommerce兼容性"
+
+#: inc/system-info.php:2058
+msgid "Child Theme"
+msgstr "子主题"
+
+#: inc/system-info.php:2060
+#, php-format
+msgid ""
+"If you're want to modifying a theme, it safe to create a child theme.  See: "
+"<a href=\"%s\" target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+"如果您想要修改主题，可以安全地创建子主题。 请参阅：<a href=\"%s\" target="
+"\"_blank\">如何创建子主题</a>"
+
+#: inc/system-info.php:2066
+msgid "Parent Theme Name"
+msgstr "父主题名称"
+
+#: inc/system-info.php:2070
+msgid "Parent Theme Version"
+msgstr "父主题版本"
+
+#: inc/system-info.php:2074
+#, php-format
+msgid "%s is available"
+msgstr "%s是可用的"
+
+#: inc/system-info.php:2079
+msgid "Parent Theme Author URL"
+msgstr "父主题作者网址"
+
+#: inc/system-info.php:2086
+msgid "Active Plugins"
+msgstr "激活插件"
+
+#: inc/system-info.php:2093
+msgid "Author"
+msgstr "作者"
+
+#: inc/system-info.php:2117
+msgid "Visit plugin homepage"
+msgstr "访问插件主页"
+
+#: inc/system-info.php:2140
+#, php-format
+msgctxt "Version info"
+msgid "%s is available"
+msgstr "%s是可用的"
+
+#: inc/system-info.php:2144
+msgid "Network enabled"
+msgstr "网络启用"
+
+#: inc/system-info.php:2150
+#, php-format
+msgctxt "by author"
+msgid "%s"
+msgstr "%s"
+
+#: wp-admin-theme-cd.php:118
+msgid "User Box"
+msgstr "小工具盒"
+
+#: wp-admin-theme-cd.php:119
+#, fuzzy
+msgid "Company Box"
+msgstr "公司盒子"
+
+#: wp-admin-theme-cd.php:120
+#, fuzzy
+msgid "Company Box Logo"
+msgstr "公司Box标识尺寸"
+
+#: wp-admin-theme-cd.php:121
+msgid "Company Box Logo Size"
+msgstr "公司Box标识尺寸"
+
+#: wp-admin-theme-cd.php:122
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: wp-admin-theme-cd.php:123
+msgid "Post/Page IDs"
+msgstr "文章/页面的ID"
+
+#: wp-admin-theme-cd.php:124
+msgid "Contextual Help"
+msgstr "上下文帮助"
+
+#: wp-admin-theme-cd.php:125
+msgid "Screen Options"
+msgstr "屏幕选项"
+
+#: wp-admin-theme-cd.php:126
+#, fuzzy
+msgid "Left Menu Width"
+msgstr "左菜单宽度"
+
+#: wp-admin-theme-cd.php:127
+#, fuzzy
+msgid "Left Menu Expandable"
+msgstr "左侧菜单可扩展"
+
+#: wp-admin-theme-cd.php:128
+msgid "Spacing"
+msgstr "间距"
+
+#: wp-admin-theme-cd.php:129
+#, fuzzy
+msgid "Spacing Max Width"
+msgstr "间距最大宽度"
+
+#: wp-admin-theme-cd.php:130
+msgid "Credits"
+msgstr "积分"
+
+#: wp-admin-theme-cd.php:131
+#, fuzzy
+msgid "Custom Web Font"
+msgstr "自定义Web字体"
+
+#: wp-admin-theme-cd.php:132
+#, fuzzy
+msgid "Custom Web Font Weight"
+msgstr "自定义Web字体重量"
+
+#: wp-admin-theme-cd.php:133 wp-admin-theme-cd.php:530
+msgid "Toolbar"
+msgstr "工具栏"
+
+#: wp-admin-theme-cd.php:134
+#, fuzzy
+msgid "Toolbar Comments Menu"
+msgstr "工具栏评论菜单"
+
+#: wp-admin-theme-cd.php:135
+#, fuzzy
+msgid "Toolbar New Content Menu"
+msgstr "工具栏新内容菜单"
+
+#: wp-admin-theme-cd.php:136
+#, fuzzy
+msgid "Toolbar Customize Link"
+msgstr "工具栏自定义链接"
+
+#: wp-admin-theme-cd.php:137
+#, fuzzy
+msgid "Toolbar Search"
+msgstr "工具栏搜索"
+
+#: wp-admin-theme-cd.php:138
+#, fuzzy
+msgid "Toolbar WP Icon"
+msgstr "工具栏WP图标"
+
+#: wp-admin-theme-cd.php:139
+#, fuzzy
+msgid "Custom Toolbar Icon"
+msgstr "自定义工具栏图标"
+
+#: wp-admin-theme-cd.php:140
+msgid "Theme Color"
+msgstr "主题颜色"
+
+#: wp-admin-theme-cd.php:141
+#, fuzzy
+msgid "Background Gradient Start Color"
+msgstr "背景渐变开始颜色"
+
+#: wp-admin-theme-cd.php:142
+#, fuzzy
+msgid "Background Gradient End Color"
+msgstr "背景渐变结束颜色"
+
+#: wp-admin-theme-cd.php:143
+#, fuzzy
+msgid "Customized Login Page"
+msgstr "自定义登录页面"
+
+#: wp-admin-theme-cd.php:144
+msgid "Login Title"
+msgstr "登录标题"
+
+#: wp-admin-theme-cd.php:145
+msgid "Login Logo"
+msgstr "登录LOGO"
+
+#: wp-admin-theme-cd.php:146
+msgid "Login Logo Size"
+msgstr "登录页logo的尺寸"
+
+#: wp-admin-theme-cd.php:147
+msgid "Login Background Image"
+msgstr "登录背景图像"
+
+#: wp-admin-theme-cd.php:148 wp-admin-theme-cd.php:3039
+msgid "Memory Usage"
+msgstr "内存使用情况"
+
+#: wp-admin-theme-cd.php:149 wp-admin-theme-cd.php:3056
+#: wp-admin-theme-cd.php:3058
+msgid "WP Memory Limit"
+msgstr "WP内存限制"
+
+#: wp-admin-theme-cd.php:150 wp-admin-theme-cd.php:3069
+#: wp-admin-theme-cd.php:3071
+msgid "Memory Available"
+msgstr "内存可用"
+
+#: wp-admin-theme-cd.php:154
+#, fuzzy
+msgid "WP Admin CSS"
+msgstr "WP Admin CSS"
+
+#: wp-admin-theme-cd.php:155
+#, fuzzy
+msgid "WP Login CSS"
+msgstr "WP登录CSS"
+
+#: wp-admin-theme-cd.php:156
+msgid "SVG Support"
+msgstr "SVG支持"
+
+#: wp-admin-theme-cd.php:157
+#, fuzzy
+msgid "ICO Support"
+msgstr "ICO支持"
+
+#: wp-admin-theme-cd.php:158
+msgid "WPAT System Info Page"
+msgstr "WPAT系统信息页"
+
+#: wp-admin-theme-cd.php:159
+msgid "WPAT Im- / Export Page"
+msgstr "WPAT Im- /出口页面"
+
+#: wp-admin-theme-cd.php:160
+msgid "WPAT Multisite Sync Page"
+msgstr "WPAT多站点同步页面"
+
+#: wp-admin-theme-cd.php:161
+msgid "Network Theme Options"
+msgstr "网络主题选项"
+
+#: wp-admin-theme-cd.php:162
+msgid "WP Version Meta-Tag"
+msgstr "WP版Meta-Tag"
+
+#: wp-admin-theme-cd.php:163
+#, fuzzy
+msgid "WP Emoji"
+msgstr "WP表情符号"
+
+#: wp-admin-theme-cd.php:164
+#, fuzzy
+msgid "WP RSS Feed"
+msgstr "WP RSS Feed"
+
+#: wp-admin-theme-cd.php:165
+#, fuzzy
+msgid "WP RSD"
+msgstr "WP RSD"
+
+#: wp-admin-theme-cd.php:166
+#, fuzzy
+msgid "WP Wlwmanifest"
+msgstr "WP Wlwmanifest"
+
+#: wp-admin-theme-cd.php:167
+#, fuzzy
+msgid "WP Shortlink"
+msgstr "WP短链接"
+
+#: wp-admin-theme-cd.php:168
+#, fuzzy
+msgid "WP REST API"
+msgstr "WP REST API"
+
+#: wp-admin-theme-cd.php:169
+#, fuzzy
+msgid "WP oEmbed"
+msgstr "WP oEmbed"
+
+#: wp-admin-theme-cd.php:170
+msgid "WP XML-RPC / X-Pingback"
+msgstr "WP XML-RPC / X-Pingback"
+
+#: wp-admin-theme-cd.php:171
+#, fuzzy
+msgid "WP Heartbeat"
+msgstr "WP Heartbeat"
+
+#: wp-admin-theme-cd.php:172
+msgid "WP Rel Links"
+msgstr "WP Rel链接"
+
+#: wp-admin-theme-cd.php:173
+msgid "WP Self Pingbacks"
+msgstr "WP自我pingbacks / trackbacks"
+
+#: wp-admin-theme-cd.php:174
+msgid "Custom Fields Meta Box"
+msgstr "自定义字段Meta Box"
+
+#: wp-admin-theme-cd.php:175
+msgid "Comments Status Meta Box"
+msgstr "评论状态框"
+
+#: wp-admin-theme-cd.php:176
+#, fuzzy
+msgid "Comments Meta Box"
+msgstr "评论Meta Box"
+
+#: wp-admin-theme-cd.php:177
+#, fuzzy
+msgid "Author Meta Box"
+msgstr "作者Meta Box"
+
+#: wp-admin-theme-cd.php:178
+#, fuzzy
+msgid "Categories Meta Box"
+msgstr "分类Meta Box"
+
+#: wp-admin-theme-cd.php:179
+msgid "Post Format Meta Box"
+msgstr "Meta Box发布格式"
+
+#: wp-admin-theme-cd.php:180
+#, fuzzy
+msgid "Page Parent Meta Box"
+msgstr "页面父Meta Box"
+
+#: wp-admin-theme-cd.php:181
+#, fuzzy
+msgid "Post Excerpt Meta Box"
+msgstr "摘录Meta Box"
+
+#: wp-admin-theme-cd.php:182
+#, fuzzy
+msgid "Post Image Meta Box"
+msgstr "发布图像元框"
+
+#: wp-admin-theme-cd.php:183
+msgid "Revisions Meta Box"
+msgstr "修改Meta Box"
+
+#: wp-admin-theme-cd.php:184
+#, fuzzy
+msgid "Slug Meta Box"
+msgstr "Slug Meta Box"
+
+#: wp-admin-theme-cd.php:185
+#, fuzzy
+msgid "Tags Meta Box"
+msgstr "标签Meta Box"
+
+#: wp-admin-theme-cd.php:186
+#, fuzzy
+msgid "Trackbacks Meta Box"
+msgstr "引用元框"
+
+#: wp-admin-theme-cd.php:187
+#, fuzzy
+msgid "Qick Draft Widget"
+msgstr "Qick Draft Widget"
+
+#: wp-admin-theme-cd.php:188
+#, fuzzy
+msgid "At the Glance Widget"
+msgstr "在Glance Widget"
+
+#: wp-admin-theme-cd.php:189
+msgid "Activity Widget"
+msgstr "活动的小工具"
+
+#: wp-admin-theme-cd.php:190
+#, fuzzy
+msgid "WP Events & News Widget"
+msgstr "WP活动和新闻小工具"
+
+#: wp-admin-theme-cd.php:191
+#, fuzzy
+msgid "Welcome Widget"
+msgstr "欢迎小工具"
+
+#: wp-admin-theme-cd.php:192
+#, fuzzy
+msgid "WPAT User Activities Widget"
+msgstr "WPAT用户活动小组件"
+
+#: wp-admin-theme-cd.php:193
+msgid "WPAT System Info Widget"
+msgstr "WPAT系统信息小工具"
+
+#: wp-admin-theme-cd.php:194
+msgid "WPAT Post Count Widget"
+msgstr "盘点标签无法过账"
+
+#: wp-admin-theme-cd.php:195
+#, fuzzy
+msgid "WPAT Page Count Widget"
+msgstr "WPAT页数小部件"
+
+#: wp-admin-theme-cd.php:196
+#, fuzzy
+msgid "WPAT Comment Count Widget"
+msgstr "WPAT评论计数小工具"
+
+#: wp-admin-theme-cd.php:197
+#, fuzzy
+msgid "WPAT Recent Posts Widget"
+msgstr "WPAT最近的帖子小工具"
+
+#: wp-admin-theme-cd.php:198
+#, fuzzy
+msgid "WPAT Recent Pages Widget"
+msgstr "WPAT最近页面小部件"
+
+#: wp-admin-theme-cd.php:199
+#, fuzzy
+msgid "WPAT Recent Comments Widget"
+msgstr "WPAT最近评论小工具"
+
+#: wp-admin-theme-cd.php:200
+#, fuzzy
+msgid "WPAT Memory Usage Widget"
+msgstr "WPAT内存使用小工具"
+
+#: wp-admin-theme-cd.php:201
+msgid "Pages Widget"
+msgstr "页面小工具"
+
+#: wp-admin-theme-cd.php:202
+msgid "Calendar Widget"
+msgstr "日历小工具"
+
+#: wp-admin-theme-cd.php:203
+msgid "Archives Widget"
+msgstr "档案小工具"
+
+#: wp-admin-theme-cd.php:204
+#, fuzzy
+msgid "Meta Widget"
+msgstr "Meta Widget"
+
+#: wp-admin-theme-cd.php:205
+msgid "Search Widget"
+msgstr "搜索小工具"
+
+#: wp-admin-theme-cd.php:206
+msgid "Text Widget"
+msgstr "文本小部件"
+
+#: wp-admin-theme-cd.php:207
+msgid "Categories Widget"
+msgstr "分类小工具"
+
+#: wp-admin-theme-cd.php:208
+msgid "Recent Posts Widget"
+msgstr "最近文章小部件"
+
+#: wp-admin-theme-cd.php:209
+msgid "Recent Comments Widget"
+msgstr "近期评论部件"
+
+#: wp-admin-theme-cd.php:210
+#, fuzzy
+msgid "RSS Widget"
+msgstr "RSS小工具"
+
+#: wp-admin-theme-cd.php:211
+msgid "Tag Cloud Widget"
+msgstr "标签云小工具"
+
+#: wp-admin-theme-cd.php:212
+msgid "Navigation Menu Widget"
+msgstr "导航菜单小工具"
+
+#: wp-admin-theme-cd.php:213
+msgid "Image Widget"
+msgstr "图像小工具"
+
+#: wp-admin-theme-cd.php:214
+msgid "Audio Widget"
+msgstr "音频部件"
+
+#: wp-admin-theme-cd.php:215
+msgid "Video Widget"
+msgstr "视频小工具"
+
+#: wp-admin-theme-cd.php:216
+msgid "Gallery Widget"
+msgstr "画廊小部件"
+
+#: wp-admin-theme-cd.php:217
+#, fuzzy
+msgid "Custom HTML Widget"
+msgstr "自定义HTML小部件"
+
+#: wp-admin-theme-cd.php:218
+msgid "Header Code"
+msgstr "标题代码"
+
+#: wp-admin-theme-cd.php:219
+msgid "Footer Code"
+msgstr "页脚代码"
+
+#: wp-admin-theme-cd.php:220
+#, fuzzy
+msgid "Meta Referrer Policy"
+msgstr "元推荐人政策"
+
+#: wp-admin-theme-cd.php:345
+msgid "Remove the WordPress Version Meta-Tag from wp head."
+msgstr "从wp head删除WordPress版本元标记。"
+
+#: wp-admin-theme-cd.php:346
+msgid ""
+"Show the version number of your currently installed WordPress in the source "
+"code."
+msgstr "在源代码中显示当前安装的WordPress的版本号。"
+
+#: wp-admin-theme-cd.php:350
+msgid "Remove the WordPress Emoticons from your source code."
+msgstr "从源代码中删除WordPress表情符号。"
+
+#: wp-admin-theme-cd.php:351
+msgid "Display a textual portrayals like \";-)\" as a emoticon icon."
+msgstr "显示文字描述，如“;-)”作为表情符号图标。"
+
+#: wp-admin-theme-cd.php:355
+msgid ""
+"Disable the RSS feed functionality and remove the WordPress page and "
+"comments RSS feed links from wp head."
+msgstr "禁用RSS源功能并从wp head中删除WordPress页面和注释RSS提要链接。"
+
+#: wp-admin-theme-cd.php:356
+msgid ""
+"RSS (Really Simple Syndication) is a type of web feed which allows users to "
+"access updates to online content in a standardized, computer-readable format."
+msgstr ""
+"RSS（Really Simple Syndication）是一种Web订阅源，允许用户以标准化的计算机可读"
+"格式访问在线内容的更新。"
+
+#: wp-admin-theme-cd.php:360
+msgid "Remove the RSD link from wp head."
+msgstr "从wp head中删除RSD链接。"
+
+#: wp-admin-theme-cd.php:361
+msgid ""
+"Really Simple Discovery (RSD) is an XML format and a publishing convention "
+"for making services exposed by a blog, or other web software, discoverable "
+"by client software."
+msgstr ""
+"真正简单发现（RSD）是一种XML格式和发布约定，用于通过客户端软件可发现的博客或"
+"其他Web软件公开服务。"
+
+#: wp-admin-theme-cd.php:365
+#, fuzzy
+msgid "Remove the Wlwmanifest link from wp head."
+msgstr "从wp head中删除Wlwmanifest链接。"
+
+#: wp-admin-theme-cd.php:366
+msgid "Needed to enable tagging support for Windows Live Writer."
+msgstr "需要为Windows Live Writer启用标记支持。"
+
+#: wp-admin-theme-cd.php:370
+#, fuzzy
+msgid "Remove the shortlink link from wp head."
+msgstr "从wp head中删除短链接链接。"
+
+#: wp-admin-theme-cd.php:371
+msgid "Shortlink is a shorten version of a web page’s URL."
+msgstr "Shortlink是网页URL的缩短版本。"
+
+#: wp-admin-theme-cd.php:375
+msgid "Disable the REST API and remove the wp json link from wp head."
+msgstr "禁用REST API并从wp head中删除wp json链接。"
+
+#: wp-admin-theme-cd.php:376
+msgid ""
+"The API makes it super easy to retrieve data using GET requests, which is "
+"useful for those building apps with WordPress."
+msgstr ""
+"API使得使用GET请求检索数据非常容易，这对于那些使用WordPress构建应用程序非常有"
+"用。"
+
+#: wp-admin-theme-cd.php:380
+msgid "Disable wp embed and remove the oEmbed links from wp head."
+msgstr "禁用wp嵌入并从wp head中删除oEmbed链接。"
+
+#: wp-admin-theme-cd.php:381
+msgid ""
+"oEmbed feature which allows others to embed your WordPress posts into their "
+"own site by adding the post URL."
+msgstr ""
+"oEmbed功能允许其他人通过添加帖子URL将您的WordPress帖子嵌入他们自己的网站。"
+
+#: wp-admin-theme-cd.php:385
+msgid "Disable remote access."
+msgstr "禁用远程访问。"
+
+#: wp-admin-theme-cd.php:386
+msgid ""
+"XML-RPC is a remote procedure call which uses XML to encode its calls and "
+"HTTP as a transport mechanism. If you want to access and publish to your "
+"blog remotely, then you need XML-RPC enabled. XML-RPC protocol is used by "
+"WordPress as API for Pingbacks and third-party applications, such as mobile "
+"apps, inter-blog communication and popular plugins like JetPack."
+msgstr ""
+"XML-RPC是一个远程过程调用，它使用XML将其调用和HTTP编码为传输机制。 如果要远程"
+"访问和发布到博客，则需要启用XML-RPC。 WordPress使用XML-RPC协议作为Pingbacks和"
+"第三方应用程序的API，例如移动应用程序，博客间通信和JetPack等流行插件。"
+
+#: wp-admin-theme-cd.php:390
+msgid "Stop the heartbeat updates."
+msgstr "停止心跳更新。"
+
+#: wp-admin-theme-cd.php:391
+msgid ""
+"The Heartbeat API is a simple server polling API built in to WordPress, "
+"allowing near-real-time frontend updates. The heartbeat API allows for "
+"regular communication between the users browser and the server. One of the "
+"original motivations was to allow for locking posts and warning users when "
+"more than one user is attempting to edit a post, or warning the user when "
+"their log-in has expired."
+msgstr ""
+"Heartbeat API是一个内置于WordPress的简单服务器轮询API，允许近实时的前端更"
+"新。 心跳API允许用户浏览器和服务器之间的定期通信。 其中一个原始动机是允许在多"
+"个用户尝试编辑帖子时锁定帖子和警告用户，或者在用户登录过期时警告用户。"
+
+#: wp-admin-theme-cd.php:395
+msgid ""
+"Remove the post rel index / start / parent / prev / next links from wp head."
+msgstr "从wp head中删除post rel index / start / parent / prev / next链接。"
+
+#: wp-admin-theme-cd.php:396
+msgid ""
+"This feature display the URL of the index, start, parent, previous and next "
+"post in the source code."
+msgstr "此功能显示源代码中索引，开始，父级，上一个和下一个帖子的URL。"
+
+#: wp-admin-theme-cd.php:400
+msgid "Disable WordPress self pingbacks / trackbacks."
+msgstr "禁用WordPress自我pingbacks / trackbacks。"
+
+#: wp-admin-theme-cd.php:401
+msgid ""
+"This will allow you to disable self-pingbacks (messages and comments), which "
+"are linking back to your own blog."
+msgstr "这将允许您禁用自我pingback（消息和评论），它们链接回您自己的博客。"
+
+#: wp-admin-theme-cd.php:408
+msgid "Remove the Custom Fields Box for posts and pages."
+msgstr "删除帖子和页面的自定义字段框。"
+
+#: wp-admin-theme-cd.php:413
+msgid "Remove the Discussion Box for posts and pages."
+msgstr "删除帖子和页面的讨论框。"
+
+#: wp-admin-theme-cd.php:418
+msgid "Remove the Comments Box for posts and pages."
+msgstr "删除帖子和页面的评论框。"
+
+#: wp-admin-theme-cd.php:423
+msgid "Remove the Author Box for posts and pages."
+msgstr "删除帖子和页面的作者框。"
+
+#: wp-admin-theme-cd.php:428
+msgid "Remove the Category Box for posts."
+msgstr "删除帖子的类别框。"
+
+#: wp-admin-theme-cd.php:433
+msgid "Remove the Post Format Box for posts."
+msgstr "删除帖子的帖子格式框。"
+
+#: wp-admin-theme-cd.php:438
+msgid "Remove the Page Attributes Box for pages."
+msgstr "删除页面的页面属性框。"
+
+#: wp-admin-theme-cd.php:443
+msgid "Remove the Excerpt Box for posts."
+msgstr "删除帖子的摘录框。"
+
+#: wp-admin-theme-cd.php:448
+msgid "Remove the Featured Image Box for posts and pages."
+msgstr "删除帖子和页面的精选图像框。"
+
+#: wp-admin-theme-cd.php:453
+msgid "Remove the Revisions Box for posts and pages."
+msgstr "删除帖子和页面的“修订”框。"
+
+#: wp-admin-theme-cd.php:458
+#, fuzzy
+msgid "Remove the Slug Box for posts and pages."
+msgstr "删除帖子和页面的Slug Box。"
+
+#: wp-admin-theme-cd.php:459
+msgid ""
+"Caution: Disabling the slug box does not allow you to customize the post or "
+"page URL."
+msgstr "警告：禁用弹框不允许您自定义帖子或页面URL。"
+
+#: wp-admin-theme-cd.php:463
+#, fuzzy
+msgid "Remove the Tags Box for posts."
+msgstr "删除帖子的标签框。"
+
+#: wp-admin-theme-cd.php:468
+msgid "Remove the Send Trackbacks Box for posts and pages."
+msgstr "删除帖子和页面的发送引用框。"
+
+#: wp-admin-theme-cd.php:513
+msgid "Add custom code to the frontend header."
+msgstr "将自定义代码添加到前端标头。"
+
+#: wp-admin-theme-cd.php:514
+#, fuzzy
+msgid "Will be inserted into the wp_head hook."
+msgstr "将插入到wp_head钩子中。"
+
+#: wp-admin-theme-cd.php:518
+msgid "Add custom code to the frontend footer."
+msgstr "将自定义代码添加到前端页脚。"
+
+#: wp-admin-theme-cd.php:519
+msgid "Will be inserted into the wp_footer hook."
+msgstr "将插入到wp_footer钩子中。"
+
+#: wp-admin-theme-cd.php:523
+msgid "Add the meta referrer tag and select your value."
+msgstr "添加元引用标记并选择您的值。"
+
+#: wp-admin-theme-cd.php:524
+msgid ""
+"If you use SSL for your website, analytics tools like Google Analytics can "
+"not see the referrer by default. For example, if you select \"Origin\", your "
+"referrer will be visible again."
+msgstr ""
+"如果您的网站使用SSL，则Google Analytics等分析工具默认情况下无法查看引荐来"
+"源。 例如，如果选择“原点”，则您的引荐来源将再次可见。"
+
+#: wp-admin-theme-cd.php:529
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: wp-admin-theme-cd.php:531
+msgid "Colors"
+msgstr "颜色"
+
+#: wp-admin-theme-cd.php:532
+msgid "Login Page"
+msgstr "登录页面"
+
+#: wp-admin-theme-cd.php:533
+msgid "Footer"
+msgstr "页脚"
+
+#: wp-admin-theme-cd.php:534
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: wp-admin-theme-cd.php:535
+msgid "Media"
+msgstr "媒体"
+
+#: wp-admin-theme-cd.php:537
+msgid "Multisite"
+msgstr "多站点"
+
+#: wp-admin-theme-cd.php:538
+#, fuzzy
+msgid "Optimization & Security"
+msgstr "优化与安全"
+
+#: wp-admin-theme-cd.php:539
+msgid "Meta Boxes"
+msgstr "元盒"
+
+#: wp-admin-theme-cd.php:540
+msgid "Dashboard Widgets"
+msgstr "仪表板小部件"
+
+#: wp-admin-theme-cd.php:541
+msgid "Widgets"
+msgstr "小工具"
+
+#: wp-admin-theme-cd.php:542
+#, fuzzy
+msgid "Frontend"
+msgstr "从上端口工具栏中删除WordPress自定义链接"
+
+#: wp-admin-theme-cd.php:558
+#, fuzzy
+msgid "WP Admin Theme"
+msgstr "WP管理主题CD  - 多站点更新"
+
+#: wp-admin-theme-cd.php:558
+msgid "WPAT Options"
+msgstr "WPAT设置"
+
+#: wp-admin-theme-cd.php:583
+#, fuzzy
+msgid "WP Admin Theme CD - Options"
+msgstr "WP管理主题CD  - 选项"
+
+#: wp-admin-theme-cd.php:583
+#, fuzzy
+msgid "Current Blog ID"
+msgstr "当前的博客ID"
+
+#: wp-admin-theme-cd.php:585
+msgid ""
+"Speed up and modify your WordPress backend like a charm. This plugin is the "
+"central place to take WordPress design to the next level."
+msgstr ""
+"像魅力一样加速和修改你的WordPress后端。 这个插件是将WordPress设计提升到新水平"
+"的中心位置。"
+
+#: wp-admin-theme-cd.php:632
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: wp-admin-theme-cd.php:634
+msgid "You have no permissions to change this options!"
+msgstr "您无权更改此选项！"
+
+#: wp-admin-theme-cd.php:639
+msgid "Restore all"
+msgstr "全部还原"
+
+#: wp-admin-theme-cd.php:685
+msgid "Background Gradient Color"
+msgstr "背景渐变颜色"
+
+#: wp-admin-theme-cd.php:928
+#, fuzzy
+msgid "Invalid Color for"
+msgstr "无效的颜色"
+
+#: wp-admin-theme-cd.php:928
+msgid "Old values has been restored,"
+msgstr "已经恢复旧版,"
+
+#: wp-admin-theme-cd.php:956
+#, fuzzy
+msgid "has been updated."
+msgstr "已经更新。"
+
+#: wp-admin-theme-cd.php:965
+msgid "All fields has been restored."
+msgstr "所有字段都已恢复。"
+
+#: wp-admin-theme-cd.php:972
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: wp-admin-theme-cd.php:1114 wp-admin-theme-cd.php:1189
+#: wp-admin-theme-cd.php:1210 wp-admin-theme-cd.php:1231
+#: wp-admin-theme-cd.php:1252 wp-admin-theme-cd.php:1350
+#: wp-admin-theme-cd.php:1402 wp-admin-theme-cd.php:1429
+#: wp-admin-theme-cd.php:1460 wp-admin-theme-cd.php:1491
+#: wp-admin-theme-cd.php:1522 wp-admin-theme-cd.php:1554
+#: wp-admin-theme-cd.php:1747 wp-admin-theme-cd.php:1768
+#: wp-admin-theme-cd.php:1789 wp-admin-theme-cd.php:1810
+#: wp-admin-theme-cd.php:1831 wp-admin-theme-cd.php:1852
+msgid "Hide"
+msgstr "隐藏"
+
+#: wp-admin-theme-cd.php:1116
+msgid "Display the user avatar and name before the left wordpress admin menu"
+msgstr "在左侧wordpress管理菜单之前显示用户头像和名称"
+
+#: wp-admin-theme-cd.php:1141 wp-admin-theme-cd.php:1287
+#: wp-admin-theme-cd.php:1895 wp-admin-theme-cd.php:1916
+msgid "Enable"
+msgstr "启用"
+
+#: wp-admin-theme-cd.php:1143
+msgid ""
+"Show a company box with your logo instead of the user box. The user box must "
+"be visible"
+msgstr "显示带有徽标的公司框，而不是用户框。 用户Box必须可见"
+
+#: wp-admin-theme-cd.php:1151
+msgid "Company Logo"
+msgstr "公司标志"
+
+#: wp-admin-theme-cd.php:1153 wp-admin-theme-cd.php:1577
+#: wp-admin-theme-cd.php:1680 wp-admin-theme-cd.php:1715
+msgid "Upload Image"
+msgstr "上传图片"
+
+#: wp-admin-theme-cd.php:1155 wp-admin-theme-cd.php:1682
+msgid "Logo Size"
+msgstr "标志大小"
+
+#: wp-admin-theme-cd.php:1191
+msgid ""
+"Display a thumbnail column before the title for post and page table lists"
+msgstr "在帖子和页面表列表的标题之前显示缩略图列"
+
+#: wp-admin-theme-cd.php:1212
+msgid "Display a IDs column for post and page table lists"
+msgstr "显示帖子和页表列表的ID"
+
+#: wp-admin-theme-cd.php:1233
+msgid "Hide the contextual help at the top right side"
+msgstr "隐藏右上角的上下文帮助"
+
+#: wp-admin-theme-cd.php:1254
+msgid "Hide the screen options at the top right side"
+msgstr "隐藏右上角的屏幕选项"
+
+#: wp-admin-theme-cd.php:1268
+msgid "Increase the left admin menu width up to 400px"
+msgstr "将左管理菜单宽度增加到400px"
+
+#: wp-admin-theme-cd.php:1289
+msgid ""
+"Display submenus of the left admin menu only after clicking as an expandable "
+"menu"
+msgstr "仅在单击可扩展菜单后显示左管理菜单的子菜单"
+
+#: wp-admin-theme-cd.php:1313 wp-admin-theme-cd.php:1640
+#: wp-admin-theme-cd.php:1950 wp-admin-theme-cd.php:1984
+#: wp-admin-theme-cd.php:2013 wp-admin-theme-cd.php:2040
+#: wp-admin-theme-cd.php:2080 wp-admin-theme-cd.php:2114
+#: wp-admin-theme-cd.php:2172
+msgid "Disable"
+msgstr "禁用"
+
+#: wp-admin-theme-cd.php:1315
+msgid "Remove the spacing around the backend block"
+msgstr "移除后端块周围的间距"
+
+#: wp-admin-theme-cd.php:1324
+msgid "Max Width"
+msgstr "最大宽度"
+
+#: wp-admin-theme-cd.php:1352
+msgid "Remove the credits note from the footer"
+msgstr "从页脚中删除信用记录"
+
+#: wp-admin-theme-cd.php:1365
+msgid "Font-Family"
+msgstr "字体系列"
+
+#: wp-admin-theme-cd.php:1369
+msgid "Font-Weight"
+msgstr "字体粗细"
+
+#: wp-admin-theme-cd.php:1371
+msgid ""
+"Embed a custom <a target=\"_blank\" href=\"https://fonts.google.com/"
+"\">Google Webfont</a> to your WordPress Admin"
+msgstr ""
+"将自定义的<a target=\"_blank\" href=\"https://fonts.google.com/\"> Google "
+"Webfont </a>嵌入WordPress管理员"
+
+#: wp-admin-theme-cd.php:1380
+msgid ""
+"Please separate in Font-Name and Font-Weight like this example: [Font-Family "
+"= \"Roboto\"] and [Font-Weight = \"400,400i,700\"]"
+msgstr ""
+"请将Font-Name和Font-Weight分开，如下例所示：[Font-Family =“Roboto”]和[Font-"
+"Weight =“400,400i，700”]"
+
+#: wp-admin-theme-cd.php:1404
+#, fuzzy
+msgid "Remove the upper toolbar"
+msgstr "删除上方工具栏"
+
+#: wp-admin-theme-cd.php:1431
+msgid "Remove the WordPress Comments Menu from the upper toolbar"
+msgstr "从上方工具栏中删除WordPress评论菜单"
+
+#: wp-admin-theme-cd.php:1462
+msgid "Remove the WordPress New Content Menu from the upper toolbar"
+msgstr "从上方工具栏中删除WordPress新内容菜单"
+
+#: wp-admin-theme-cd.php:1493
+msgid "Remove the WordPress Customize Link from the upper frontend toolbar"
+msgstr "从上端口工具栏中删除WordPress自定义链接"
+
+#: wp-admin-theme-cd.php:1524
+msgid "Remove the WordPress Search from the upper frontend toolbar"
+msgstr "从上端口工具栏中删除WordPress搜索"
+
+#: wp-admin-theme-cd.php:1556
+msgid "Remove the WordPress Menu and Icon from the upper toolbar"
+msgstr "从上方工具栏中删除WordPress菜单和图标"
+
+#: wp-admin-theme-cd.php:1586
+msgid "Upload a custom icon instead of the WordPress icon"
+msgstr "上传自定义图标而不是WordPress图标"
+
+#: wp-admin-theme-cd.php:1588
+msgid "Recommended image size is 26 x 26px."
+msgstr "建议的图像尺寸为26 x 26px。"
+
+#: wp-admin-theme-cd.php:1602
+msgid "Select your custom wp admin theme color. Default value is #4777CD"
+msgstr "选择您的自定义wp管理主题颜色。 默认值为＃4777CD"
+
+#: wp-admin-theme-cd.php:1612
+msgid "Start Color"
+msgstr "起始色"
+
+#: wp-admin-theme-cd.php:1616
+msgid "End Color"
+msgstr "结束色"
+
+#: wp-admin-theme-cd.php:1618
+msgid ""
+"Select your custom wp admin theme background gradient color. Default start "
+"value is #545c63 and end value is #32373c"
+msgstr ""
+"选择自定义wp管理主题背景渐变颜色。 默认起始值为＃545c63，结束值为＃32373c"
+
+#: wp-admin-theme-cd.php:1642
+msgid ""
+"It is useful if you have an other login plugin installed. This is preventing "
+"conflicts with other plugins"
+msgstr "如果您安装了其他登录插件，这将非常有用。 这可以防止与其他插件发生冲突"
+
+#: wp-admin-theme-cd.php:1694
+msgid "Upload an image for your WordPress login page"
+msgstr "上传WordPress登录页面的图像"
+
+#: wp-admin-theme-cd.php:1724
+msgid "Upload a background image for your WordPress login page"
+msgstr "上传WordPress登录页面的背景图片"
+
+#: wp-admin-theme-cd.php:1749
+msgid "Display the currently memory usage of your WordPress installation"
+msgstr "显示WordPress安装的当前内存使用情况"
+
+#: wp-admin-theme-cd.php:1770
+msgid "Display the memory limit of your WordPress installation"
+msgstr "显示WordPress安装的内存限制"
+
+#: wp-admin-theme-cd.php:1791
+msgid "Display the available server memory for your WordPress installation"
+msgstr "显示WordPress安装的可用服务器内存"
+
+#: wp-admin-theme-cd.php:1812
+msgid "Display the PHP version of your server"
+msgstr "显示服务器的PHP版本"
+
+#: wp-admin-theme-cd.php:1833
+msgid "Display the IP address of your server"
+msgstr "显示服务器的IP地址"
+
+#: wp-admin-theme-cd.php:1854
+msgid "Display the installed WordPress version"
+msgstr "显示已安装的WordPress版本"
+
+#: wp-admin-theme-cd.php:1865
+msgid ""
+"Add custom CSS for the Wordpress admin theme. To overwrite some classes, use "
+"\"!important\". Like this example \"border-right: 3px!important\""
+msgstr ""
+"为Wordpress管理主题添加自定义CSS。 要覆盖某些类，请使用“！important”。 像这个"
+"例子“border-right：3px！important”"
+
+#: wp-admin-theme-cd.php:1876
+msgid ""
+"Add custom CSS for the Wordpress login page. To overwrite some classes, use "
+"\"!important\". Like this example \"border-right: 3px!important\""
+msgstr ""
+"为Wordpress登录页面添加自定义CSS。 要覆盖某些类，请使用“！important”。 像这个"
+"例子“border-right：3px！important”"
+
+#: wp-admin-theme-cd.php:1897
+msgid "Allow the upload of SVG files"
+msgstr "允许上传SVG文件"
+
+#: wp-admin-theme-cd.php:1918
+msgid "Allow the upload of ICO files"
+msgstr "允许上传ICO文件"
+
+#: wp-admin-theme-cd.php:1941 wp-admin-theme-cd.php:1945
+#: wp-admin-theme-cd.php:2008 wp-admin-theme-cd.php:2035
+#: wp-admin-theme-cd.php:2071 wp-admin-theme-cd.php:2075
+#: wp-admin-theme-cd.php:2109 wp-admin-theme-cd.php:2167
+msgid "Removed"
+msgstr "已移除"
+
+#: wp-admin-theme-cd.php:1956 wp-admin-theme-cd.php:1989
+msgid "Activate multisite support for WordPress to use this option"
+msgstr "激活WordPress的多站点支持以使用此选项"
+
+#: wp-admin-theme-cd.php:1986
+msgid ""
+"Disable the permissions to change WP Admin Theme options for all other "
+"network sites"
+msgstr "禁用更改所有其他网站的WP Admin Theme选项的权限"
+
+#: wp-admin-theme-cd.php:2088
+msgid ""
+"System info dashboad widget can not be activated, if the plugin system info "
+"page is deactivated"
+msgstr "如果停用插件系统信息页面，则无法激活系统信息仪表板小组件"
+
+#: wp-admin-theme-cd.php:2499 wp-admin-theme-cd.php:2702
+msgid "Home"
+msgstr "首页"
+
+#: wp-admin-theme-cd.php:2501
+msgid "My Sites"
+msgstr "我的站点"
+
+#: wp-admin-theme-cd.php:2503
+msgid "Logout"
+msgstr "注销"
+
+#: wp-admin-theme-cd.php:2665 wp-admin-theme-cd.php:2667
+msgid "Howdy"
+msgstr "你好"
+
+#: wp-admin-theme-cd.php:2699
+msgid "No image selected."
+msgstr "未选择图像。"
+
+#: wp-admin-theme-cd.php:2751
+msgid "Image"
+msgstr "图片"
+
+#: wp-admin-theme-cd.php:2770
+msgid "No Thumbnail"
+msgstr "没有缩略图"
+
+#: wp-admin-theme-cd.php:2983 wp-admin-theme-cd.php:2985
+msgid "IP"
+msgstr "IP"
+
+#: wp-admin-theme-cd.php:2996 wp-admin-theme-cd.php:2998
+msgid "PHP"
+msgstr "PHP"
+
+#: wp-admin-theme-cd.php:3010 wp-admin-theme-cd.php:3012
+msgid "WP"
+msgstr "WP"
+
+#: wp-admin-theme-cd.php:3038
+msgid " of "
+msgstr " of "
+
+#: wp-admin-theme-cd.php:3042
+#, fuzzy
+msgid " of"
+msgstr "的"
+
+#: wp-admin-theme-cd.php:3185
+msgid "No feed available, please visit our"
+msgstr "没有饲料，请访问我们的"
+
+#: wp-admin-theme-cd.php:3185
+msgid "homepage"
+msgstr "首页"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "WP Admin Theme CD"
+msgstr "WP Admin主题CD"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.creative-dive.de"
+msgstr "http://www.creative-dive.de"
+
+#. Description of the plugin/theme
+msgid "A clean and modern WordPress Admin Theme."
+msgstr "一个干净和时尚的WordPress管理主题。"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Martin Jost"
+msgstr "马丁约斯特"

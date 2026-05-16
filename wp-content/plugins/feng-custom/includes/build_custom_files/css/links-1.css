@@ -1,0 +1,23 @@
+/* links-1.css */
+.fct-link-card .img {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.fct-link-card .img a {
+	border: 2px solid var(--fct-links-avatar);
+	border-radius: 50%;
+	margin: auto;
+}
+
+.fct-link-card .img img {
+	width: 100%;
+}
+
+.fct-link-card .img a:hover {
+	border-color: var(--fct-links-hover);
+}
+
+.fct-link-card .info .title {
+	text-align: center;
+}

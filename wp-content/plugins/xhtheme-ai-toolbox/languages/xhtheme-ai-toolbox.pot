@@ -1,0 +1,3959 @@
+# Copyright (C) 2026 XHTheme
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: XHTheme AI Toolbox 1.8.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/xhtheme-ai-toolbox\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-01T17:45:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: xhtheme-ai-toolbox\n"
+
+#. Plugin Name of the plugin
+#: aitoolbox.php
+#: classes/class-xhtheme-admin.php:709
+#: classes/class-xhtheme-admin.php:732
+#: classes/class-xhtheme-aiblock.php:914
+#: classes/class-xhtheme-block-template.php:43
+msgid "XHTheme AI Toolbox"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: aitoolbox.php
+msgid "https://www.xhtheme.com/xhtheme-ai-toolbox.html"
+msgstr ""
+
+#. Description of the plugin
+#: aitoolbox.php
+msgid "Through AI, content generation/optimization, automatic comment generation and scheduled publishing, TAG extraction, summary generation, automatic aliasing, and automatic category allocation are achieved, significantly improving the efficiency and quality of content creation."
+msgstr ""
+
+#. Author of the plugin
+#: aitoolbox.php
+msgid "XHTheme"
+msgstr ""
+
+#. Author URI of the plugin
+#: aitoolbox.php
+msgid "https://www.xhtheme.com"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:55
+#: build/settings.js:1
+msgid "AI Smart Summary"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:56
+msgid "AI-generated summary of the article content"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:84
+msgid "Trending Topics"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:159
+#: classes/class-xhtheme-admin.php:160
+msgid "AI Toolbox"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:170
+#: classes/class-xhtheme-admin.php:171
+msgid "Feature Settings"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:180
+#: classes/class-xhtheme-admin.php:190
+msgid "Task Queue"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:200
+#: classes/class-xhtheme-admin.php:201
+msgid "Automation Settings"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:215
+#: classes/class-xhtheme-admin.php:216
+msgid "Setup Wizard"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:420
+msgid "AI Queue"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:423
+msgid "Manage AI Task Queue"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:440
+#: build/settings.js:1
+msgid "Settings"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:444
+msgid "Document"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:459
+#: classes/class-xhtheme-admin.php:638
+#: classes/class-xhtheme-admin.php:668
+#: classes/class-xhtheme-admin.php:753
+msgid "Security check failed"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:467
+msgid "No settings data received"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:473
+msgid "Settings data format error"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:514
+msgid "Settings saved"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:643
+#: classes/class-xhtheme-admin.php:759
+msgid "Insufficient permissions"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:652
+msgid "Processing failed, please try again later!"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:673
+msgid "Theme key is required"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:684
+msgid "Notice hidden successfully"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:710
+msgid "Please complete the AppID configuration to start using the plugin features."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:713
+msgid "Go to Settings"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:733
+msgid "Configure automation rules to automatically apply AI capabilities to your posts and save time."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:736
+msgid "Configure Automation"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:809
+msgid "Invalid AppID, please check your input"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:946
+msgid "Configuration saved successfully"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:981
+msgid "Missing features I need"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:982
+msgid "Found a bug or error"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:983
+msgid "Switching to another plugin"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:984
+msgid "Temporary, will re-enable later"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:985
+msgid "Other"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:988
+msgid "What feature do you need? 💡"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:989
+msgid "Your ideas matter, share your suggestions..."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:990
+msgid "What issue did you encounter? 🔧"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:991
+msgid "Describe the problem briefly..."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:992
+msgid "What attracted you to switch?"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:993
+msgid "Your feedback helps us improve..."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:994
+msgid "Mind sharing more?"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:995
+msgid "We are happy to listen..."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:998
+msgid "Leaving?"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:999
+msgid "Your feedback helps us improve"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:1000
+msgid "Feedback or suggestions (optional)"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:1001
+msgid "How can we improve..."
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:1002
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:1003
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: classes/class-xhtheme-admin.php:1004
+msgid "We read every feedback carefully ❤️"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:44
+msgid "Member users"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:46
+msgid "Trial Member"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:48
+msgid "Free Users"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:160
+msgid "[XHTheme AI Toolbox] APPID information not configured, scheduled task has been suspended"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:161
+msgid "Due to the failure to obtain APPID information, the AI interface is unavailable. The current scheduled task has been temporarily stopped and will be retried after 2 hours!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:196
+msgid "AI model list has been updated, your specified model is invalid and the system has switched to automatic mode"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:197
+msgid "Due to the update of the AI model list, the model you specified for specific functions has become invalid or changed. The system has automatically switched to automatic selection mode for you. If you need to specify a model, please go to the backend AI configuration page to reselect. Thank you for your support!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:300
+msgid "Model list updated!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:393
+msgid "Content information retrieved!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:396
+msgid "You do not have permission to call the current interface!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:459
+msgid "Tag status retrieved!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:464
+msgid "Please enter a tag name!"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:580
+#: build/settings.js:1
+msgid "Auto Mode"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:583
+#: build/settings.js:1
+msgid "Best"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:920
+msgid "Custom Title"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:926
+msgid "Used to replace the HTML title ( &lt;title&gt; ) content of the tag page."
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:973
+msgid "AI Excerpt"
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:995
+msgid "No AI excerpt has been generated yet."
+msgstr ""
+
+#: classes/class-xhtheme-aiblock.php:1009
+msgid "This AI-generated excerpt will be displayed at the beginning of your post if enabled."
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:74
+#: classes/class-xhtheme-postauto.php:665
+msgid "Invalid parameters [code:003]"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:87
+#: classes/class-xhtheme-postauto.php:737
+#: classes/class-xhtheme-postauto.php:747
+msgid "Category not match"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:146
+msgid "Failed to generate image prompt!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:248
+#: classes/class-xhtheme-aiimage.php:259
+#: classes/class-xhtheme-aiimage.php:302
+msgid "AI Image Generation Failed Notification"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:468
+msgid "Task ID is empty, cannot get image!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:474
+#: classes/class-xhtheme-aiimage.php:579
+#: classes/class-xhtheme-aiimage.php:741
+msgid "Please configure the Bailian Platform API-KEY first!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:494
+#: classes/class-xhtheme-aiimage.php:555
+msgid "Model task in progress, waiting for next query!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:498
+msgid "Model response: Image URL is empty!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:504
+msgid "Model response: Task has been canceled!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:506
+#: classes/class-xhtheme-aiimage.php:789
+msgid "Model response: Task does not exist or status unknown!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:509
+#: classes/class-xhtheme-aiimage.php:543
+#: classes/class-xhtheme-aiimage.php:634
+#: classes/class-xhtheme-aiimage.php:691
+#: classes/class-xhtheme-aiimage.php:792
+msgid "Unknown error, waiting to retry!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:517
+#: classes/class-xhtheme-aiimage.php:660
+msgid "APPID is empty, cannot continue generation!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:642
+msgid "Image prompt is empty, cannot continue generation!"
+msgstr ""
+
+#: classes/class-xhtheme-aiimage.php:787
+msgid "Model response: Task execution failed!"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:168
+#: classes/class-xhtheme-tool.php:216
+#: classes/class-xhtheme-tool.php:225
+msgid "AI User"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:341
+msgid "Dear Website Administrator:"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:342
+msgid "The system has detected multiple failures in avatar localization (more than 10 times today). This may cause some comments to fail to display custom avatars."
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:343
+msgid "Possible reasons:"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:344
+msgid "1. Insufficient upload directory permissions"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:345
+msgid "2. Remote image server downtime"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:346
+msgid "3. Network connection issues"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:347
+msgid "Recommended checks:"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:348
+msgid "1. Ensure /wp-content/uploads/avatars directory is writable"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:349
+msgid "2. Check error logs for details"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:350
+msgid "3. Contact \"Xinghe AI Toolbox\" author for help. Website: https://www.xhtheme.com"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:351
+msgid "This email was automatically sent by \"Xinghe AI Toolbox\" plugin!"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:354
+msgid "Avatar Localization Failure Notification"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:387
+msgid "Parameter missing!"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:393
+msgid "Function changed, please delete the task!"
+msgstr ""
+
+#: classes/class-xhtheme-comment.php:406
+msgid "No article found."
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:82
+msgid "AI Extract Tags"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:86
+msgid "Generate AI Comments"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:90
+msgid "Extract AI Summary"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:94
+msgid "Generate Topics"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:127
+#: build/settings.js:1
+msgid "Error"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:138
+#: classes/class-xhtheme-postauto.php:972
+#: classes/class-xhtheme-thread.php:739
+msgid "AI queue processing"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:183
+#: classes/class-xhtheme-cronqueue.php:260
+#: classes/class-xhtheme-cronqueue.php:333
+#: classes/class-xhtheme-cronqueue.php:438
+#: classes/class-xhtheme-postauto.php:543
+#: classes/class-xhtheme-postauto.php:589
+msgid "Permission denied"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:212
+#: classes/class-xhtheme-postauto.php:1025
+#: classes/class-xhtheme-postauto.php:1029
+#: build/settings.js:1
+msgid "AI Summary"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:215
+#: classes/class-xhtheme-tool.php:177
+#: build/settings.js:1
+msgid "AI Comments"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:218
+#: build/settings.js:1
+msgid "AI Topics"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:221
+msgid "Topic Content"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:224
+#: build/settings.js:1
+msgid "AI Tags"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:227
+#: build/blocks.js:1
+msgid "Metadata"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:230
+msgid "Images Word"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:233
+msgid "Query Images"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:266
+#: classes/class-xhtheme-cronqueue.php:339
+msgid "Cron ID(s) are required"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:304
+#: build/settings.js:1
+#, php-format,js-format
+msgid "Successfully deleted %d items"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:305
+msgid "Cron deleted successfully"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:314
+msgid "Failed to delete any items"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:315
+msgid "Failed to delete cron"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:407
+#: classes/class-xhtheme-cronqueue.php:465
+#: build/settings.js:1
+#, php-format,js-format
+msgid "Successfully retried %d tasks"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:408
+msgid "Task has been queued for retry"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:418
+msgid "No tasks were retried"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:419
+msgid "Only failed tasks can be retried"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:470
+msgid "No tasks need to be retried"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:541
+msgid "Every 5 minutes"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:861
+msgid "Parent task error, association failed!"
+msgstr ""
+
+#: classes/class-xhtheme-cronqueue.php:870
+msgid "Task timeout, attempting execution!"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:69
+msgid "Default site category"
+msgstr ""
+
+#. translators: instruction for setting default category
+#: classes/class-xhtheme-postauto.php:94
+msgid "Please set the default category for the site category column to avoid AI mistakes in processing intelligent classification!"
+msgstr ""
+
+#. translators: %s: site category column name
+#: classes/class-xhtheme-postauto.php:109
+#, php-format
+msgid "Please set the default category for %s to avoid AI mistakes in processing intelligent classification!"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:110
+msgid "「Site category column」"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:121
+msgid "Set now"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:123
+msgid "Message from [XHTheme AI Toolbox] (the message will no longer be displayed after disabling automatic classification or setting the default category)!"
+msgstr ""
+
+#. translators: %s: scheduled date and time
+#. translators: %s: Scheduled date and time in Y-m-d H:i format
+#: classes/class-xhtheme-postauto.php:138
+#: classes/class-xhtheme-tool.php:245
+#, php-format
+msgid "Schedule [%s]"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:163
+#: classes/class-xhtheme-thread.php:680
+#: classes/class-xhtheme-tool.php:193
+#: build/settings.js:1
+msgid "Status"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:172
+#: classes/class-xhtheme-postauto.php:219
+#: build/blocks.js:1
+msgid "Join AI Queue"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:228
+#: build/blocks.js:1
+msgid "Queue automation tasks not configured."
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:230
+#: build/blocks.js:1
+msgid "Configure now"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:235
+#: build/blocks.js:1
+msgid "AI queue skips draft articles."
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:597
+msgid "Invalid rules data"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:656
+msgid "Automation rules saved successfully"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:679
+msgid "Post does not exist or has been deleted!"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:702
+msgid "Invalid task definition [code:002]"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:904
+msgid "Request error or timeout, please try again later!"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:924
+msgid "Invalid task type"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:977
+msgid "Failed to add task to queue"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:1005
+msgid "Error, please try again!"
+msgstr ""
+
+#: classes/class-xhtheme-postauto.php:1042
+#: build/blocks.js:1
+msgid "Comments"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:121
+msgid "Thread page has been published! "
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:123
+#: classes/class-xhtheme-thread.php:167
+msgid "View page"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:125
+#: classes/class-xhtheme-thread.php:169
+msgid "Edit Page"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:146
+msgid "Popular Topics"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:159
+msgid "Failed to create page: "
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:165
+msgid "Thread page created successfully! "
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:180
+msgid "Closed!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:186
+msgid "Thread page has been moved to drafts!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:214
+msgid "No topics available"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:237
+msgid "Load More"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:259
+msgid " ago"
+msgstr ""
+
+#. translators: %d: Reading time in minutes
+#: classes/class-xhtheme-thread.php:269
+#, php-format
+msgid "%d min read"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:309
+#: templates/comments-thread.php:26
+#: templates/single-thread-s2.php:54
+msgid "Join Discussion"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:361
+msgid "Read More"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:578
+#: classes/class-xhtheme-thread.php:842
+#: build/blocks.js:1
+msgid "Threads"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:579
+msgid "All Threads"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:580
+msgid "Add New Thread"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:581
+msgid "New Thread"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:677
+msgid "Related Post"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:678
+msgid "Thread Type"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:679
+msgid "Writing Perspective"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:698
+msgid "View Post"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:699
+msgid "Edit Post"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:743
+msgid "Published"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:765
+msgid "All Thread Types"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:782
+msgid "All Perspectives"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1008
+msgid "Associated post is not published, delaying topic content generation!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1156
+msgid "This thread does not exist, please try to access another thread!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1173
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Related Q&A"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1174
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Expert Analysis"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1175
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Long-tail Prediction"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1176
+#: build/settings.js:1
+msgid "Argument Supplement"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1193
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Personal Blogger"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1194
+#: build/settings.js:1
+msgid "Domain Expert"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1195
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Observer Analysis"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1196
+#: build/settings.js:1
+msgid "General Discussion"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1213
+msgid "Thread List Page"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1214
+msgid "Clean page template for displaying thread list!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1231
+msgid "Thread Content Page"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1232
+msgid "For displaying thread content!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1289
+msgid "Edit page to modify display content!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1291
+msgid "Thread Page Title"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1292
+msgid "Full-width thread page title block with subtitle"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1376
+#: classes/class-xhtheme-thread.php:1479
+msgid "Invalid parameters"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1380
+msgid "Please login first!"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1390
+msgid "Please login or fill in your nickname and email"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1414
+msgid "Comment published successfully"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1416
+msgid "Comment publication failed"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1450
+msgid "No more content"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1484
+msgid "Comment does not exist"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1518
+msgid "Like cancelled"
+msgstr ""
+
+#: classes/class-xhtheme-thread.php:1518
+msgid "Liked successfully"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:192
+msgid "Source"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:216
+msgid "User Profile"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:219
+msgid "AI Comments - Mixed Mode"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:222
+msgid "Comment type is determined after publication"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:228
+msgid "Automatically generate users when publishing"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:233
+msgid "AI Guest"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:236
+#: build/wizard.js:1
+msgid "User"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:356
+msgid "Starlight"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:357
+msgid "Windwalker"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:358
+msgid "Shadow"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:359
+msgid "Dreamer"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:360
+msgid "Aurora"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:361
+msgid "Fawn"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:362
+msgid "Nightwhisper"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:363
+msgid "Phantom"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:364
+msgid "Breeze"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:365
+msgid "Future"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:366
+msgid "Smile"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:367
+msgid "Passion"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:368
+msgid "Silence"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:369
+msgid "Lightyear"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:370
+msgid "Trend"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:371
+msgid "Lone Wolf"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:372
+msgid "Cloud"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:373
+msgid "Hope"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:374
+msgid "Spark"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:375
+msgid "Dawn"
+msgstr ""
+
+#: classes/class-xhtheme-tool.php:460
+msgid "Guest"
+msgstr ""
+
+#: classes/class-xhtheme-walker-thread-comment.php:33
+#: classes/class-xhtheme-walker-thread-comment.php:139
+msgid "Author"
+msgstr ""
+
+#: classes/class-xhtheme-walker-thread-comment.php:37
+#: classes/class-xhtheme-walker-thread-comment.php:124
+msgid "ago"
+msgstr ""
+
+#: classes/class-xhtheme-walker-thread-comment.php:47
+msgid "Your comment is waiting for moderation."
+msgstr ""
+
+#: classes/class-xhtheme-walker-thread-comment.php:86
+#: classes/class-xhtheme-walker-thread-comment.php:164
+msgid "Reply"
+msgstr ""
+
+#: function/function.php:68
+msgid "WordPress Post"
+msgstr ""
+
+#: function/function.php:70
+msgid "WordPress"
+msgstr ""
+
+#: function/function.php:71
+msgid "Post"
+msgstr ""
+
+#: function/function.php:73
+msgid "Auto-generate summaries, English slugs, images, reviews, tags, and categories with ease."
+msgstr ""
+
+#: function/function.php:90
+msgid "B2 Theme Shopping District"
+msgstr ""
+
+#: function/function.php:92
+msgid "B2 Theme"
+msgstr ""
+
+#: function/function.php:93
+#: function/function.php:112
+msgid "Product"
+msgstr ""
+
+#: function/function.php:95
+msgid "B2 Theme-compatible business district models with auto-generated reviews, tags, English slugs, and categories."
+msgstr ""
+
+#: function/function.php:109
+msgid "Woocommerce Product"
+msgstr ""
+
+#: function/function.php:111
+msgid "Woocommerce Plugin"
+msgstr ""
+
+#: function/function.php:114
+msgid "WooCommerce product models with auto-generated reviews, tags, and categories."
+msgstr ""
+
+#: function/function.php:128
+msgid "OneNav Theme Website"
+msgstr ""
+
+#: function/function.php:130
+msgid "OneNav Theme"
+msgstr ""
+
+#: function/function.php:131
+msgid "Website"
+msgstr ""
+
+#: function/function.php:133
+msgid "OneNav-compatible site models with auto-generated reviews, tags, and categories."
+msgstr ""
+
+#: function/function.php:741
+#: function/function.php:766
+msgid "Image file exceeds maximum size limit"
+msgstr ""
+
+#: function/function.php:760
+#, php-format
+msgid "Failed to fetch image, HTTP status: %d"
+msgstr ""
+
+#: function/function.php:771
+msgid "Image content is empty"
+msgstr ""
+
+#: function/function.php:845
+#, php-format
+msgid "Upload failed, HTTP status: %d"
+msgstr ""
+
+#: function/function.php:850
+msgid "Upload failed"
+msgstr ""
+
+#: templates/block-single-thread.php:27
+msgid "Join Topic Discussion"
+msgstr ""
+
+#. translators: %s: Number of comments
+#: templates/comments-thread.php:31
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: templates/comments-thread.php:41
+msgid "Share your thoughts..."
+msgstr ""
+
+#: templates/comments-thread.php:45
+msgid "Publish"
+msgstr ""
+
+#: templates/comments-thread.php:63
+msgid "No comments yet, be the first to share your opinion!"
+msgstr ""
+
+#: templates/comments-thread.php:103
+msgid "Reply to comment..."
+msgstr ""
+
+#: templates/comments-thread.php:118
+msgid "Please enter comment content"
+msgstr ""
+
+#: templates/comments-thread.php:131
+msgid "Publishing..."
+msgstr ""
+
+#: templates/comments-thread.php:158
+msgid "Reply published successfully!"
+msgstr ""
+
+#: templates/comments-thread.php:163
+msgid "Publishing failed, please try again"
+msgstr ""
+
+#: templates/comments-thread.php:168
+msgid "Network error, please try again later"
+msgstr ""
+
+#: templates/comments-thread.php:183
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Cancel"
+msgstr ""
+
+#: templates/single-thread-s2.php:42
+msgid " participants"
+msgstr ""
+
+#: templates/single-thread-s2.php:105
+msgid "Uncategorized"
+msgstr ""
+
+#: templates/single-thread-s2.php:157
+msgid "Further Reading"
+msgstr ""
+
+#: templates/single-thread-s2.php:160
+msgid "View More Topics"
+msgstr ""
+
+#. translators: %s: Number of discussions
+#: templates/single-thread-s2.php:189
+#, php-format
+msgid "%s discussions"
+msgstr ""
+
+#: templates/single-thread.php:26
+msgid "Thread Source:"
+msgstr ""
+
+#: templates/single-thread.php:48
+msgid "Back to Original Post"
+msgstr ""
+
+#: templates/single-thread.php:60
+msgid "Recommended Threads"
+msgstr ""
+
+#. translators: %s is the number of participants in the thread.
+#: templates/single-thread.php:73
+#, php-format
+msgid "%s participant"
+msgid_plural "%s participants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/blocks.js:1
+msgid "Unknown error"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "System configuration error: API configuration missing"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Please enter content first"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+msgid "Server response error"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+msgid "[error:20001]Request error, please try again later!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "[Content will auto-recover in 2 seconds]"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Request manually terminated by user!"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+msgid "Loading..."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Stop output"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Start AI"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Paragraph content optimization"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Undo content"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "Model: %s"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Auto"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "AI response"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "AI response:"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Request timeout, please try again later or switch to a different model!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "No valid tag data received!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "No valid comment data received!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "No valid metadata received!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Please select at least one item to generate"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "AI analysis failed: %s"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Information update failed!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "AI Smart Completion"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "The following content is generated by AI models, please review carefully!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Completed"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+msgid "Retry"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Generation failed"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "New"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Existing"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Tag Slug"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/wizard.js:1
+msgid "SEO Title"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Tag Description"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "No tags extracted, please try switching to a different model!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Anonymous User"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Immediate Publish"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "No comment content!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Failed to generate comments, please try switching to a different model!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Post Slug"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Slug used in the post URL"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Post Category"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Please select a category..."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Select the category for this post"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Processing complete, returning to post panel..."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Apply AI with One Click"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Return to Reanalyze"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Reanalyze with AI"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Completion Items:"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Select Model:"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Click to switch model"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "AI will generate %d comments, %d will be generated immediately, the remaining %d will be scheduled for publishing!"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "AI will generate %d comments!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Start Analysis"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Excerpt"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Tags"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Thread"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Category"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Slug"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Create Images"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "🎯 AI Excerpt"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "AI generated excerpt will appear here..."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "This AI-generated excerpt appears at the start of your post. Clear it to disable."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Reasoning..."
+msgstr ""
+
+#: build/blocks.js:1
+msgid " Image generation tasks will be processed via queue."
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Enter new topic"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "ADD"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Thread Features"
+msgstr ""
+
+#: build/blocks.js:1
+#: build/settings.js:1
+msgid "View Documentation"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "Current word count: %d words. AI completion available for 100+ words or with images!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Low word count - will analyze an image to assist content generation!"
+msgstr ""
+
+#: build/blocks.js:1
+#, js-format
+msgid "Current word count: %d words. AI completion available for 100+ words!"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Write by Instruction"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Expand Content"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Shorten Content"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Translate->Auto"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Translate->English"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Translate->Chinese"
+msgstr ""
+
+#: build/blocks.js:1
+msgid "Translate->Traditional Chinese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Toolbox"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "v%s"
+msgstr ""
+
+#: build/settings.js:1
+msgid "View Quota"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Quota"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refreshing..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refreshed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refresh failed, please try again later"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refresh Status"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refresh"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Model Configuration"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Content"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Metadata Completion"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Docs | Quick Start"
+msgstr ""
+
+#: build/settings.js:1
+msgid "App ID cannot be empty!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "App ID length must be between 15-30 characters!"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Error saving settings: %s"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save failed, please check your network connection and try again"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Plugin Tutorial"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Plugin Overview"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Technical Support"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Cannot find DOM element with ID xhtheme-ai-toolbox-wrapper"
+msgstr ""
+
+#: build/settings.js:1
+msgid "This summary is generated by AI analysis of the article content, for reference only."
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Please ensure APPID is correctly filled in! If you need %s information!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Get APPID"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter APPID"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Default Model"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use 「Auto Mode」the system will select the optimal model for each task!"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "List Version: %s"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Update Time: %s"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Force Update Model List"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Updated"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Update"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Concurrent Mode"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Enable concurrent requests in some scenarios to improve AI data loading speed."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Note: Cloud-based AI inference requires API key binding for all AI services!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Saved successfully!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save failed, please try again later!"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Plugin developed by %s!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Settings have been changed, remember to save"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Saving..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save All Settings"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Features"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Video Guides"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Post Alias"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use AI to automatically set post slugs in English. Recommended to enable, especially for sites with slugs in URLs."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Smart Category"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automatically select appropriate categories for posts from existing categories."
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Thread"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automatically expand 2-3 topics for articles and generate content."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Coming Soon"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Feature Introduction"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Display Style"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select your preferred style to display at the bottom of the article."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Horizontal Layout"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Vertical layout"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Description"
+msgstr ""
+
+#: build/settings.js:1
+msgid "The annotation information displayed at the bottom of the thread content."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Source annotation"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "AI Tag Extraction"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Tag Feature"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When enabled, you can use AI models to intelligently analyze article content, automatically extract tags, and enhance tag information."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Tag Quantity Range"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set the range of AI-generated tags. Drag both sliders to control the minimum and maximum number of tags."
+msgstr ""
+
+#: build/settings.js:1
+msgid "New Tag Status"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When adding new tags not yet in the database, choose whether to expand the tag SEO title, tag description, and other information for easier review."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Expanded by Default"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Collapsed by Default"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Content Generation/Optimization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Paragraph Feature"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When using paragraph blocks, you can use AI models to generate paragraph content or optimize existing paragraphs, with support for undo and model switching."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Core feature, currently cannot be disabled"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Comment Generation"
+msgstr ""
+
+#: build/settings.js:1
+msgid "When enabled, you can use AI models to intelligently analyze article content and automatically generate comments."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Output Range"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Max Publish Time"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "days"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Days"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Preview Count"
+msgstr ""
+
+#: build/settings.js:1
+msgid "items"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Items"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Note: Generating >15 comments may trigger replies for authenticity."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Disable Notice"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Disable email notifications for AI-generated comments."
+msgstr ""
+
+#: build/settings.js:1
+msgid "If the theme does not use native avatars or is not developed following native avatar interface specifications, comment avatars may fail to display. Contact us for compatibility support if needed!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Article Summary"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Summary Feature"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use AI models to intelligently analyze article content and automatically generate summaries."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Maximum Summary Length"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set maximum word count for AI-generated summaries, adjust length with slider."
+msgstr ""
+
+#: build/settings.js:1
+msgctxt "unit"
+msgid "characters"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Character Count"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Frontend Summary Display Style"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select display style for AI summaries on article pages!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Do Not Display"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Minimalist"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Gradient Background"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Custom Personalization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Support"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Custom Style"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Custom CSS code"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Don't forget to save after modification!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI generation requires APPID configuration first!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Example: Change background to light blue..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Example: Minimalist modern style, blue theme..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Modify existing style, clear to regenerate!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Generate new style, please describe your desired style!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Generating"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Quick Edit"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Generate CSS"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Enter custom CSS code here"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your styles"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Clear Code"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Save Code"
+msgstr ""
+
+#: build/settings.js:1
+msgid "CSS code save error!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your custom style failed to save!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "CSS code saved"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your custom style has been successfully saved"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Summary Module Information Customization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter summary module title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter summary module description"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Generation terminated"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to generate CSS, please retry"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter style description"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Enabled"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Disabled"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Minimum"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Maximum"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Value"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "API Smart Detection"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Simplified Chinese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Traditional Chinese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "English"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Spanish"
+msgstr ""
+
+#: build/settings.js:1
+msgid "French"
+msgstr ""
+
+#: build/settings.js:1
+msgid "German"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Japanese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Korean"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Russian"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Portuguese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Premium Model"
+msgstr ""
+
+#: build/settings.js:1
+msgid "This premium model has daily usage limits and is not available for free users."
+msgstr ""
+
+#: build/settings.js:1
+msgid "This is a premium model not available for free users."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Notice"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Smart Image Recognition"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "When enabled, AI will analyze images to supplement content when text is insufficient. %s"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Feature Description"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Beta stage, cannot be turned off yet!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Language Select"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select language. Choose 「Auto」 for unlisted/multilingual sites (100+ languages supported)."
+msgstr ""
+
+#: build/settings.js:1
+msgid "How to Choose?"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Language Selection Guide"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Fixed Language"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Accuracy: Very High"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Forces specified language for all content; highest efficiency and accuracy, but only supports fixed language!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Accuracy: Depends on Content Quality"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automatically uses WordPress backend language settings, supports multilingual plugins; suitable for multilingual sites or sites without fixed language options!"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Short content with code may affect accuracy"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Cloud-based language detection using machine translation + AI models; suitable for mixed content or sites without corresponding WordPress language options!"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Got it"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Optimize"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Write by Instruction"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Expand Content"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Shorten Content"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Translate->Auto"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Translate->English"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Translate->Chinese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Translate->Traditional Chinese"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Feature Selection"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select AI paragraph processing features to enable (Translate->Auto does not support API Smart Detection language mode)!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Summary Type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Different types serve different purposes, choose based on your needs!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Content Summary"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Engaging Preview"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Customize summary module title and description (empty values allowed)!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Other Summary Settings"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Push AI summary to post excerpt, some themes can call it in lists or page Description!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Some themes may duplicate summary display on article pages when using this feature, please enable with caution!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Tag SEO Title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Enable this option to use the tag title as the SEO title for the tag page."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Premium features unlocked with membership"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Go Premium"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set AI comment quantity range, with more than 20 comments, reply interaction effects work better."
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Comment Type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Choose the appropriate comment type, the type can be changed before the comment is published, AI users are created when the comment is published!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Guest Comment"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Registered User (Automatically generate AI users, better adaptability)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Mixed Mode (More realistic interaction environment)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Account generation and binding occur when comments are published!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Guest Comment Ratio"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Adjust the ratio of guest comments, it is recommended to set it to about 20%."
+msgstr ""
+
+#: build/settings.js:1
+msgid "%"
+msgstr ""
+
+#: build/settings.js:1
+msgid "If set to 5 days, generated comments will be spread out and scheduled to publish over the next 5 days."
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI panel generates a small number of comments for preview, remaining comments will be generated in the background."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Reminder:"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Landscape (16:9)"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Portrait (9:16)"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Square (1:1)"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "International Style"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Influencer Beauty"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Anime Style"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Realistic (suitable for closeups)"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Featured Image + Cover"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Content Image Only"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Cover Only"
+msgstr ""
+
+#: build/settings.js:1
+msgid "After First Paragraph"
+msgstr ""
+
+#: build/settings.js:1
+msgid "After Second Paragraph"
+msgstr ""
+
+#: build/settings.js:1
+msgid "After Third Paragraph"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "AI Image Generation"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use AI to generate featured images for articles"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Platform Selection"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Official channel is mainly for testing and does not guarantee concurrency performance. For production environment, it is recommended to select other platforms for generation!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Official Channel (10 quota points per image)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Bailian API-KEY"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Zhipu API-KEY"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Jimeng API-KEY"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter your Alibaba Cloud API-KEY string below."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Get API-KEY"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enter your Zhipu Open Platform API-KEY string below."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please activate Jimeng AI service and enter your API-KEY string below."
+msgstr ""
+
+#: build/settings.js:1
+msgid "API-KEY String"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Model Selection"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please select the appropriate model!"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Image Size"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select the size of generated images."
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Image Style"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select the artistic style of generated images."
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Processing Mode"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select image application scenario, cover will be overwritten, if article already has featured image this won't take effect."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Image Insertion Position"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set where to insert images in article content."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Watermark Settings"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add text watermark \"AI Generated\" on generated images, some models do not support adding watermarks!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Zhipu model watermark removal requires filling in the Zhipu open platform"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Watermark removal application"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Image Compression"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Compress uploaded images to WebP format for better performance"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Compression API provided by XHTheme, if you prefer other compression methods, please install a dedicated plugin."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Bailian Platform Text-to-Image Feature Instructions"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Text-to-image connects to Tongyi Wanxiang API, you need to enter your own KEY to generate images；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Generating image prompts consumes one platform request quota；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your KEY is not uploaded to cloud, only used locally to directly request Alibaba Cloud API；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Free quota for new users is subject to real-time display on Bailian platform；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "For detailed instructions please see："
+msgstr ""
+
+#: build/settings.js:1
+msgid "Text-to-image Docs"
+msgstr ""
+
+#: build/settings.js:1
+msgid "I Understand"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Zhipu Platform Text-to-Image Feature Instructions"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Text-to-image integrates with Zhipu image model, you need to fill in your own KEY to generate images；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Your KEY is not uploaded to cloud, only used locally to directly request Zhipu Cloud API；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Free quota for new users is subject to real-time display on Zhipu platform；"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread page created!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Edit"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread page not found, please re-enable to initialize!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Thread Generation"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Content Generation Settings"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Choose the right content generation settings to optimize AI-generated thread content!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "View Example"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Allowed Thread Types:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select at least one thread type, AI will generate content according to the required style."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Allowed Writing Perspectives:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select at least one writing perspective, AI will choose a suitable perspective to generate thread content."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Generation Count"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set the maximum number of threads that can be generated per article."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Article Footer Module Configuration"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Module Title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set the title for the primary area thread."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread module title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Hub Page Configuration"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Hub Page"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Create a page to display categorized thread list on the frontend."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Operation failed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Request failed, please try again later"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Processing..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Other Thread Settings"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Template"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select a template for the thread！"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Custom thread template tutorial"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Default template"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Use theme article page template"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Modern design template"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thread Comment"
+msgstr ""
+
+#: build/settings.js:1
+msgid " Post 3-15 comments on the new topic within 7 days to boost engagement!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Enable AI comments to access!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Auto Image"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automatically generate images for posts. Enable AI image generation first, then set the image ratio."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enable AI image generation first!"
+msgstr ""
+
+#: build/settings.js:1
+#: build/wizard.js:1
+msgid "Image Ratio"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Control how many threads will have images. For example, 50% means half of the threads will have images."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Image Percentage"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Image"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Plugin now supports the classic editor. See docs for details."
+msgstr ""
+
+#: build/settings.js:1
+msgid "View Docs"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm Block"
+msgstr ""
+
+#: build/settings.js:1
+msgid "This notice will not be shown again after closing. Confirm to block?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Help & FAQs"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Author Email: admin@xhtheme.com"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Quota Balance"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Refresh Quota"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Data is not real-time, please refer to official statistics!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Statistics Date"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Free Quota"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Package Quota"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Free quota will automatically reset %s!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "daily at midnight"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Plugin Adaptation"
+msgstr ""
+
+#: build/settings.js:1
+msgid "If you encounter program bugs, comment avatar display failure, or need custom post type support, please contact us via the following. Bug feedback will be rewarded with quota!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Author："
+msgstr ""
+
+#: build/settings.js:1
+msgid "Contact Us"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Email："
+msgstr ""
+
+#: build/settings.js:1
+msgid "Thank you for your support!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to get queue data"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while getting queue data"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Acceleration request submitted!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Queue is running!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while executing queue"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Pending"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Running"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Retry Pending"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Success"
+msgstr ""
+
+#: build/settings.js:1
+msgid "On Hold"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Skipped"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Queue Instructions"
+msgstr ""
+
+#: build/settings.js:1
+msgid "New tasks have 5-minute cooldown to prevent accidental additions;"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Tasks are processed in batches, lightweight tasks can handle multiple at once;"
+msgstr ""
+
+#: build/settings.js:1
+msgid "New tasks will start processing in 10-15 minutes at earliest;"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Execution may be delayed when website traffic is low,"
+msgstr ""
+
+#: build/settings.js:1
+msgid "can be"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Queue Optimization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "to solve;"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Abnormal tasks automatically retry 5 times then stop, with 1-hour intervals;"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed tasks will be automatically cleaned up 5 days later, and skipped tasks will be cleaned up after 2 days."
+msgstr ""
+
+#: build/settings.js:1
+msgid "View documentation for more plugin info and common issue solutions!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Status Filter"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select statuses to hide from the queue list:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Apply Filter"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Background Queue"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Queue is a mechanism based on asynchronous processing to optimize a large number of requests or complex long requests, which can complete a large number of tasks in the background to avoid long waiting times."
+msgstr ""
+
+#: build/settings.js:1
+msgid "How to use the queue?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Scheduled tasks run every 10 minutes, with a maximum duration of 5 minutes per run. Long content will be processed in batches. Execution may be delayed if site traffic is low. Abnormal tasks will be retried 5 times before stopping."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Queue Optimization Tutorial"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Queue Task List"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm Batch Deletion"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Are you sure you want to delete %d selected items?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Delete Failed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Batch delete failed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while batch deleting queue items"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Deleting..."
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Delete Selected (%d)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Filter Status"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Filter"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm Batch Retry"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "There are %d failed or pending retry tasks. Are you sure you want to perform batch retry?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Retry Failed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Batch retry failed"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while batch retrying queue items"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Retrying..."
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Retry All (%d)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Task Execution Instructions"
+msgstr ""
+
+#: build/settings.js:1
+msgid "New tasks have a 10-second cooldown period, image fetch requests have a 2-minute cooldown period, tasks cannot be activated during the cooldown period!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "I understand, continue execution"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Executing..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Execute Now"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select All"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Article Title"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Task Name"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Added Time"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Error Count"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Notes"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Actions"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Loading queue data..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "No queue data available"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm Deletion"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Are you sure you want to delete this queue item?"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while deleting queue item"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Delete"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while retrying queue item"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Total queue: %d tasks"
+msgstr ""
+
+#: build/settings.js:1
+#, js-format
+msgid "Queue is too long, %d tasks not shown."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to get automation rules"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while getting automation rules"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI English Slug"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Auto Categorization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Topic Generation"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Edit Automation Rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add Automation Rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Update Rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add Rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please select post type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "A rule for this post type already exists"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Please enable at least one task"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to save rules after updating"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while saving rules after updating"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to save rules after adding new rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while saving rules after adding new rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select Post Type:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select post type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Post type cannot be changed when editing"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select the post type for the automation rule,"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only one rule per post type!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Saving/publishing actions trigger the rule when post is not a draft!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Execution Mode:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Auto mode (can be manually disabled when publishing)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Manual mode (requires manual activation when publishing)"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Choose the appropriate execution mode for your needs."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Allow auto-publish for following post statuses:"
+msgstr ""
+
+#: build/settings.js:1
+msgctxt "post status"
+msgid "Pending"
+msgstr ""
+
+#: build/settings.js:1
+msgctxt "post status"
+msgid "Private"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Post will auto-publish after all tasks complete if status matches selected options."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Tasks Configuration"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select post type first before configuring tasks!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Scope:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "All Categories"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only Selected Categories"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Exclude Selected Categories"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Select at least one category, or it will fallback to all categories!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Notice:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only processes posts in default category or with no category. Other category-limited tasks will wait on hold until auto-categorization completes!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "If post only has a title, other tasks will be on hold until image generation completes!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Welcome to AI Automation Tool"
+msgstr ""
+
+#: build/settings.js:1
+msgid "This feature can help you:"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Create custom automation rules for different content types"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Configure category filters with whitelist/blacklist"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Set up AI tasks like summaries, tags, and categorization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "We recommend you check the detailed documentation to learn how to fully utilize these features and their trigger conditions!"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Maybe Later"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automation Rules"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Execute AI capabilities automatically based on rules to improve efficiency."
+msgstr ""
+
+#: build/settings.js:1
+msgid "View automation tutorial"
+msgstr ""
+
+#: build/settings.js:1
+msgid "After post matches rules, system will process tasks in background. Check task queue for progress."
+msgstr ""
+
+#: build/settings.js:1
+msgid "You can set category filters to control which content triggers the automation. Use whitelist to include only specific categories, or blacklist to exclude them."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Automated Rule List"
+msgstr ""
+
+#: build/settings.js:1
+msgid "rules"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Loading rules..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "No automation rules"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Get started by creating your first automation rule."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Add Your First Rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "No description available..."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Type"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Execution Mode"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Manual"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Task Count"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Auto Publish"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Off"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Smart Categorization"
+msgstr ""
+
+#: build/settings.js:1
+msgid "AI Images"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Only processes posts in default category"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Applicable Categories"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Excluded Categories"
+msgstr ""
+
+#: build/settings.js:1
+msgid "All Categories Apply"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Disabled Tasks"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Edit rule"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Confirm Delete"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Are you sure you want to delete this rule? This action cannot be undone."
+msgstr ""
+
+#: build/settings.js:1
+msgid "Failed to save rules after deletion"
+msgstr ""
+
+#: build/settings.js:1
+msgid "An error occurred while saving rules after deletion"
+msgstr ""
+
+#: build/settings.js:1
+msgid "Delete rule"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "XHTHEME Setup Wizard"
+msgstr ""
+
+#: build/wizard.js:1
+#, js-format
+msgid "Step %s of %s"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Next"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Previous"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Finish Setup"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Start Setup"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Get Started"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "More advanced settings can be adjusted in the plugin settings panel!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Congratulations, almost done!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Select Features"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Check the AI capabilities you want to enable on your website."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Please select at least one feature to continue"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Popular"
+msgstr ""
+
+#: build/wizard.js:1
+#, js-format
+msgid "%d features selected"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Summary Generation"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically summarize articles or generate engaging introductions based on content."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Intelligently extract tags from content and generate tag slugs, descriptions, and SEO titles."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Comment Interaction"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically generate comments for posts to boost engagement."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Topic Extension"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Generate related topics and corresponding articles based on content."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically generate images that match the article content."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Smart Category"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically select the most appropriate category from existing categories based on content."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Auto Slug"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically generate SEO-friendly URL slugs."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Summary Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Summary Type"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Max Length"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Sync to Post Excerpt"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Use AI summary as the default post excerpt, which some themes can sync to SEO modules."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Core Summary"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Extract core information from articles to generate concise summaries"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Engaging Introduction"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Generate more engaging introductions to improve click-through rates"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Summary Length Limit"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "chars"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Tags Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Configure AI tag extraction parameters."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Tag Count"
+msgstr ""
+
+#: build/wizard.js:1
+#, js-format
+msgid "Expected to generate %s tags per article."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Generate an SEO-friendly title along with tags."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI Comments Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Configure AI auto-comment parameters."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Choose an appropriate comment type. You can change the type before publishing. AI users are created when comments are posted!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Comment Count Range"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Set the AI comment generation range. 20+ comments recommended for better replies!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Zibll Theme: Guest comments cannot display custom avatars. Registered user mode is recommended!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Guest Comments"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Some themes show \"Guest\" label on frontend"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Registered Users"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto-generate AI users, better compatibility"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Mixed Mode"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "More realistic interaction environment"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Recommended"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Mixed Ratio"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Adjust the proportion of guest comments. Around 20% is recommended."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Disable Email Notifications"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "When enabled, no emails or notifications will be sent when AI comments are posted."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Publishing Time Limit"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "If set to 5 days, generated comments will be spread and scheduled within the next 5 days."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Publishing Period"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Topic Extension Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Topic Generation Settings"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Allowed Topic Types"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Select at least one topic type. AI will generate content based on the selected style."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Writing Perspectives"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Select at least one writing perspective. AI will match appropriate personas for creation."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Max Generation Count"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Set the maximum number of topics per article."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Enable Topic List"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Create a page to display categorized topic lists on the frontend."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Topic Content Template"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Choose a topic template. AI will generate content based on the template."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Default Template"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Use Theme Post Template"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Modern Design Template"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto Comment on Topics"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Post 3-15 comments on new topics within 7 days to boost engagement!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "(Requires AI Comments enabled)"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto Image for Topics"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto-generate images for topics. Enable AI Image first, then set the image ratio."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Control the proportion of topics with images. 50% means half of topics will have images."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "(Requires AI Image enabled)"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Enable Topic List Info"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Enabling topic list will auto-create a page. After setup, you can view or edit it in the backend or plugin settings!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Additional Viewpoints"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Industry Expert"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Public Discussion"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto Image Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Configure AI image generation parameters."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Custom Interface Enabled"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Detected non-official image generation interface. This wizard only supports official interface configuration. Please modify in the main settings panel."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Default uses platform interface. To use third-party APIs like Alibaba or Zhipu, switch in the plugin settings panel!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Third-party Image API Enabled"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "To adjust, please go to the plugin settings panel!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Realistic Style"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Insert in Content Only"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automation Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically execute AI capabilities by rules when publishing posts. More convenient and hassle-free."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automation rules already exist. Please manage in the automation panel."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automation rules already exist and cannot be edited in the wizard. Please manage in the automation panel."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Through the automation settings page, you can set more detailed rules for different post types, such as default execution status, category-level AI capability restrictions, etc.!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automation Features"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "This capability was not selected at wizard start"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Post Type"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Supported Features"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Auto-publish after tasks complete"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Pending Review"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Private"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Selected statuses will automatically change to \"Published\" after all tasks complete"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Ready to Go"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Your settings have been saved."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Settings saved. You can now start using AI Toolbox."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "All configurations saved. AI capabilities are ready. Start using now!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Exit Wizard"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Are you sure you want to exit the setup wizard? Unsaved changes will be lost."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Setup complete. Ready to use AI Toolbox."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Enter AppID"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Get AppID"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AI service requires AppID. Click \"Get AppID\" to obtain one."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Output Language"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Category Configuration"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Configure how AI categorizes articles."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Select the output language for AI-generated content. Choose \"Auto\" if your language is not listed or for multilingual support."
+msgstr ""
+
+#: build/wizard.js:1
+msgid "How to choose?"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Force all content to be generated in a specified language. Highest efficiency and accuracy, but only supports fixed language!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Automatically use WordPress backend language settings. Supports multilingual plugins. Suitable for multilingual sites!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Use cloud translation + AI model for language detection. Suitable for mixed content or sites without matching WordPress language options!"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Accuracy: High"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Save failed, please try again"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "Please enter AppID"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AppID length incorrect (15-30 characters required)"
+msgstr ""
+
+#: build/wizard.js:1
+msgid "AppID format error, should start with ai_"
+msgstr ""

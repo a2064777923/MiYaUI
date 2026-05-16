@@ -1,0 +1,1127 @@
+/**
+ * 节日氛围
+ * style.less
+ *
+ * @version 0.0.4
+ *
+ * @author 阿锋
+ * @link https://feng.pub
+ */
+.feng_custom_lantern {
+  --width: 128px;
+  --line-length: 20px;
+  --line-color: #830514;
+  --cap-color: #ffea00;
+  --body-color: #ff2b3f;
+  --bone-color: #830514;
+  position: absolute;
+  transform-origin: center top;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  pointer-events: none;
+}
+.feng_custom_lantern .lantern_box {
+  position: relative;
+  width: var(--width);
+  transform-origin: center top;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  animation: feng-custom-lantern-animation 3.5s ease-in-out infinite alternate;
+  -moz-animation: feng-custom-lantern-animation 3.5s ease-in-out infinite alternate;
+  -webkit-animation: feng-custom-lantern-animation 3.5s ease-in-out infinite alternate;
+}
+.feng_custom_lantern .lantern_box * {
+  position: absolute;
+  box-sizing: content-box;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+.feng_custom_lantern .lantern_box .line {
+  top: 0px;
+  width: calc(var(--width) * 0.02);
+  height: var(--line-length);
+  background-color: var(--line-color);
+  box-shadow: 0 0 calc(var(--width) * 0.1) var(--cap-color);
+}
+.feng_custom_lantern .lantern_box .ring {
+  top: var(--line-length);
+  width: calc(var(--width) * 0.15);
+  height: calc(var(--width) * 0.15);
+  border: calc(var(--width) * 0.02) solid var(--line-color);
+  border-radius: 50%;
+  box-shadow: 0 0 calc(var(--width) * 0.1) var(--cap-color);
+}
+.feng_custom_lantern .lantern_box .cap,
+.feng_custom_lantern .lantern_box .bottom_cap {
+  top: calc(var(--line-length) + var(--width) * 0.06);
+  width: calc(var(--width) * 0.35);
+  height: calc(var(--width) * 0.15);
+  background-color: var(--cap-color);
+  border: calc(var(--width) * 0.015) solid var(--bone-color);
+  border-radius: 50%;
+  box-shadow: 0 0 calc(var(--width) * 0.06) var(--cap-color);
+}
+.feng_custom_lantern .lantern_box .body {
+  top: calc(var(--line-length) + var(--width) * 0.13);
+  width: var(--width);
+  height: calc(var(--width) * 0.7);
+  border: calc(var(--width) * 0.015) solid var(--bone-color);
+  border-radius: 50%;
+  background-color: var(--body-color);
+  box-shadow: 0 0 var(--width) var(--cap-color);
+}
+.feng_custom_lantern .lantern_box .body .cadre {
+  top: calc(var(--width) * -0.015);
+  width: calc(var(--width) * 0.75);
+  height: 100%;
+  border: calc(var(--width) * 0.015) solid var(--bone-color);
+  border-radius: 50%;
+}
+.feng_custom_lantern .lantern_box .body .cadre:nth-child(2) {
+  width: calc(var(--width) * 0.3);
+}
+.feng_custom_lantern .lantern_box .body .text {
+  top: 0px;
+  width: 100%;
+  color: var(--cap-color);
+  text-align: center;
+  font-size: calc(var(--width) * 0.5);
+  line-height: calc(var(--width) * 0.7);
+  font-weight: bold;
+  text-shadow: 0 0 5px var(--bone-color);
+}
+.feng_custom_lantern .lantern_box .bottom_cap {
+  top: calc(var(--line-length) + var(--width) * 0.75);
+}
+.feng_custom_lantern .lantern_box .bottom {
+  top: calc(var(--line-length) + var(--width) * 0.6);
+  width: calc(var(--width) * 0.3);
+  height: calc(var(--width) * 0.5);
+  background: var(--cap-color);
+  box-shadow: 0 0 calc(var(--width) * 0.06) var(--cap-color);
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  animation: feng-custom-lantern-bottom-animation 5s ease-in-out infinite alternate;
+  -moz-animation: feng-custom-lantern-bottom-animation 5s ease-in-out infinite alternate;
+  -webkit-animation: feng-custom-lantern-bottom-animation 5s ease-in-out infinite alternate;
+}
+.feng_custom_lantern .lantern_box .bottom .bottom_bg {
+  bottom: calc(var(--width) * -0.05);
+  width: 100%;
+  height: calc(var(--width) * 0.18);
+  background-color: var(--cap-color);
+  border-radius: 50%;
+}
+.feng_custom_lantern .lantern_box .bottom .bottom_line {
+  bottom: 0px;
+  width: calc(var(--width) * 0.28);
+  height: calc(var(--width) * 0.5);
+  border-left: calc(var(--width) * 0.015) solid var(--bone-color);
+  border-right: calc(var(--width) * 0.015) solid var(--bone-color);
+}
+.feng_custom_lantern .lantern_box .bottom .bottom_line:nth-child(2) {
+  width: calc(var(--width) * 0.2);
+  bottom: calc(var(--width) * -0.039);
+}
+.feng_custom_lantern .lantern_box .bottom .bottom_line:nth-child(3) {
+  width: calc(var(--width) * 0.12);
+  bottom: calc(var(--width) * -0.0625);
+}
+.feng_custom_lantern .lantern_box .bottom .bottom_line:nth-child(4) {
+  width: calc(var(--width) * 0.04);
+  bottom: calc(var(--width) * -0.078);
+}
+@keyframes feng-custom-lantern-animation {
+  0% {
+    transform: rotate(10deg) scale(1);
+    -moz-transform: rotate(10deg) scale(1);
+    -webkit-transform: rotate(10deg) scale(1);
+  }
+  100% {
+    transform: rotate(-10deg) scale(0.95);
+    -moz-transform: rotate(-10deg) scale(0.95);
+    -webkit-transform: rotate(-10deg) scale(0.95);
+  }
+}
+@keyframes feng-custom-lantern-bottom-animation {
+  0% {
+    transform: rotate(8deg) translateX(-50%) scale(1);
+    -moz-transform: rotate(8deg) translateX(-50%) scale(1);
+    -webkit-transform: rotate(8deg) translateX(-50%) scale(1);
+  }
+  100% {
+    transform: rotate(-8deg) translateX(-50%) scale(0.95);
+    -moz-transform: rotate(-8deg) translateX(-50%) scale(0.95);
+    -webkit-transform: rotate(-8deg) translateX(-50%) scale(0.95);
+  }
+}
+.feng-custom-chinese-knot {
+  /* 绳子的宽度 */
+  --width: 8px;
+  --color-1: #a50502;
+  --color-2: #e10307;
+  --color-3: #e70104;
+  position: absolute;
+  width: calc(var(--width) * 30);
+  height: calc(var(--width) * 54);
+  transform-origin: center top;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  --line-endpoint: radial-gradient(circle at 50% 100%, var(--color-3), var(--color-2) calc(var(--width) * 0.25), var(--color-1) calc(var(--width) * 0.5), transparent calc(var(--width) * 0.5));
+}
+.feng-custom-chinese-knot .body {
+  position: absolute;
+  top: calc(var(--width) * 14);
+  left: calc(50% - var(--width) * 7.25);
+  width: calc(var(--width) * 14.5);
+  height: calc(var(--width) * 14.5);
+  transform: rotate(45deg);
+}
+.feng-custom-chinese-knot .body > div {
+  position: absolute;
+  width: calc(var(--width) * 14.5);
+  height: calc(var(--width) * 14.5);
+}
+.feng-custom-chinese-knot .body .cross div {
+  width: calc(var(--width) * 14.5);
+  height: calc(var(--width) * 14.5);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2) calc(var(--width) * 0.25), var(--color-3) calc(var(--width) * 0.5), var(--color-2) calc(var(--width) * 0.75), var(--color-1) var(--width), transparent calc(var(--width) * 0.5)) 0 0 / calc(var(--width) * 1.5) calc(var(--width) * 1.5);
+}
+.feng-custom-chinese-knot .body .cross div:last-child {
+  position: absolute;
+  top: 0;
+  transform: rotate(90deg);
+  --conic: #000 0 90deg, transparent 0 100%;
+  mask: conic-gradient(from 0deg at var(--width) calc(var(--width) * 1.5), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 90deg at calc(var(--width) * 2.5) 0, var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 180deg at calc(var(--width) * 1.5) var(--width), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 90deg at 0 calc(var(--width) * 2.5), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3);
+  -webkit-mask: conic-gradient(from 0deg at var(--width) calc(var(--width) * 1.5), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 90deg at calc(var(--width) * 2.5) 0, var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 180deg at calc(var(--width) * 1.5) var(--width), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3), conic-gradient(from 90deg at 0 calc(var(--width) * 2.5), var(--conic)) 0 0 / calc(var(--width) * 3) calc(var(--width) * 3);
+}
+.feng-custom-chinese-knot .body .circle {
+  top: 0;
+  left: 0;
+}
+.feng-custom-chinese-knot .body i {
+  position: absolute;
+  width: calc(var(--width) * 4);
+  height: calc(var(--width) * 2);
+  background: radial-gradient(circle at 50% 100%, transparent calc(var(--width) * 1), var(--color-1) calc(var(--width) * 1), var(--color-2) calc(var(--width) * 1.25), var(--color-3) calc(var(--width) * 1.5), var(--color-2) calc(var(--width) * 1.75), var(--color-1) calc(var(--width) * 2), transparent calc(var(--width) * 2));
+}
+.feng-custom-chinese-knot .body i::after {
+  content: '';
+  width: var(--width);
+  height: calc(var(--width) * 0.5);
+  position: absolute;
+  left: calc(var(--width) * 1.5);
+  bottom: 0;
+  background: var(--line-endpoint);
+}
+.feng-custom-chinese-knot .body i:nth-child(1) {
+  top: calc(var(--width) * -2);
+}
+.feng-custom-chinese-knot .body i:nth-child(2) {
+  top: calc(var(--width) * -2);
+  left: calc(var(--width) * 3);
+}
+.feng-custom-chinese-knot .body i:nth-child(3) {
+  top: calc(var(--width) * -2);
+  left: calc(var(--width) * 6);
+}
+.feng-custom-chinese-knot .body i:nth-child(4) {
+  top: calc(var(--width) * 1);
+  left: calc(var(--width) * -3);
+  transform: rotate(-90deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(5) {
+  top: calc(var(--width) * 4);
+  left: calc(var(--width) * -3);
+  transform: rotate(-90deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(6) {
+  top: calc(var(--width) * 7);
+  left: calc(var(--width) * -3);
+  transform: rotate(-90deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(7) {
+  top: calc(var(--width) * 8.5);
+  right: calc(var(--width) * -3);
+  transform: rotate(90deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(8) {
+  top: calc(var(--width) * 11.5);
+  right: calc(var(--width) * -3);
+  transform: rotate(90deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(9) {
+  bottom: calc(var(--width) * -2);
+  right: calc(var(--width) * 0);
+  transform: rotate(180deg);
+}
+.feng-custom-chinese-knot .body i:nth-child(10) {
+  bottom: calc(var(--width) * -2);
+  right: calc(var(--width) * 3);
+  transform: rotate(180deg);
+}
+.feng-custom-chinese-knot .body .circle-m div {
+  position: absolute;
+  width: calc(var(--width) * 7);
+  height: calc(var(--width) * 4);
+  background: radial-gradient(circle at 50% 100%, transparent calc(var(--width) * 2.5), var(--color-1) calc(var(--width) * 2.5), var(--color-2) calc(var(--width) * 2.75), var(--color-3) calc(var(--width) * 3), var(--color-2) calc(var(--width) * 3.25), var(--color-1) calc(var(--width) * 3.5), transparent calc(var(--width) * 3.5));
+  transform: rotate(180deg);
+}
+.feng-custom-chinese-knot .body .circle-m div:nth-child(1) {
+  bottom: calc(var(--width) * -4);
+}
+.feng-custom-chinese-knot .body .circle-m div:last-child {
+  top: calc(var(--width) * 1.5);
+  right: calc(var(--width) * -5.5);
+  transform: rotate(90deg);
+}
+.feng-custom-chinese-knot .body .circle-l div {
+  position: absolute;
+  width: calc(var(--width) * 10);
+  height: calc(var(--width) * 10);
+  background: radial-gradient(circle at 50% 50%, transparent calc(var(--width) * 1), var(--color-1) calc(var(--width) * 1), var(--color-2) calc(var(--width) * 1.25), var(--color-3) calc(var(--width) * 1.5), var(--color-2) calc(var(--width) * 1.75), var(--color-1) calc(var(--width) * 2), transparent calc(var(--width) * 2), transparent calc(var(--width) * 2.5), var(--color-1) calc(var(--width) * 2.5), var(--color-2) calc(var(--width) * 2.75), var(--color-3) calc(var(--width) * 3), var(--color-2) calc(var(--width) * 3.25), var(--color-1) calc(var(--width) * 3.5), transparent calc(var(--width) * 3.5), transparent calc(var(--width) * 4), var(--color-1) calc(var(--width) * 4), var(--color-2) calc(var(--width) * 4.25), var(--color-3) calc(var(--width) * 4.5), var(--color-2) calc(var(--width) * 4.75), var(--color-1) calc(var(--width) * 5), transparent calc(var(--width) * 5));
+}
+.feng-custom-chinese-knot .body .circle-l div::after {
+  content: '';
+  width: var(--width);
+  height: calc(var(--width) * 0.5);
+  position: absolute;
+  background: var(--line-endpoint);
+}
+.feng-custom-chinese-knot .body .circle-l div:nth-child(1) {
+  left: calc(var(--width) * -4.5);
+  bottom: calc(var(--width) * -4.5);
+  clip-path: polygon(calc(var(--width) * 4.5) calc(var(--width) * 5.5), calc(var(--width) * 4.5) 0, 0 0, 0 100%, 100% 100%, 100% calc(var(--width) * 5.5));
+}
+.feng-custom-chinese-knot .body .circle-l div:nth-child(1)::after {
+  left: calc(var(--width) * 4);
+  top: calc(var(--width) * 4.75);
+  transform: rotate(-90deg);
+}
+.feng-custom-chinese-knot .body .circle-l div:nth-child(2) {
+  top: calc(var(--width) * -4.5);
+  right: calc(var(--width) * -4.5);
+  clip-path: polygon(calc(var(--width) * 5.5) calc(var(--width) * 4.5), calc(var(--width) * 5.5) 100%, 100% 100%, 100% 0, 0 0, 0 calc(var(--width) * 4.5));
+}
+.feng-custom-chinese-knot .body .circle-l div:nth-child(2)::after {
+  left: calc(var(--width) * 4.5);
+  top: calc(var(--width) * 4.25);
+  transform: rotate(0);
+}
+.feng-custom-chinese-knot .ring {
+  position: absolute;
+  top: calc(var(--width) * 11);
+  left: calc(50% - var(--width) * 10.25);
+  width: calc(var(--width) * 20.5);
+  height: calc(var(--width) * 20.5);
+}
+.feng-custom-chinese-knot .ring div {
+  position: absolute;
+  width: calc(var(--width) * 2);
+  height: calc(var(--width) * 1);
+  left: calc(50% - var(--width) * 1);
+  background: linear-gradient(var(--color-1), var(--color-2) calc(var(--width) * 0.25), var(--color-3) calc(var(--width) * 0.5), var(--color-2) calc(var(--width) * 0.75), var(--color-1) calc(var(--width) * 1), var(--color-2) calc(var(--width) * 1.25), var(--color-3) calc(var(--width) * 1.5), var(--color-2) calc(var(--width) * 1.75), var(--color-1) calc(var(--width) * 2));
+}
+.feng-custom-chinese-knot .ring div::before {
+  content: '';
+  position: absolute;
+  width: calc(var(--width) * 0.5);
+  height: calc(var(--width) * 1);
+  left: calc(var(--width) * -0.5);
+  background: radial-gradient(circle at 100% 50%, var(--color-3), var(--color-2) calc(var(--width) * 0.25), var(--color-1) calc(var(--width) * 0.5), transparent calc(var(--width) * 0.5));
+}
+.feng-custom-chinese-knot .ring div:after {
+  content: '';
+  position: absolute;
+  width: calc(var(--width) * 0.5);
+  height: calc(var(--width) * 1);
+  right: calc(var(--width) * -0.5);
+  background: radial-gradient(circle at 0 50%, var(--color-3), var(--color-2) calc(var(--width) * 0.25), var(--color-1) calc(var(--width) * 0.5), transparent calc(var(--width) * 0.5));
+}
+.feng-custom-chinese-knot .ring div:nth-child(1),
+.feng-custom-chinese-knot .ring div:nth-child(2) {
+  top: calc(var(--width) * -2);
+}
+.feng-custom-chinese-knot .ring div:nth-child(2) {
+  top: calc(var(--width) * -1);
+}
+.feng-custom-chinese-knot .ring div:nth-child(3),
+.feng-custom-chinese-knot .ring div:nth-child(4) {
+  bottom: calc(var(--width) * -2);
+}
+.feng-custom-chinese-knot .ring div:nth-child(4) {
+  bottom: calc(var(--width) * -1);
+}
+.feng-custom-chinese-knot .head {
+  position: absolute;
+  width: calc(var(--width) * 5);
+  height: calc(var(--width) * 8);
+  left: calc(50% - var(--width) * 2.5);
+}
+.feng-custom-chinese-knot .head .hang {
+  position: absolute;
+  left: calc(50% - var(--width) * 2);
+  width: calc(var(--width) * 2);
+  height: calc(var(--width) * 8);
+  border: var(--width) solid var(--color-2);
+  border-radius: 80% 80% 100% 100%;
+}
+.feng-custom-chinese-knot .foot {
+  position: absolute;
+  left: calc(50% - var(--width) * 4);
+  top: calc(var(--width) * 33.5);
+  width: calc(var(--width) * 8);
+  height: calc(var(--width) * 20);
+}
+.feng-custom-chinese-knot .foot .ball {
+  position: absolute;
+  left: calc(50% - var(--width) * 2.5);
+  width: calc(var(--width) * 5);
+  height: calc(var(--width) * 3);
+  background: var(--color-2);
+  border-radius: calc(var(--width) * 2);
+  overflow: hidden;
+}
+.feng-custom-chinese-knot .foot .ball div {
+  position: absolute;
+  top: calc(var(--width) * -1);
+  left: calc(50% - var(--width) * 3);
+  width: calc(var(--width) * 6);
+  height: calc(var(--width) * 6);
+  background: linear-gradient(var(--color-1), var(--color-2) calc(var(--width) * 0.25), var(--color-3) calc(var(--width) * 0.5), #de8e6a calc(var(--width) * 0.75), var(--color-3) calc(var(--width) * 1), var(--color-2) calc(var(--width) * 1.25), var(--color-1) calc(var(--width) * 1.5), transparent calc(var(--width) * 1.5)) 0 0 / calc(var(--width) * 1.5) calc(var(--width) * 1.5);
+  transform: rotate(45deg);
+}
+.feng-custom-chinese-knot .foot .ball div:last-child {
+  position: absolute;
+  transform: rotate(135deg);
+  --conic: #000 0 90deg, transparent 0 100%;
+  mask: conic-gradient(from 0deg at calc(var(--width) * 1.5) calc(var(--width) * 2.25), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 90deg at calc(var(--width) * 3.75) 0, var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 180deg at calc(var(--width) * 2.25) calc(var(--width) * 1.5), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 90deg at 0 calc(var(--width) * 3.75), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5);
+  -webkit-mask: conic-gradient(from 0deg at calc(var(--width) * 1.5) calc(var(--width) * 2.25), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 90deg at calc(var(--width) * 3.75) 0, var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 180deg at calc(var(--width) * 2.25) calc(var(--width) * 1.5), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5), conic-gradient(from 90deg at 0 calc(var(--width) * 3.75), var(--conic)) 0 0 / calc(var(--width) * 4.5) calc(var(--width) * 4.5);
+}
+.feng-custom-chinese-knot .foot .line::before,
+.feng-custom-chinese-knot .foot .line::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--width) * 2.5);
+  left: calc(50% - var(--width) * 1.3);
+  width: var(--width);
+  height: calc(var(--width) * 1.5);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2) calc(var(--width) * 0.25), var(--color-3) calc(var(--width) * 0.5), var(--color-2) calc(var(--width) * 0.75), var(--color-1) calc(var(--width) * 1));
+  transform: rotate(7deg);
+}
+.feng-custom-chinese-knot .foot .line::after {
+  left: calc(50% + var(--width) * 0.3);
+  transform: rotate(-7deg);
+}
+.feng-custom-chinese-knot .foot .tassel {
+  --color-7: #f3c441;
+  position: absolute;
+  top: calc(var(--width) * 3.5);
+  left: calc(50% - var(--width) * 2.5);
+  width: calc(var(--width) * 5);
+  height: calc(var(--width) * 17);
+  background: linear-gradient(90deg, var(--color-1), var(--color-2) calc(var(--width) * 0.25), var(--color-3) calc(var(--width) * 0.5), var(--color-2) calc(var(--width) * 0.7), var(--color-3) calc(var(--width) * 0.8), var(--color-2) calc(var(--width) * 1), var(--color-3) calc(var(--width) * 1.1), var(--color-2) calc(var(--width) * 1.3), var(--color-3) calc(var(--width) * 1.4), var(--color-2) calc(var(--width) * 1.6), var(--color-3) calc(var(--width) * 1.7), var(--color-2) calc(var(--width) * 1.9), var(--color-3) calc(var(--width) * 2), var(--color-2) calc(var(--width) * 2.2), var(--color-3) calc(var(--width) * 2.3), var(--color-1) calc(var(--width) * 2.5)) 0 0 / calc(var(--width) * 2.5) calc(var(--width) * 2.5);
+  border-radius: calc(var(--width) * 0.25);
+}
+.feng-custom-chinese-knot .foot .tassel::before,
+.feng-custom-chinese-knot .foot .tassel::after {
+  content: '福';
+  position: absolute;
+  width: calc(var(--width) * 2.45);
+  height: calc(var(--width) * 3);
+  color: #fffa53;
+  text-align: center;
+  font-size: calc(var(--width) * 1.7);
+  font-family: serif;
+  font-weight: bold;
+  line-height: calc(var(--width) * 3);
+  background: linear-gradient(var(--color-1), var(--color-7) calc(var(--width) * 0.1), var(--color-7) calc(var(--width) * 0.4), transparent calc(var(--width) * 0.5), transparent calc(var(--width) * 2.5), var(--color-7) calc(var(--width) * 2.5), var(--color-7) calc(var(--width) * 2.8), var(--color-1) calc(var(--width) * 3));
+  border-radius: calc(var(--width) * 0.25) 0 0 0;
+}
+.feng-custom-chinese-knot .foot .tassel::after {
+  right: 0;
+  border-radius: 0 calc(var(--width) * 0.25) 0 0;
+}
+.feng-custom-chinese-fortune {
+  --color-1: #fee09c;
+  --color-2: #e70012;
+  --width: 300px;
+  position: absolute;
+  width: var(--width);
+  height: var(--width);
+  transition: all 1s;
+}
+.feng-custom-chinese-fortune:hover {
+  scale: 1.2;
+}
+.feng-custom-chinese-fortune > div {
+  position: absolute;
+  left: calc(50% - var(--width) * 0.325);
+  top: calc(50% - var(--width) * 0.325);
+  width: calc(var(--width) * 0.65);
+  height: calc(var(--width) * 0.65);
+  transform-origin: center center;
+  -moz-transform-origin: center center;
+  -webkit-transform-origin: center center;
+}
+.feng-custom-chinese-fortune .bg {
+  background: var(--color-2);
+  transform: rotate(45deg);
+}
+.feng-custom-chinese-fortune .bg .dot {
+  position: absolute;
+  width: calc(var(--width) * 0.14);
+  height: calc(var(--width) * 0.14);
+  border-left: calc(var(--width) * 0.005) solid var(--color-1);
+  border-top: calc(var(--width) * 0.005) solid var(--color-1);
+  border-radius: calc(var(--width) * 0.01);
+}
+.feng-custom-chinese-fortune .bg .dot span {
+  position: absolute;
+  width: calc(var(--width) * 0.06);
+  height: calc(var(--width) * 0.06);
+  top: calc(var(--width) * 0.03);
+  left: calc(var(--width) * 0.03);
+  border: calc(var(--width) * 0.005) solid var(--color-1);
+  border-radius: calc(var(--width) * 0.01);
+}
+.feng-custom-chinese-fortune .bg .dot span:nth-child(2) {
+  top: calc(var(--width) * -0.005);
+  left: calc(var(--width) * -0.005);
+}
+.feng-custom-chinese-fortune .bg .dot:nth-child(1) {
+  top: calc(var(--width) * 0.02);
+  left: calc(var(--width) * 0.02);
+}
+.feng-custom-chinese-fortune .bg .dot:nth-child(2) {
+  top: calc(var(--width) * 0.02);
+  right: calc(var(--width) * 0.02);
+  transform: rotate(90deg);
+}
+.feng-custom-chinese-fortune .bg .dot:nth-child(3) {
+  bottom: calc(var(--width) * 0.02);
+  left: calc(var(--width) * 0.02);
+  transform: rotate(-90deg);
+}
+.feng-custom-chinese-fortune .bg .dot:nth-child(4) {
+  bottom: calc(var(--width) * 0.02);
+  right: calc(var(--width) * 0.02);
+  transform: rotate(180deg);
+}
+.feng-custom-chinese-fortune .text {
+  color: var(--color-1);
+  text-align: center;
+  font-family: serif;
+}
+.feng-custom-chinese-fortune .text .fu {
+  font-size: calc(var(--width) * 0.4);
+  font-weight: bold;
+  line-height: calc(var(--width) * 0.65);
+  transform: rotate(180deg);
+}
+.feng-custom-chinese-fortune .text .year {
+  position: absolute;
+  top: calc(var(--width) * 0.01);
+  left: calc(50% - calc(var(--width) * 0.13));
+  width: calc(var(--width) * 0.26);
+  height: calc(var(--width) * 0.08);
+  font-size: calc(var(--width) * 0.065);
+  line-height: calc(var(--width) * 0.08);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.feng_custom_full_moon {
+  width: 128px;
+  height: 128px;
+  background: radial-gradient(circle at 30% 50%, #fada76, #fdeb95, #fdeb95);
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 5px #fdf4b5;
+  animation: feng-custom-full-moon-animation 5s ease-in-out infinite alternate;
+  -moz-animation: feng-custom-full-moon-animation 5s ease-in-out infinite alternate;
+  -webkit-animation: feng-custom-full-moon-animation 5s ease-in-out infinite alternate;
+}
+@keyframes feng-custom-full-moon-animation {
+  0% {
+    box-shadow: 0 0 50px 5px #fdf4b5;
+  }
+  100% {
+    box-shadow: 0 0 30px 5px #fce1b3;
+  }
+}
+.feng_custom_mid_autumn {
+  position: absolute;
+  top: 15px;
+  right: 25%;
+  pointer-events: none;
+  z-index: 1988;
+  transform-origin: top center;
+}
+.feng_custom_mid_autumn * {
+  position: absolute;
+  box-sizing: content-box;
+}
+.feng_custom_mid_autumn .moon {
+  position: relative;
+  top: 5px;
+}
+.feng_custom_mid_autumn .moon .date {
+  top: -2px;
+  left: 80px;
+  width: 15px;
+  padding: 3px 2px 7px 2px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 14px;
+  background-color: #ee1c27;
+  border-radius: 10px 10px 20px 10px;
+  transform: scale(0.7);
+  transform-origin: left top;
+}
+.feng_custom_mid_autumn .moon .text {
+  top: -5px;
+  left: 35px;
+  color: #13345f;
+  font-size: 34px;
+  font-weight: bold;
+  text-shadow: 0 0 2px #e7bc5d;
+}
+.feng_custom_mid_autumn .moon .text :nth-child(2) {
+  top: 40px;
+}
+.feng_custom_mid_autumn .moon .text :nth-child(3) {
+  top: 50px;
+  left: 35px;
+}
+.feng_custom_mid_autumn .moon .text :nth-child(4) {
+  top: 90px;
+  left: 35px;
+}
+.feng_custom_national_day {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  transform-origin: top center;
+  z-index: 1988;
+}
+.feng_custom_new_year {
+  display: block;
+  position: fixed;
+  width: 150px;
+  height: 398px;
+  background-color: #b52503;
+  border-radius: 20%;
+  transform-origin: center top;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: center top;
+  transform: scale(0.5);
+  box-shadow: 0 0 50px 5px #fdf4b5;
+  z-index: 100;
+  animation: all 1s;
+  -moz-animation: all 1s;
+  -webkit-animation: all 1s;
+}
+.feng_custom_new_year .text {
+  display: block;
+  width: 64px;
+  margin: 0 auto;
+  padding-top: 60px;
+  color: #e8e58b;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 72px;
+}
+.feng_custom_new_year .close {
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  color: #333;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 2px 5px;
+  background-color: #dedede;
+  border: 1px solid #333;
+  border-radius: 10%;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.feng_custom_new_year .close:hover {
+  opacity: 1;
+}
+.feng-custom-spring-festival-countdown {
+  --color-1: #8f1428;
+  --color-2: #ae1b35;
+  --color-3: #fcc9cc;
+  --color-4: #eda787;
+  --color-5: #f6fe95;
+  --base-width: 100px;
+}
+.feng-custom-spring-festival-countdown .box {
+  position: relative;
+  top: calc(var(--base-width) * 0.6);
+  width: var(--base-width);
+  color: var(--color-4);
+  font-size: calc(var(--base-width) * 0.12);
+  text-align: center;
+  text-shadow: 3px 3px calc(var(--base-width) * 0.05) var(--color-1);
+  box-shadow: 0 0 calc(var(--base-width) * 0.1) var(--color-1);
+  transform-origin: center top;
+  -moz-transform-origin: center top;
+  -webkit-transform-origin: center top;
+}
+.feng-custom-spring-festival-countdown .box > div {
+  width: var(--base-width);
+  padding-top: calc(var(--base-width) * 0.1);
+  padding-bottom: calc(var(--base-width) * 0.05);
+  background: linear-gradient(var(--color-1), var(--color-2), var(--color-1));
+}
+.feng-custom-spring-festival-countdown .calendar {
+  border-top: 1px solid var(--color-3);
+}
+.feng-custom-spring-festival-countdown .calendar > div {
+  display: block;
+  width: var(--base-width);
+  margin-bottom: calc(var(--base-width) * 0.05);
+  scale: 1;
+  transition: all 0.5s;
+}
+.feng-custom-spring-festival-countdown .calendar > div:hover {
+  scale: 1.2;
+}
+.feng-custom-spring-festival-countdown .calendar i {
+  display: inline-block;
+}
+.feng-custom-spring-festival-countdown .calendar .month {
+  color: var(--color-3);
+  font-weight: bold;
+}
+.feng-custom-spring-festival-countdown .calendar .day {
+  color: var(--color-5);
+  font-size: calc(var(--base-width) * 0.3);
+  font-weight: bold;
+}
+.feng-custom-spring-festival-countdown .countdown {
+  color: var(--color-5);
+}
+.feng-custom-spring-festival-countdown .countdown > div {
+  position: relative;
+  width: var(--base-width);
+  scale: 1;
+  transition: all 0.5s;
+}
+.feng-custom-spring-festival-countdown .countdown > div:hover {
+  scale: 1.1;
+}
+.feng-custom-spring-festival-countdown .countdown .image {
+  position: absolute;
+  top: calc(var(--base-width) * -0.6);
+  left: calc(50% - var(--base-width) * 0.55);
+  width: calc(var(--base-width) * 1.1);
+  height: calc(var(--base-width) * 1.1);
+  line-height: calc(var(--base-width) * 0.9);
+  font-size: calc(var(--base-width) * 0.45);
+  font-weight: bold;
+  border-radius: 50% calc(var(--base-width) * 0.3) calc(var(--base-width) * 0.15) 50%;
+  text-shadow: 0 0 calc(var(--base-width) * 0.1) var(--color-1);
+  box-shadow: 0 0 calc(var(--base-width) * 0.1) var(--color-3);
+  background: radial-gradient(var(--color-3), var(--color-2), var(--color-1));
+  background-size: cover;
+}
+.feng-custom-spring-festival-countdown .countdown .image .feng_custom_lantern {
+  --width: calc(var(--base-width) * 0.3);
+  --line-length: calc(var(--base-width) * 0.05);
+  top: calc(var(--base-width) * 0.01);
+  right: calc(var(--base-width) * 0.08);
+}
+.feng-custom-spring-festival-countdown .countdown .focus {
+  font-weight: bold;
+  color: var(--color-3);
+}
+.feng-custom-spring-festival-countdown .countdown .focus span,
+.feng-custom-spring-festival-countdown .countdown .focus i,
+.feng-custom-spring-festival-countdown .countdown .focus p {
+  display: inline-block;
+  position: relative;
+  font-size: calc(var(--base-width) * 0.45);
+}
+.feng-custom-spring-festival-countdown .countdown .focus i {
+  left: calc(var(--base-width) * 0.05);
+  font-size: calc(var(--base-width) * 0.12);
+  font-weight: 500;
+}
+.feng-custom-spring-festival-countdown .countdown .focus p {
+  font-size: calc(var(--base-width) * 0.2);
+  line-height: calc(var(--base-width) * 0.3);
+}
+.feng-custom-spring-festival-countdown .countdown .text {
+  font-size: calc(var(--base-width) * 0.14);
+  font-weight: 500;
+}
+.feng-custom-spring-festival-poster {
+  --base-width: 260px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#e92157, #7e0626);
+}
+.feng-custom-spring-festival-poster .box {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.feng-custom-spring-festival-poster .box > div {
+  position: absolute;
+  scale: 1;
+  transition: all 0.5s;
+}
+.feng-custom-spring-festival-poster .box > div:hover {
+  scale: 1.2;
+}
+.feng-custom-spring-festival-poster .feng_custom_lantern {
+  --width: calc(var(--base-width) * 0.5);
+  left: calc(50% - var(--base-width));
+}
+.feng-custom-spring-festival-poster .feng-custom-chinese-fortune {
+  --width: var(--base-width);
+  left: calc(50% - var(--width) * 0.5);
+  top: calc(50% - var(--width) * 0.5);
+}
+.feng-custom-spring-festival-poster .feng-custom-chinese-fortune .bg {
+  box-shadow: 0 0 15px #7e0626;
+}
+.feng-custom-spring-festival-poster .center-box {
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--base-width) * 2);
+  text-align: center;
+  font-size: calc(var(--base-width) * 0.6);
+}
+.feng-custom-spring-festival-poster .foot-box,
+.feng-custom-spring-festival-poster .bottom-box,
+.feng-custom-spring-festival-poster .top-box {
+  left: 0;
+  right: 0;
+  color: #fbd9e2;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 0 0 10px #7e0626;
+}
+.feng-custom-spring-festival-poster .top-box {
+  top: calc(25% - var(--base-width) * 0.3);
+}
+.feng-custom-spring-festival-poster .top-box .text {
+  position: absolute;
+  left: calc(50% - var(--base-width) * 0.1);
+  top: calc(50% - var(--base-width) * 0.3);
+  width: calc(var(--base-width) * 0.2);
+  height: calc(var(--base-width) * 0.6);
+  font-size: calc(var(--base-width) * 0.2);
+  line-height: calc(var(--base-width) * 0.3);
+}
+.feng-custom-spring-festival-poster .bottom-box {
+  bottom: calc(25% - var(--base-width) * 0.2);
+}
+.feng-custom-spring-festival-poster .bottom-box .text {
+  width: 100%;
+  letter-spacing: calc(var(--base-width) * 0.02);
+  font-size: calc(var(--base-width) * 0.2);
+}
+.feng-custom-spring-festival-poster .foot-box {
+  top: auto;
+  bottom: calc(var(--base-width) * 0.15);
+  font-size: calc(var(--base-width) * 0.06);
+}
+.feng-custom-spring-festival-pendant {
+  --base-width: 100px;
+  --base-color-1: #960400;
+  --bg-color: rgba(239, 227, 210, 0.9);
+}
+.feng-custom-spring-festival-pendant .box {
+  width: calc(var(--base-width) * 0.9);
+  height: calc(var(--base-width) * 2.6);
+  background: var(--bg-color);
+  border-radius: calc(var(--base-width) * 0.05);
+  box-shadow: 0 0 calc(var(--base-width) * 0.3) var(--base-color-1);
+}
+.feng-custom-spring-festival-pendant .box > div {
+  scale: 1;
+  transition: all 0.5s;
+}
+.feng-custom-spring-festival-pendant .box > div:hover {
+  scale: 1.2;
+}
+.feng-custom-spring-festival-pendant .feng-custom-chinese-fortune {
+  --width: calc(var(--base-width) * 1.6);
+  top: calc(50% - var(--width) * 0.5);
+  left: calc(50% - var(--width) * 0.5);
+}
+.feng-custom-spring-festival-pendant .feng-custom-chinese-fortune .bg {
+  box-shadow: 0 0 calc(var(--base-width) * 0.15) var(--base-color-1);
+}
+.feng-custom-spring-festival-pendant .feng_custom_lantern {
+  --width: calc(var(--base-width) * 0.3);
+  --line-length: calc(var(--base-width) * 0.3);
+  right: calc(var(--base-width) * -0.05);
+}
+.feng-custom-spring-festival-pendant .image {
+  position: absolute;
+  left: calc(50% - var(--base-width) * 0.53);
+  top: calc(50% - var(--base-width) * 0.53);
+  width: calc(var(--base-width) * 1.06);
+  height: calc(var(--base-width) * 1.06);
+  box-shadow: 0 0 calc(var(--base-width) * 0.15) var(--base-color-1);
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+.feng-custom-spring-festival-pendant .image .bg {
+  position: absolute;
+  left: calc(50% - var(--base-width) * 0.775);
+  top: calc(50% - var(--base-width) * 0.775);
+  width: calc(var(--base-width) * 1.55);
+  height: calc(var(--base-width) * 1.55);
+  background-size: cover;
+  transform: rotate(-45deg);
+}
+.feng-custom-spring-festival-pendant .lunar,
+.feng-custom-spring-festival-pendant .wish {
+  position: absolute;
+  top: calc(10% - var(--base-width) * 0.1);
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: calc(var(--base-width) * 0.2);
+  font-weight: bold;
+  color: #7e0626;
+  letter-spacing: calc(var(--base-width) * 0.01);
+}
+.feng-custom-spring-festival-pendant .wish {
+  top: calc(90% - var(--base-width) * 0.075);
+  font-size: calc(var(--base-width) * 0.15);
+}
+.feng-custom-fullscreen,
+.feng-custom-pendant {
+  position: fixed;
+  font-size: 12px;
+  line-height: normal;
+  filter: opacity(1);
+  transition: all 1s;
+  animation: feng-custom-fadein 1s;
+  -moz-animation: feng-custom-fadein 1s;
+  -webkit-animation: feng-custom-fadein 1s;
+}
+.feng-custom-fullscreen *,
+.feng-custom-pendant *,
+.feng-custom-fullscreen *::before,
+.feng-custom-pendant *::before,
+.feng-custom-fullscreen *::after,
+.feng-custom-pendant *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.feng-custom-fullscreen i,
+.feng-custom-pendant i {
+  font-style: normal;
+}
+.feng-custom-fullscreen .tips,
+.feng-custom-pendant .tips {
+  position: absolute;
+  top: calc(50% - 20px);
+  padding: 5px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px #c5c5c5;
+  filter: opacity(0);
+  transition: all 0.5s;
+  pointer-events: none;
+}
+.feng-custom-fullscreen:hover .control,
+.feng-custom-pendant:hover .control {
+  filter: opacity(1);
+}
+.feng-custom-fullscreen .control,
+.feng-custom-pendant .control {
+  position: absolute;
+  filter: opacity(0);
+  transition: all 0.5s;
+}
+.feng-custom-fullscreen .control .group,
+.feng-custom-pendant .control .group {
+  position: absolute;
+}
+.feng-custom-fullscreen .control .close,
+.feng-custom-pendant .control .close {
+  position: relative;
+  cursor: pointer;
+}
+.feng-custom-fullscreen .control .close i,
+.feng-custom-pendant .control .close i {
+  display: inline-block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(222, 222, 222, 0.5);
+  border: 1px solid #666666;
+  border-radius: 3px;
+}
+.feng-custom-fullscreen .control .close i::before,
+.feng-custom-pendant .control .close i::before,
+.feng-custom-fullscreen .control .close i::after,
+.feng-custom-pendant .control .close i::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  left: calc(50% - 5px);
+  top: calc(50%);
+  background-color: #333;
+  transform: rotate(45deg);
+}
+.feng-custom-fullscreen .control .close i::after,
+.feng-custom-pendant .control .close i::after {
+  transform: rotate(-45deg);
+}
+.feng-custom-pendant {
+  z-index: 998;
+}
+.feng-custom-pendant .tips {
+  left: -10px;
+  right: -10px;
+}
+.feng-custom-pendant .control-left {
+  left: -20px;
+  top: 0;
+  bottom: 0;
+}
+.feng-custom-pendant .control-left .group {
+  left: 0;
+}
+.feng-custom-pendant .control-right {
+  right: -20px;
+  top: 0;
+  bottom: 0;
+}
+.feng-custom-pendant .control-right .group {
+  top: 0;
+  right: 0;
+}
+.feng-custom-pendant .control-top {
+  top: -20px;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 20px;
+}
+.feng-custom-pendant .control-top .group {
+  top: 0;
+}
+.feng-custom-pendant .control-bottom {
+  bottom: -20px;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: 20px;
+}
+.feng-custom-pendant .control-bottom .group {
+  top: 5px;
+  right: 0;
+}
+.feng-custom-fullscreen {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+.feng-custom-fullscreen .tips {
+  width: 210px;
+  left: calc(50% - 105px);
+  border-radius: 14px;
+}
+.feng-custom-fullscreen .control {
+  width: 100%;
+}
+.feng-custom-fullscreen .control .close i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+.feng-custom-fullscreen .control .close-countdown {
+  padding: 6px 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 5px #333;
+  font-size: 12px;
+  color: #DEDEDE;
+}
+.feng-custom-fullscreen .control .close-countdown i {
+  display: none;
+}
+.feng-custom-fullscreen .control-top-left {
+  top: 20px;
+}
+.feng-custom-fullscreen .control-top-left .group {
+  left: 20px;
+}
+.feng-custom-fullscreen .control-top-right {
+  top: 20px;
+}
+.feng-custom-fullscreen .control-top-right .group {
+  right: 20px;
+}
+.feng-custom-fullscreen .control-bottom-left {
+  bottom: 20px;
+}
+.feng-custom-fullscreen .control-bottom-left .group {
+  left: 20px;
+}
+.feng-custom-fullscreen .control-bottom-right {
+  bottom: 20px;
+}
+.feng-custom-fullscreen .control-bottom-right .group {
+  right: 20px;
+}
+@keyframes feng-custom-fadein {
+  0% {
+    filter: opacity(0);
+  }
+  100% {
+    filter: opacity(1);
+  }
+}
+@media screen and (max-width: 999px) {
+  .feng_custom_mid_autumn {
+    transform: scale(0.7);
+  }
+  .feng_custom_national_day .feng_custom_lantern {
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 768px) {
+  .feng_custom_mid_autumn {
+    transform: scale(0.5);
+  }
+  .feng_custom_national_day .feng_custom_lantern {
+    transform: scale(0.5);
+  }
+  .feng-custom-spring-festival-poster {
+    --base-width: 200px;
+  }
+  .feng-custom-spring-festival-pendant {
+    --base-width: 70px;
+  }
+  .feng-custom-spring-festival-countdown {
+    --base-width: 70px;
+  }
+}

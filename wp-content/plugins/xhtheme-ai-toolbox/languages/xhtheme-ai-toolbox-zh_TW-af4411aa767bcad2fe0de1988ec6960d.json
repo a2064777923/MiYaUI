@@ -1,0 +1,1467 @@
+{
+    "translation-revision-date": "2026-01-02 01:49+0800",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "build\/settings.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "zh_TW",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "AI Smart Summary": [
+                "AI\u667a\u6167\u6458\u8981"
+            ],
+            "Settings": [
+                "\u8a2d\u5b9a"
+            ],
+            "Auto Mode": [
+                "\u81ea\u52d5\u6a21\u5f0f"
+            ],
+            "Best": [
+                "\u63a8\u85a6"
+            ],
+            "Error": [
+                "\u932f\u8aa4"
+            ],
+            "AI Summary": [
+                "AI\u6458\u8981"
+            ],
+            "AI Comments": [
+                "AI\u8a55\u8ad6"
+            ],
+            "AI Topics": [
+                "AI\u8a71\u984c"
+            ],
+            "AI Tags": [
+                "AI\u6a19\u7c64"
+            ],
+            "Successfully deleted %d items": [
+                "\u6210\u529f\u522a\u9664\u4e86 %d \u500b\u9805\u76ee"
+            ],
+            "Successfully retried %d tasks": [
+                "\u6210\u529f\u91cd\u8a66\u4e86 %d \u500b\u4efb\u52d9"
+            ],
+            "Status": [
+                "\u72c0\u614b"
+            ],
+            "Related Q&A": [
+                "\u95dc\u806f\u554f\u7b54"
+            ],
+            "Expert Analysis": [
+                "\u5c08\u696d\u89e3\u8b80"
+            ],
+            "Long-tail Prediction": [
+                "\u9577\u5c3e\u9810\u6e2c"
+            ],
+            "Argument Supplement": [
+                "\u8ad6\u8b49\u88dc\u5145"
+            ],
+            "Personal Blogger": [
+                "\u500b\u4eba\u90e8\u843d\u5ba2"
+            ],
+            "Domain Expert": [
+                "\u9818\u57df\u5c08\u5bb6"
+            ],
+            "Observer Analysis": [
+                "\u65c1\u89c0\u8005\u5206\u6790"
+            ],
+            "General Discussion": [
+                "\u96dc\u8ac7"
+            ],
+            "Cancel": [
+                "\u53d6\u6d88"
+            ],
+            "Server response error": [
+                "\u4f3a\u670d\u5668\u56de\u61c9\u932f\u8aa4"
+            ],
+            "[error:20001]Request error, please try again later!": [
+                "[\u932f\u8aa4:20001]\u8acb\u6c42\u932f\u8aa4\uff0c\u8acb\u7a0d\u5f8c\u91cd\u8a66\uff01"
+            ],
+            "Loading...": [
+                "\u8f09\u5165\u4e2d..."
+            ],
+            "Auto": [
+                "\u81ea\u52d5"
+            ],
+            "Retry": [
+                "\u91cd\u8a66"
+            ],
+            "New": [
+                "New"
+            ],
+            "View Documentation": [
+                "\u67e5\u770b\u8aaa\u660e\u6587\u4ef6"
+            ],
+            "Toolbox": [
+                "\u5de5\u5177\u7bb1"
+            ],
+            "v%s": [
+                "v%s"
+            ],
+            "View Quota": [
+                "\u67e5\u770b\u914d\u984d"
+            ],
+            "Quota": [
+                "\u914d\u984d"
+            ],
+            "Refreshing...": [
+                "\u91cd\u65b0\u6574\u7406\u4e2d..."
+            ],
+            "Refreshed": [
+                "\u5df2\u91cd\u65b0\u6574\u7406"
+            ],
+            "Refresh failed, please try again later": [
+                "\u91cd\u65b0\u6574\u7406\u5931\u6557\uff0c\u8acb\u7a0d\u5f8c\u91cd\u8a66"
+            ],
+            "Refresh Status": [
+                "\u91cd\u65b0\u6574\u7406\u72c0\u614b"
+            ],
+            "Refresh": [
+                "\u91cd\u65b0\u6574\u7406"
+            ],
+            "Model Configuration": [
+                "\u6a21\u578b\u914d\u7f6e"
+            ],
+            "AI Content": [
+                "AI\u5167\u5bb9"
+            ],
+            "Metadata Completion": [
+                "\u5143\u8cc7\u6599\u88dc\u5168"
+            ],
+            "Docs | Quick Start": [
+                "\u6a94\u6848\uff5c \u5feb\u901f\u958b\u59cb"
+            ],
+            "App ID cannot be empty!": [
+                "App ID \u4e0d\u80fd\u70ba\u7a7a\uff01"
+            ],
+            "App ID length must be between 15-30 characters!": [
+                "App ID \u9577\u5ea6\u5fc5\u9808\u5728 15-30 \u500b\u5b57\u5143\u4e4b\u9593\uff01"
+            ],
+            "Error saving settings: %s": [
+                "\u5132\u5b58\u8a2d\u5b9a\u6642\u51fa\u932f\uff1a%s"
+            ],
+            "Save failed, please check your network connection and try again": [
+                "\u5132\u5b58\u5931\u6557\uff0c\u8acb\u6aa2\u67e5\u7db2\u8def\u9023\u63a5\u4e26\u91cd\u8a66"
+            ],
+            "Plugin Tutorial": [
+                "\u63d2\u4ef6\u6559\u5b78\u6307\u5357"
+            ],
+            "Plugin Overview": [
+                "\u5b98\u65b9\u5916\u639b\u4ecb\u7d39"
+            ],
+            "Technical Support": [
+                "\u6280\u8853\u652f\u63f4"
+            ],
+            "Cannot find DOM element with ID xhtheme-ai-toolbox-wrapper": [
+                "\u627e\u4e0d\u5230 ID \u70ba xhtheme-ai-toolbox-wrapper \u7684 DOM \u5143\u7d20"
+            ],
+            "This summary is generated by AI analysis of the article content, for reference only.": [
+                "\u6b64\u6458\u8981\u7531AI\u5206\u6790\u6587\u7ae0\u5167\u5bb9\u751f\u6210\uff0c\u50c5\u4f9b\u53c3\u8003\u3002"
+            ],
+            "Please ensure APPID is correctly filled in! If you need %s information!": [
+                "\u8acb\u78ba\u4fdd\u6b63\u78ba\u586b\u5beb APPID\uff01\u5982\u679c\u60a8\u9700\u8981 %s \u8cc7\u8a0a\uff01"
+            ],
+            "Get APPID": [
+                "\u7372\u53d6 APPID"
+            ],
+            "Please enter APPID": [
+                "\u8acb\u8f38\u5165 APPID"
+            ],
+            "Default Model": [
+                "\u9810\u8a2d\u6a21\u578b"
+            ],
+            "Use \u300cAuto Mode\u300dthe system will select the optimal model for each task!": [
+                "\u63a8\u85a6\u4f7f\u7528\u300c\u81ea\u52d5\u6a21\u5f0f\u300d\u7cfb\u7d71\u5c07\u6839\u64da\u4efb\u52d9\u5339\u914d\u6700\u4f73\u6a21\u578b\uff01"
+            ],
+            "List Version: %s": [
+                "\u5217\u8868\u7248\u672c\uff1a%s"
+            ],
+            "Update Time: %s": [
+                "\u66f4\u65b0\u6642\u9593\uff1a%s"
+            ],
+            "Force Update Model List": [
+                "\u5f37\u5236\u66f4\u65b0\u6a21\u578b\u5217\u8868"
+            ],
+            "Updated": [
+                "\u5df2\u66f4\u65b0"
+            ],
+            "Update": [
+                "\u66f4\u65b0"
+            ],
+            "Concurrent Mode": [
+                "\u4e26\u884c\u6a21\u5f0f"
+            ],
+            "Enable concurrent requests in some scenarios to improve AI data loading speed.": [
+                "\u5728\u67d0\u4e9b\u5834\u666f\u4e0b\u555f\u7528\u4e26\u884c\u8acb\u6c42\uff0c\u63d0\u9ad8AI\u8cc7\u6599\u8f09\u5165\u901f\u5ea6\u3002"
+            ],
+            "Note: Cloud-based AI inference requires API key binding for all AI services!": [
+                "\u6ce8\u610f\uff1a\u57fa\u65bc\u96f2\u7aef\u7684AI\u63a8\u7406\u9700\u8981\u70ba\u6240\u6709AI\u670d\u52d9\u7d81\u5b9a API \u91d1\u9470\uff01"
+            ],
+            "Saved successfully!": [
+                "\u5132\u5b58\u6210\u529f\uff01"
+            ],
+            "Save failed, please try again later!": [
+                "\u5132\u5b58\u5931\u6557\uff0c\u8acb\u7a0d\u5f8c\u91cd\u8a66\uff01"
+            ],
+            "Plugin developed by %s!": [
+                "\u5916\u639b\u7531 %s \u958b\u767c\uff01"
+            ],
+            "Settings have been changed, remember to save": [
+                "\u8a2d\u5b9a\u5df2\u66f4\u6539\uff0c\u8a18\u5f97\u5132\u5b58"
+            ],
+            "Saving...": [
+                "\u5132\u5b58\u4e2d..."
+            ],
+            "Save All Settings": [
+                "\u5132\u5b58\u6240\u6709\u8a2d\u5b9a"
+            ],
+            "Features": [
+                "\u529f\u80fd\u6307\u5357"
+            ],
+            "Video Guides": [
+                "\u5f71\u7247\u6307\u5357"
+            ],
+            "Post Alias": [
+                "\u6587\u7ae0\u5225\u540d"
+            ],
+            "Use AI to automatically set post slugs in English. Recommended to enable, especially for sites with slugs in URLs.": [
+                "\u4f7f\u7528AI\u81ea\u52d5\u8a2d\u5b9a\u82f1\u6587\u6587\u7ae0\u5225\u540d\u3002\u5efa\u8b70\u555f\u7528\uff0c\u7279\u5225\u662f\u5c0d\u65bc URL \u4e2d\u4f7f\u7528\u5225\u540d\u7684\u7db2\u7ad9\u3002"
+            ],
+            "Smart Category": [
+                "\u667a\u6167\u5206\u985e"
+            ],
+            "Automatically select appropriate categories for posts from existing categories.": [
+                "\u5f9e\u73fe\u6709\u5206\u985e\u4e2d\u81ea\u52d5\u70ba\u6587\u7ae0\u9078\u64c7\u9069\u7576\u7684\u5206\u985e\u3002"
+            ],
+            "AI Thread": [
+                "AI \u8a71\u984c"
+            ],
+            "Automatically expand 2-3 topics for articles and generate content.": [
+                "\u81ea\u52d5\u70ba\u6587\u7ae0\u5c55\u958b 2-3 \u500b\u8bdd\u9898\u4e26\u751f\u6210\u5167\u5bb9\u3002"
+            ],
+            "Coming Soon": [
+                "\u5373\u5c07\u63a8\u51fa"
+            ],
+            "Feature Introduction": [
+                "\u529f\u80fd\u4ecb\u7d39"
+            ],
+            "Display Style": [
+                "\u986f\u793a\u6a23\u5f0f"
+            ],
+            "Select your preferred style to display at the bottom of the article.": [
+                "\u9078\u64c7\u60a8\u559c\u6b61\u7684\u6a23\u5f0f\u986f\u793a\u5728\u6587\u7ae0\u5e95\u90e8\u3002"
+            ],
+            "Horizontal Layout": [
+                "\u6c34\u5e73\u4f48\u5c40"
+            ],
+            "Vertical layout": [
+                "\u5782\u76f4\u4f48\u5c40"
+            ],
+            "Description": [
+                "\u63cf\u8ff0"
+            ],
+            "The annotation information displayed at the bottom of the thread content.": [
+                "\u986f\u793a\u5728\u8a71\u984c\u5167\u5bb9\u5e95\u90e8\u7684\u8a3b\u91cb\u8cc7\u8a0a\u3002"
+            ],
+            "Source annotation": [
+                "\u4f86\u6e90\u8a3b\u91cb"
+            ],
+            "AI Tag Extraction": [
+                "AI\u6a19\u7c64\u63d0\u53d6"
+            ],
+            "AI Tag Feature": [
+                "AI\u6a19\u7c64\u529f\u80fd"
+            ],
+            "When enabled, you can use AI models to intelligently analyze article content, automatically extract tags, and enhance tag information.": [
+                "\u555f\u7528\u5f8c\uff0c\u60a8\u53ef\u4ee5\u4f7f\u7528AI\u6a21\u578b\u667a\u6167\u5206\u6790\u6587\u7ae0\u5167\u5bb9\uff0c\u81ea\u52d5\u63d0\u53d6\u6a19\u7c64\uff0c\u4e26\u589e\u5f37\u6a19\u7c64\u8cc7\u8a0a\u3002"
+            ],
+            "Tag Quantity Range": [
+                "\u6a19\u7c64\u6578\u91cf\u7bc4\u570d"
+            ],
+            "Set the range of AI-generated tags. Drag both sliders to control the minimum and maximum number of tags.": [
+                "\u8a2d\u5b9aAI\u751f\u6210\u6a19\u7c64\u7684\u7bc4\u570d\u3002\u62d6\u52d5\u5169\u500b\u6ed1\u584a\u4f86\u63a7\u5236\u6a19\u7c64\u7684\u6700\u5c0f\u548c\u6700\u5927\u6578\u91cf\u3002"
+            ],
+            "New Tag Status": [
+                "\u65b0\u6a19\u7c64\u72c0\u614b"
+            ],
+            "When adding new tags not yet in the database, choose whether to expand the tag SEO title, tag description, and other information for easier review.": [
+                "\u65b0\u589e\u8cc7\u6599\u5eab\u4e2d\u5c1a\u4e0d\u5b58\u5728\u7684\u65b0\u6a19\u7c64\u6642\uff0c\u9078\u64c7\u662f\u5426\u5c55\u958b\u6a19\u7c64SEO\u6a19\u984c\u3001\u6a19\u7c64\u63cf\u8ff0\u7b49\u8cc7\u8a0a\u4ee5\u4fbf\u65bc\u5be9\u6838\u3002"
+            ],
+            "Expanded by Default": [
+                "\u9810\u8a2d\u5c55\u958b"
+            ],
+            "Collapsed by Default": [
+                "\u9810\u8a2d\u647a\u758a"
+            ],
+            "AI Content Generation\/Optimization": [
+                "AI\u5167\u5bb9\u751f\u6210\/\u512a\u5316"
+            ],
+            "AI Paragraph Feature": [
+                "AI\u6bb5\u843d\u529f\u80fd"
+            ],
+            "When using paragraph blocks, you can use AI models to generate paragraph content or optimize existing paragraphs, with support for undo and model switching.": [
+                "\u4f7f\u7528\u6bb5\u843d\u5340\u584a\u6642\uff0c\u60a8\u53ef\u4ee5\u4f7f\u7528AI\u6a21\u578b\u751f\u6210\u6bb5\u843d\u5167\u5bb9\u6216\u512a\u5316\u73fe\u6709\u6bb5\u843d\uff0c\u652f\u63f4\u5fa9\u539f\u548c\u6a21\u578b\u5207\u63db\u3002"
+            ],
+            "Core feature, currently cannot be disabled": [
+                "\u6838\u5fc3\u529f\u80fd\uff0c\u76ee\u524d\u7121\u6cd5\u505c\u7528"
+            ],
+            "AI Comment Generation": [
+                "AI\u8a55\u8ad6\u751f\u6210"
+            ],
+            "When enabled, you can use AI models to intelligently analyze article content and automatically generate comments.": [
+                "\u555f\u7528\u5f8c\uff0c\u60a8\u53ef\u4ee5\u4f7f\u7528AI\u6a21\u578b\u667a\u6167\u5206\u6790\u6587\u7ae0\u5167\u5bb9\u4e26\u81ea\u52d5\u751f\u6210\u8a55\u8ad6\u3002"
+            ],
+            "Output Range": [
+                "\u751f\u6210\u6570\u91cf"
+            ],
+            "Max Publish Time": [
+                "\u6700\u5927\u767c\u5e03\u6642\u9593"
+            ],
+            "days": [
+                "\u5929"
+            ],
+            "Days": [
+                "\u5929\u6578"
+            ],
+            "Preview Count": [
+                "\u9810\u89bd\u6578\u91cf"
+            ],
+            "items": [
+                "\u9805"
+            ],
+            "Items": [
+                "\u9805\u76ee"
+            ],
+            "Note: Generating >15 comments may trigger replies for authenticity.": [
+                "\u6ce8\u610f\uff1a\u751f\u6210\u8d85\u904e 15 \u689d\u8a55\u8ad6\u53ef\u80fd\u6703\u89f8\u767c\u56de\u8986\u4ee5\u589e\u52a0\u771f\u5be6\u6027\u3002"
+            ],
+            "Disable Notice": [
+                "\u505c\u7528\u901a\u77e5"
+            ],
+            "Disable email notifications for AI-generated comments.": [
+                "\u505c\u7528 AI \u751f\u6210\u8a55\u8ad6\u7684\u90f5\u4ef6\u901a\u77e5\u3002"
+            ],
+            "If the theme does not use native avatars or is not developed following native avatar interface specifications, comment avatars may fail to display. Contact us for compatibility support if needed!": [
+                "\u5982\u679c\u4e3b\u984c\u672a\u4f7f\u7528\u539f\u751f\u982d\u50cf\u6216\u672a\u6309\u7167\u539f\u751f\u982d\u50cf\u4ecb\u9762\u898f\u7bc4\u958b\u767c\uff0c\u8a55\u8ad6\u982d\u50cf\u53ef\u80fd\u7121\u6cd5\u986f\u793a\uff0c\u5982\u9047\u5230\u53ef\u806f\u7e6b\u6211\u65b9\u63d0\u4f9b\u76f8\u5bb9\u652f\u63f4\uff01"
+            ],
+            "AI Article Summary": [
+                "AI\u6587\u7ae0\u6458\u8981"
+            ],
+            "AI Summary Feature": [
+                "AI\u6458\u8981\u529f\u80fd"
+            ],
+            "Use AI models to intelligently analyze article content and automatically generate summaries.": [
+                "\u4f7f\u7528AI\u6a21\u578b\u667a\u6167\u5206\u6790\u6587\u7ae0\u5167\u5bb9\u4e26\u81ea\u52d5\u751f\u6210\u6458\u8981\u3002"
+            ],
+            "Maximum Summary Length": [
+                "\u6700\u5927\u6458\u8981\u9577\u5ea6"
+            ],
+            "Set maximum word count for AI-generated summaries, adjust length with slider.": [
+                "\u8a2d\u5b9aAI\u751f\u6210\u6458\u8981\u7684\u6700\u5927\u5b57\u6578\uff0c\u4f7f\u7528\u6ed1\u584a\u8abf\u6574\u9577\u5ea6\u3002"
+            ],
+            "unit\u0004characters": [
+                "\u5b57\u5143"
+            ],
+            "Character Count": [
+                "\u5b57\u6578"
+            ],
+            "Frontend Summary Display Style": [
+                "\u524d\u7aef\u6458\u8981\u986f\u793a\u6a23\u5f0f"
+            ],
+            "Select display style for AI summaries on article pages!": [
+                "\u9078\u64c7\u6587\u7ae0\u9801\u9762\u4e0aAI\u6458\u8981\u7684\u986f\u793a\u6a23\u5f0f\uff01"
+            ],
+            "Do Not Display": [
+                "\u4e0d\u986f\u793a"
+            ],
+            "Minimalist": [
+                "\u6975\u7c21\u98a8\u683c"
+            ],
+            "Gradient Background": [
+                "\u6f38\u5c64\u80cc\u666f"
+            ],
+            "Custom Personalization": [
+                "\u81ea\u8a02\u500b\u4eba\u5316"
+            ],
+            "AI Support": [
+                "AI\u652f\u63f4"
+            ],
+            "Custom Style": [
+                "\u81ea\u8a02\u6a23\u5f0f"
+            ],
+            "Custom CSS code": [
+                "\u81ea\u8a02 CSS \u7a0b\u5f0f\u78bc"
+            ],
+            "Don't forget to save after modification!": [
+                "\u4fee\u6539\u5f8c\u5225\u5fd8\u4e86\u5132\u5b58\uff01"
+            ],
+            "AI generation requires APPID configuration first!": [
+                "AI\u751f\u6210\u9700\u8981\u5148\u914d\u7f6e APPID\uff01"
+            ],
+            "Example: Change background to light blue...": [
+                "\u7bc4\u4f8b\uff1a\u5c07\u80cc\u666f\u6539\u70ba\u6dfa\u85cd\u8272..."
+            ],
+            "Example: Minimalist modern style, blue theme...": [
+                "\u7bc4\u4f8b\uff1a\u6975\u7c21\u73fe\u4ee3\u98a8\u683c\uff0c\u85cd\u8272\u4e3b\u984c..."
+            ],
+            "Modify existing style, clear to regenerate!": [
+                "\u4fee\u6539\u73fe\u6709\u6a23\u5f0f\uff0c\u6e05\u7a7a\u4ee5\u91cd\u65b0\u751f\u6210\uff01"
+            ],
+            "Generate new style, please describe your desired style!": [
+                "\u751f\u6210\u65b0\u6a23\u5f0f\uff0c\u8acb\u63cf\u8ff0\u60a8\u60f3\u8981\u7684\u6a23\u5f0f\uff01"
+            ],
+            "Generating": [
+                "\u751f\u6210\u4e2d"
+            ],
+            "AI Quick Edit": [
+                "AI\u5feb\u901f\u7de8\u8f2f"
+            ],
+            "AI Generate CSS": [
+                "AI\u751f\u6210CSS"
+            ],
+            "Enter custom CSS code here": [
+                "\u5728\u6b64\u8f38\u5165\u81ea\u8a02CSS\u7a0b\u5f0f\u78bc"
+            ],
+            "Your styles": [
+                "\u60a8\u7684\u6a23\u5f0f"
+            ],
+            "Clear Code": [
+                "\u6e05\u9664\u7a0b\u5f0f\u78bc"
+            ],
+            "Save Code": [
+                "\u5132\u5b58\u7a0b\u5f0f\u78bc"
+            ],
+            "CSS code save error!": [
+                "CSS \u7a0b\u5f0f\u78bc\u5132\u5b58\u932f\u8aa4\uff01"
+            ],
+            "Your custom style failed to save!": [
+                "\u60a8\u7684\u81ea\u8a02\u6a23\u5f0f\u5132\u5b58\u5931\u6557\uff01"
+            ],
+            "CSS code saved": [
+                "CSS\u7a0b\u5f0f\u78bc\u5df2\u5132\u5b58"
+            ],
+            "Your custom style has been successfully saved": [
+                "\u60a8\u7684\u81ea\u8a02\u6a23\u5f0f\u5df2\u6210\u529f\u5132\u5b58"
+            ],
+            "Confirm": [
+                "\u78ba\u8a8d"
+            ],
+            "Summary Module Information Customization": [
+                "\u6458\u8981\u6a21\u7d44\u8cc7\u8a0a\u81ea\u8a02"
+            ],
+            "Please enter summary module title": [
+                "\u8acb\u8f38\u5165\u6458\u8981\u6a21\u7d44\u6a19\u984c"
+            ],
+            "Please enter summary module description": [
+                "\u8acb\u8f38\u5165\u6458\u8981\u6a21\u7d44\u63cf\u8ff0"
+            ],
+            "Generation terminated": [
+                "\u751f\u6210\u5df2\u7d42\u6b62"
+            ],
+            "Failed to generate CSS, please retry": [
+                "CSS \u751f\u6210\u5931\u6557\uff0c\u8acb\u91cd\u8a66"
+            ],
+            "Please enter style description": [
+                "\u8acb\u8f38\u5165\u6a23\u5f0f\u63cf\u8ff0"
+            ],
+            "Enabled": [
+                "\u5df2\u555f\u7528"
+            ],
+            "Disabled": [
+                "\u5df2\u505c\u7528"
+            ],
+            "Minimum": [
+                "\u6700\u5c0f\u503c"
+            ],
+            "Maximum": [
+                "\u6700\u5927\u503c"
+            ],
+            "Value": [
+                "\u503c"
+            ],
+            "API Smart Detection": [
+                "API\u667a\u6167\u6aa2\u6e2c"
+            ],
+            "Simplified Chinese": [
+                "\u7c21\u9ad4\u4e2d\u6587"
+            ],
+            "Traditional Chinese": [
+                "\u7e41\u9ad4\u4e2d\u6587"
+            ],
+            "English": [
+                "\u82f1\u6587"
+            ],
+            "Spanish": [
+                "\u897f\u73ed\u7259\u6587"
+            ],
+            "French": [
+                "\u6cd5\u6587"
+            ],
+            "German": [
+                "\u5fb7\u6587"
+            ],
+            "Japanese": [
+                "\u65e5\u6587"
+            ],
+            "Korean": [
+                "\u97d3\u6587"
+            ],
+            "Russian": [
+                "\u4fc4\u6587"
+            ],
+            "Portuguese": [
+                "\u8461\u8404\u7259\u6587"
+            ],
+            "Premium Model": [
+                "\u9ad8\u7d1a\u6a21\u578b"
+            ],
+            "This premium model has daily usage limits and is not available for free users.": [
+                "\u6b64\u9ad8\u7d1a\u6a21\u578b\u6709\u6bcf\u65e5\u4f7f\u7528\u9650\u5236\uff0c\u514d\u8cbb\u7528\u6236\u7121\u6cd5\u4f7f\u7528\u3002"
+            ],
+            "This is a premium model not available for free users.": [
+                "\u9019\u662f\u9ad8\u7d1a\u6a21\u578b\uff0c\u514d\u8cbb\u7528\u6236\u7121\u6cd5\u4f7f\u7528\u3002"
+            ],
+            "Notice": [
+                "\u6ce8\u610f"
+            ],
+            "Smart Image Recognition": [
+                "\u667a\u6167\u5716\u50cf\u8b58\u5225"
+            ],
+            "When enabled, AI will analyze images to supplement content when text is insufficient. %s": [
+                "\u555f\u7528\u5f8c\uff0c\u7576\u6587\u5b57\u4e0d\u8db3\u6642\uff0cAI\u5c07\u5206\u6790\u5716\u7247\u4ee5\u88dc\u5145\u5167\u5bb9\u3002%s"
+            ],
+            "Feature Description": [
+                "\u529f\u80fd\u8aaa\u660e"
+            ],
+            "Beta stage, cannot be turned off yet!": [
+                "\u6e2c\u8a66\u968e\u6bb5\uff0c\u66ab\u6642\u7121\u6cd5\u95dc\u9589\uff01"
+            ],
+            "Language Select": [
+                "\u8a9e\u8a00\u9078\u64c7"
+            ],
+            "Select language. Choose \u300cAuto\u300d for unlisted\/multilingual sites (100+ languages supported).": [
+                "\u9078\u64c7\u8fd4\u56de\u8a9e\u8a00\uff0c\u672a\u5217\u51fa\u6216\u591a\u8a9e\u8a00\u7ad9\u9ede\u8acb\u9078\u300c\u81ea\u52d5\u300d\uff0c\u670d\u52d9\u7aef\u652f\u63f4100+\u7a2e\u8a9e\u8a00\u5339\u914d\u3002"
+            ],
+            "How to Choose?": [
+                "\u5982\u4f55\u9078\u64c7\uff1f"
+            ],
+            "Language Selection Guide": [
+                "\u8a9e\u8a00\u9078\u64c7\u6307\u5357"
+            ],
+            "Fixed Language": [
+                "\u56fa\u5b9a\u8a9e\u8a00"
+            ],
+            "Accuracy: Very High": [
+                "\u6e96\u78ba\u5ea6\uff1a\u975e\u5e38\u9ad8"
+            ],
+            "Forces specified language for all content; highest efficiency and accuracy, but only supports fixed language!": [
+                "\u5f37\u5236\u6240\u6709\u5167\u5bb9\u4f7f\u7528\u6307\u5b9a\u8a9e\u8a00\uff1b\u6548\u7387\u548c\u6e96\u78ba\u5ea6\u6700\u9ad8\uff0c\u4f46\u50c5\u652f\u63f4\u56fa\u5b9a\u8a9e\u8a00\uff01"
+            ],
+            "Accuracy: Depends on Content Quality": [
+                "\u6e96\u78ba\u5ea6\uff1a\u53d6\u6c7a\u65bc\u5167\u5bb9\u54c1\u8cea"
+            ],
+            "Automatically uses WordPress backend language settings, supports multilingual plugins; suitable for multilingual sites or sites without fixed language options!": [
+                "\u81ea\u52d5\u4f7f\u7528WordPress\u5f8c\u53f0\u8a9e\u8a00\u8a2d\u5b9a\uff0c\u652f\u63f4\u591a\u8a9e\u8a00\u63d2\u4ef6\uff1b\u9069\u5408\u591a\u8a9e\u8a00\u7db2\u7ad9\u6216\u672a\u63d0\u4f9b\u56fa\u5b9a\u8a9e\u8a00\u9078\u9805\u7684\u7db2\u7ad9\uff01"
+            ],
+            "Short content with code may affect accuracy": [
+                "\u77ed\u5167\u5bb9\u5305\u542b\u7a0b\u5f0f\u78bc\u53ef\u80fd\u5f71\u97ff\u6e96\u78ba\u5ea6"
+            ],
+            "Cloud-based language detection using machine translation + AI models; suitable for mixed content or sites without corresponding WordPress language options!": [
+                "\u96f2\u7aef\u900f\u904e\u6a5f\u5668\u7ffb\u8b6f+AI\u6a21\u578b\u9032\u884c\u8a9e\u8a00\u6aa2\u6e2c\uff1b\u9069\u7528\u65bc\u6df7\u5408\u5167\u5bb9\u6216WordPress\u7121\u5c0d\u61c9\u8a9e\u8a00\u9078\u9805\u7684\u7db2\u7ad9\uff01"
+            ],
+            "Got it": [
+                "\u77e5\u9053\u4e86"
+            ],
+            "AI Optimize": [
+                "AI\u512a\u5316"
+            ],
+            "AI Write by Instruction": [
+                "AI\u6309\u6307\u4ee4\u5beb\u4f5c"
+            ],
+            "AI Expand Content": [
+                "AI\u64f4\u5c55\u5167\u5bb9"
+            ],
+            "AI Shorten Content": [
+                "AI\u7e2e\u77ed\u5167\u5bb9"
+            ],
+            "AI Translate->Auto": [
+                "AI\u7ffb\u8b6f->\u81ea\u52d5"
+            ],
+            "AI Translate->English": [
+                "AI\u7ffb\u8b6f->\u82f1\u6587"
+            ],
+            "AI Translate->Chinese": [
+                "AI\u7ffb\u8b6f->\u7c21\u9ad4\u4e2d\u6587"
+            ],
+            "AI Translate->Traditional Chinese": [
+                "AI\u7ffb\u8b6f->\u7e41\u9ad4\u4e2d\u6587"
+            ],
+            "Feature Selection": [
+                "\u529f\u80fd\u9078\u64c7"
+            ],
+            "Select AI paragraph processing features to enable (Translate->Auto does not support API Smart Detection language mode)!": [
+                "\u9078\u64c7\u8981\u555f\u7528\u7684AI\u6bb5\u843d\u8655\u7406\u529f\u80fd\uff08\u7ffb\u8b6f->\u81ea\u52d5\u4e0d\u652f\u63f4API\u667a\u6167\u6aa2\u6e2c\u8a9e\u8a00\u6a21\u5f0f\uff09\uff01"
+            ],
+            "AI Summary Type": [
+                "AI\u6458\u8981\u985e\u578b"
+            ],
+            "Different types serve different purposes, choose based on your needs!": [
+                "\u4e0d\u540c\u985e\u578b\u6709\u4e0d\u540c\u7528\u9014\uff0c\u8acb\u6839\u64da\u9700\u6c42\u9078\u64c7\uff01"
+            ],
+            "Content Summary": [
+                "\u5167\u5bb9\u6458\u8981"
+            ],
+            "Engaging Preview": [
+                "\u5438\u5f15\u9810\u89bd"
+            ],
+            "Customize summary module title and description (empty values allowed)!": [
+                "\u81ea\u8a02\u6458\u8981\u6a21\u7d44\u6a19\u984c\u548c\u63cf\u8ff0\uff08\u5141\u8a31\u7a7a\u503c\uff09\uff01"
+            ],
+            "Other Summary Settings": [
+                "\u5176\u4ed6\u6458\u8981\u8a2d\u5b9a"
+            ],
+            "Push AI summary to post excerpt, some themes can call it in lists or page Description!": [
+                "\u5c07AI\u6458\u8981\u63a8\u9001\u5230\u6587\u7ae0\u6458\u8981\uff0c\u67d0\u4e9b\u4e3b\u984c\u53ef\u4ee5\u5728\u5217\u8868\u6216\u9801\u9762\u63cf\u8ff0\u4e2d\u8abf\u7528\u5b83\uff01"
+            ],
+            "Some themes may duplicate summary display on article pages when using this feature, please enable with caution!": [
+                "\u4f7f\u7528\u6b64\u529f\u80fd\u6642\uff0c\u67d0\u4e9b\u4e3b\u984c\u53ef\u80fd\u6703\u5728\u6587\u7ae0\u9801\u9762\u91cd\u8907\u986f\u793a\u6458\u8981\uff0c\u8acb\u8b39\u614e\u555f\u7528\uff01"
+            ],
+            "Tag SEO Title": [
+                "\u6a19\u7c64SEO\u6a19\u984c"
+            ],
+            "Enable this option to use the tag title as the SEO title for the tag page.": [
+                "\u555f\u7528\u6b64\u9078\u9805\u4ee5\u4f7f\u7528\u6a19\u7c64\u6a19\u984c\u4f5c\u70ba\u6a19\u7c64\u9801\u7684SEO\u6a19\u984c\u3002"
+            ],
+            "Premium features unlocked with membership": [
+                "\u958b\u901a\u6703\u54e1\u5373\u53ef\u89e3\u9396\u9ad8\u7d1a\u529f\u80fd"
+            ],
+            "Go Premium": [
+                "\u5347\u7d1a\u6703\u54e1"
+            ],
+            "Set AI comment quantity range, with more than 20 comments, reply interaction effects work better.": [
+                "\u8a2d\u5b9aAI\u8a55\u8ad6\u6578\u91cf\u7bc4\u570d\uff0c\u8d85\u904e20\u689d\u8a55\u8ad6\u6642\uff0c\u56de\u8986\u4e92\u52d5\u6548\u679c\u66f4\u597d\u3002"
+            ],
+            "Comment Type": [
+                "\u8a55\u8ad6\u985e\u578b"
+            ],
+            "Choose the appropriate comment type, the type can be changed before the comment is published, AI users are created when the comment is published!": [
+                "\u9078\u64c7\u5408\u9069\u7684\u8a55\u8ad6\u985e\u578b\uff0c\u8a55\u8ad6\u5728\u767c\u5e03\u524d\u53ef\u66f4\u6539\u985e\u578b\u3002AI \u7528\u6236\u5c07\u5728\u8a55\u8ad6\u767c\u5e03\u6642\u5275\u5efa\uff01"
+            ],
+            "Guest Comment": [
+                "\u8a2a\u5ba2\u8a55\u8ad6"
+            ],
+            "Registered User (Automatically generate AI users, better adaptability)": [
+                "\u8a3b\u518a\u7528\u6236\uff08\u81ea\u52d5\u751f\u6210 AI \u7528\u6236\uff0c\u9069\u61c9\u6027\u66f4\u4f73\uff09"
+            ],
+            "Mixed Mode (More realistic interaction environment)": [
+                "\u6df7\u5408\u6a21\u5f0f\uff08\u66f4\u771f\u5be6\u7684\u4e92\u52d5\u74b0\u5883\uff09"
+            ],
+            "Account generation and binding occur when comments are published!": [
+                "\u5e33\u6236\u751f\u6210\u548c\u7d81\u5b9a\u5728\u8a55\u8ad6\u767c\u4f48\u6642\u9032\u884c\uff01"
+            ],
+            "Guest Comment Ratio": [
+                "\u8a2a\u5ba2\u8a55\u8ad6\u6bd4\u4f8b"
+            ],
+            "Adjust the ratio of guest comments, it is recommended to set it to about 20%.": [
+                "\u8abf\u6574\u8a2a\u5ba2\u8a55\u8ad6\u6bd4\u4f8b\uff0c\u5efa\u8b70\u8a2d\u5b9a\u70ba 20% \u5de6\u53f3\u3002"
+            ],
+            "%": [
+                "%"
+            ],
+            "If set to 5 days, generated comments will be spread out and scheduled to publish over the next 5 days.": [
+                "\u5982\u679c\u8a2d\u5b9a\u70ba5\u5929\uff0c\u751f\u6210\u7684\u8a55\u8ad6\u5c07\u5206\u6563\u4e26\u5b89\u6392\u5728\u63a5\u4e0b\u4f86\u76845\u5929\u5167\u767c\u4f48\u3002"
+            ],
+            "AI panel generates a small number of comments for preview, remaining comments will be generated in the background.": [
+                "AI\u9762\u677f\u751f\u6210\u5c11\u91cf\u8a55\u8ad6\u4f9b\u9810\u89bd\uff0c\u5176\u9918\u8a55\u8ad6\u5c07\u5728\u80cc\u666f\u4e2d\u751f\u6210\u3002"
+            ],
+            "Reminder:": [
+                "\u63d0\u9192\uff1a"
+            ],
+            "Landscape (16:9)": [
+                "\u6a6b\u5716\uff0816:9\uff09"
+            ],
+            "Portrait (9:16)": [
+                "\u8c4e\u5716\uff089:16\uff09"
+            ],
+            "Square (1:1)": [
+                "\u65b9\u5716\uff081:1\uff09"
+            ],
+            "International Style": [
+                "\u570b\u969b\u98a8\u683c"
+            ],
+            "Influencer Beauty": [
+                "\u7db2\u7d05\u7f8e\u5973"
+            ],
+            "Anime Style": [
+                "\u52d5\u6f2b\u98a8\u683c"
+            ],
+            "Realistic (suitable for closeups)": [
+                "\u5beb\u5be6\u98a8\u683c\uff08\u9069\u5408\u7279\u5beb\uff09"
+            ],
+            "Featured Image + Cover": [
+                "\u7279\u8272\u5716\u7247 + \u5c01\u9762"
+            ],
+            "Content Image Only": [
+                "\u50c5\u5167\u5bb9\u5716\u7247"
+            ],
+            "Cover Only": [
+                "\u50c5\u5c01\u9762"
+            ],
+            "After First Paragraph": [
+                "\u7b2c\u4e00\u6bb5\u843d\u5f8c"
+            ],
+            "After Second Paragraph": [
+                "\u7b2c\u4e8c\u6bb5\u843d\u5f8c"
+            ],
+            "After Third Paragraph": [
+                "\u7b2c\u4e09\u6bb5\u843d\u5f8c"
+            ],
+            "AI Image Generation": [
+                "AI\u5716\u50cf\u751f\u6210"
+            ],
+            "Use AI to generate featured images for articles": [
+                "\u4f7f\u7528AI\u70ba\u6587\u7ae0\u751f\u6210\u7279\u8272\u5716\u7247"
+            ],
+            "Platform Selection": [
+                "\u5e73\u53f0\u9078\u64c7"
+            ],
+            "Official channel is mainly for testing and does not guarantee concurrency performance. For production environment, it is recommended to select other platforms for generation!": [
+                "\u5b98\u65b9\u901a\u9053\u4e3b\u8981\u7528\u65bc\u6e2c\u8a66\uff0c\u4e0d\u4fdd\u8b49\u4e26\u767c\u6027\u80fd\u3002\u5c0d\u65bc\u751f\u7522\u74b0\u5883\uff0c\u5efa\u8b70\u9078\u64c7\u5176\u4ed6\u5e73\u53f0\u9032\u884c\u751f\u6210\uff01"
+            ],
+            "Official Channel (10 quota points per image)": [
+                "\u5b98\u65b9\u901a\u9053\uff08\u6bcf\u5f35\u5716\u724710\u914d\u984d\u9ede\uff09"
+            ],
+            "Bailian API-KEY": [
+                "\u767e\u7149API-KEY"
+            ],
+            "Zhipu API-KEY": [
+                "\u667a\u8b5cAPI-KEY"
+            ],
+            "Jimeng API-KEY": [
+                "\u5373\u5922API-KEY"
+            ],
+            "Please enter your Alibaba Cloud API-KEY string below.": [
+                "\u8acb\u5728\u4e0b\u65b9\u8f38\u5165\u60a8\u7684\u963f\u91cc\u96f2API-KEY\u5b57\u4e32\u3002"
+            ],
+            "Get API-KEY": [
+                "\u7372\u53d6API-KEY"
+            ],
+            "Please enter your Zhipu Open Platform API-KEY string below.": [
+                "\u8acb\u5728\u4e0b\u65b9\u8f38\u5165\u60a8\u7684\u667a\u8b5c\u958b\u653e\u5e73\u53f0API-KEY\u5b57\u4e32\u3002"
+            ],
+            "Please activate Jimeng AI service and enter your API-KEY string below.": [
+                "\u8acb\u555f\u7528\u5373\u5922AI\u670d\u52d9\u4e26\u5728\u4e0b\u65b9\u8f38\u5165\u60a8\u7684API-KEY\u5b57\u4e32\u3002"
+            ],
+            "API-KEY String": [
+                "API-KEY\u5b57\u4e32"
+            ],
+            "Model Selection": [
+                "\u6a21\u578b\u9078\u64c7"
+            ],
+            "Please select the appropriate model!": [
+                "\u8acb\u9078\u64c7\u9069\u7576\u7684\u6a21\u578b\uff01"
+            ],
+            "Image Size": [
+                "\u5716\u7247\u5c3a\u5bf8"
+            ],
+            "Select the size of generated images.": [
+                "\u9078\u64c7\u751f\u6210\u5716\u7247\u7684\u5c3a\u5bf8\u3002"
+            ],
+            "Image Style": [
+                "\u5716\u7247\u98a8\u683c"
+            ],
+            "Select the artistic style of generated images.": [
+                "\u9078\u64c7\u751f\u6210\u5716\u7247\u7684\u85dd\u8853\u98a8\u683c\u3002"
+            ],
+            "Processing Mode": [
+                "\u8655\u7406\u6a21\u5f0f"
+            ],
+            "Select image application scenario, cover will be overwritten, if article already has featured image this won't take effect.": [
+                "\u9078\u64c7\u5716\u7247\u61c9\u7528\u5834\u666f\uff0c\u5c01\u9762\u5c07\u88ab\u8986\u84cb\uff0c\u5982\u679c\u6587\u7ae0\u5df2\u6709\u7279\u8272\u5716\u7247\u5247\u4e0d\u6703\u751f\u6548\u3002"
+            ],
+            "Image Insertion Position": [
+                "\u5716\u7247\u63d2\u5165\u4f4d\u7f6e"
+            ],
+            "Set where to insert images in article content.": [
+                "\u8a2d\u7f6e\u5728\u6587\u7ae0\u5167\u5bb9\u4e2d\u63d2\u5165\u5716\u7247\u7684\u4f4d\u7f6e\u3002"
+            ],
+            "Watermark Settings": [
+                "\u6d6e\u6c34\u5370\u8a2d\u7f6e"
+            ],
+            "Add text watermark \"AI Generated\" on generated images, some models do not support adding watermarks!": [
+                "\u5728\u751f\u6210\u7684\u5716\u7247\u4e0a\u6dfb\u52a0\u300cAI Generated\u300d\u6587\u5b57\u6c34\u5370\uff0c\u67d0\u4e9b\u6a21\u578b\u4e0d\u652f\u63f4\u6dfb\u52a0\u6c34\u5370\uff01"
+            ],
+            "Zhipu model watermark removal requires filling in the Zhipu open platform": [
+                "\u667a\u8b5c\u6a21\u578b\u53bb\u9664\u6c34\u5370\u9700\u8981\u5728\u667a\u8b5c\u958b\u653e\u5e73\u53f0\u586b\u5beb"
+            ],
+            "Watermark removal application": [
+                "\u53bb\u6c34\u5370\u7533\u8acb"
+            ],
+            "Image Compression": [
+                "\u5716\u7247\u58d3\u7e2e"
+            ],
+            "Compress uploaded images to WebP format for better performance": [
+                "\u5c07\u4e0a\u50b3\u7684\u5716\u7247\u58d3\u7e2e\u70baWebP\u683c\u5f0f\u4ee5\u63d0\u5347\u6548\u80fd"
+            ],
+            "Compression API provided by XHTheme, if you prefer other compression methods, please install a dedicated plugin.": [
+                "\u7531XHTheme\u63d0\u4f9b\u7684\u58d3\u7e2eAPI\uff0c\u5982\u679c\u60a8\u504f\u597d\u5176\u4ed6\u58d3\u7e2e\u65b9\u6cd5\uff0c\u8acb\u5b89\u88dd\u5c08\u7528\u63d2\u4ef6\u3002"
+            ],
+            "Bailian Platform Text-to-Image Feature Instructions": [
+                "\u767e\u7149\u5e73\u53f0\u6587\u751f\u5716\u529f\u80fd\u8aaa\u660e"
+            ],
+            "Text-to-image connects to Tongyi Wanxiang API, you need to enter your own KEY to generate images\uff1b": [
+                "\u6587\u751f\u5716\u9023\u63a5\u901a\u7fa9\u842c\u8c61API\uff0c\u60a8\u9700\u8981\u8f38\u5165\u81ea\u5df1\u7684KEY\u624d\u80fd\u751f\u6210\u5716\u7247\uff1b"
+            ],
+            "Generating image prompts consumes one platform request quota\uff1b": [
+                "\u751f\u6210\u5716\u7247\u63d0\u793a\u8a5e\u6703\u6d88\u8017\u4e00\u6b21\u5e73\u53f0\u8acb\u6c42\u914d\u984d\uff1b"
+            ],
+            "Your KEY is not uploaded to cloud, only used locally to directly request Alibaba Cloud API\uff1b": [
+                "\u60a8\u7684KEY\u4e0d\u6703\u4e0a\u50b3\u5230\u96f2\u7aef\uff0c\u50c5\u5728\u672c\u5730\u7528\u65bc\u76f4\u63a5\u8acb\u6c42\u963f\u91cc\u96f2API\uff1b"
+            ],
+            "Free quota for new users is subject to real-time display on Bailian platform\uff1b": [
+                "\u65b0\u7528\u6236\u7684\u514d\u8cbb\u914d\u984d\u4ee5\u767e\u7149\u5e73\u53f0\u5373\u6642\u986f\u793a\u70ba\u6e96\uff1b"
+            ],
+            "For detailed instructions please see\uff1a": [
+                "\u8a73\u7d30\u4f7f\u7528\u8aaa\u660e\u8acb\u53c3\u898b\uff1a"
+            ],
+            "Text-to-image Docs": [
+                "\u6587\u751f\u5716\u6587\u6a94"
+            ],
+            "I Understand": [
+                "\u6211\u5df2\u4e86\u89e3"
+            ],
+            "Zhipu Platform Text-to-Image Feature Instructions": [
+                "\u667a\u8b5c\u5e73\u53f0\u6587\u751f\u5716\u529f\u80fd\u8aaa\u660e"
+            ],
+            "Text-to-image integrates with Zhipu image model, you need to fill in your own KEY to generate images\uff1b": [
+                "\u6587\u751f\u5716\u6574\u5408\u667a\u8b5c\u5716\u50cf\u6a21\u578b\uff0c\u60a8\u9700\u8981\u586b\u5beb\u81ea\u5df1\u7684KEY\u624d\u80fd\u751f\u6210\u5716\u7247\uff1b"
+            ],
+            "Your KEY is not uploaded to cloud, only used locally to directly request Zhipu Cloud API\uff1b": [
+                "\u60a8\u7684KEY\u4e0d\u6703\u4e0a\u50b3\u5230\u96f2\u7aef\uff0c\u50c5\u5728\u672c\u5730\u7528\u65bc\u76f4\u63a5\u8acb\u6c42\u667a\u8b5c\u96f2API\uff1b"
+            ],
+            "Free quota for new users is subject to real-time display on Zhipu platform\uff1b": [
+                "\u65b0\u7528\u6236\u7684\u514d\u8cbb\u914d\u984d\u4ee5\u667a\u8b5c\u5e73\u53f0\u5373\u6642\u986f\u793a\u70ba\u6e96\uff1b"
+            ],
+            "Thread page created!": [
+                "\u8a71\u984c\u9801\u9762\u5df2\u5efa\u7acb\uff01"
+            ],
+            "Edit": [
+                "\u7de8\u8f2f"
+            ],
+            "Thread page not found, please re-enable to initialize!": [
+                "\u672a\u627e\u5230\u8a71\u984c\u9801\u9762\uff0c\u8acb\u91cd\u65b0\u555f\u7528\u9032\u884c\u521d\u59cb\u5316\uff01"
+            ],
+            "AI Thread Generation": [
+                "AI\u8a71\u984c\u751f\u6210"
+            ],
+            "Thread Content Generation Settings": [
+                "\u8a71\u984c\u5167\u5bb9\u751f\u6210\u8a2d\u5b9a"
+            ],
+            "Choose the right content generation settings to optimize AI-generated thread content!": [
+                "\u9078\u64c7\u9069\u5408\u60a8\u7684\u5167\u5bb9\u751f\u6210\u8a2d\u5b9a\u4f86\u512a\u5316AI\u751f\u6210\u7684\u8a71\u984c\u5167\u5bb9\uff01"
+            ],
+            "View Example": [
+                "\u67e5\u770b\u7bc4\u4f8b"
+            ],
+            "Allowed Thread Types:": [
+                "\u5141\u8a31\u751f\u6210\u7684\u8a71\u984c\u985e\u578b\uff1a"
+            ],
+            "Select at least one thread type, AI will generate content according to the required style.": [
+                "\u9078\u64c7\u81f3\u5c11\u4e00\u500b\u8a71\u984c\u985e\u578b\uff0cAI\u5c07\u6309\u7167\u8981\u6c42\u98a8\u683c\u751f\u6210\u8a71\u984c\u5167\u5bb9\u3002"
+            ],
+            "Allowed Writing Perspectives:": [
+                "\u5141\u8a31\u7684\u5167\u5bb9\u5beb\u4f5c\u8996\u89d2\uff1a"
+            ],
+            "Select at least one writing perspective, AI will choose a suitable perspective to generate thread content.": [
+                "\u9078\u64c7\u81f3\u5c11\u4e00\u500b\u5beb\u4f5c\u8996\u89d2\uff0cAI\u5c07\u5f9e\u4e2d\u9078\u51fa\u4e00\u500b\u5408\u9069\u7684\u8996\u89d2\u751f\u6210\u8a71\u984c\u5167\u5bb9\u3002"
+            ],
+            "Thread Generation Count": [
+                "\u8a71\u984c\u751f\u6210\u6578\u91cf"
+            ],
+            "Set the maximum number of threads that can be generated per article.": [
+                "\u8a2d\u5b9a\u6bcf\u7bc7\u6587\u7ae0\u6700\u591a\u53ef\u751f\u6210\u7684\u8a71\u984c\u6578\u91cf\u3002"
+            ],
+            "Article Footer Module Configuration": [
+                "\u6587\u7ae0\u5e95\u90e8\u6a21\u7d44\u914d\u7f6e"
+            ],
+            "Module Title": [
+                "\u6a21\u7d44\u6a19\u984c"
+            ],
+            "Set the title for the primary area thread.": [
+                "\u8a2d\u5b9a\u4e3b\u5340\u57df\u8a71\u984c\u7684\u6a19\u984c\u3002"
+            ],
+            "Thread module title": [
+                "\u8a71\u984c\u6a21\u7d44\u6a19\u984c"
+            ],
+            "Thread Hub Page Configuration": [
+                "\u8a71\u984c\u5f59\u805a\u9801\u9762\u914d\u7f6e"
+            ],
+            "Thread Hub Page": [
+                "\u8a71\u984c\u5f59\u805a\u9801"
+            ],
+            "Create a page to display categorized thread list on the frontend.": [
+                "\u5728\u524d\u7aef\u5efa\u7acb\u4e00\u500b\u9801\u9762\u5206\u985e\u986f\u793a\u8a71\u984c\u5217\u8868\u3002"
+            ],
+            "Operation failed": [
+                "\u64cd\u4f5c\u5931\u6557"
+            ],
+            "Request failed, please try again later": [
+                "\u8acb\u6c42\u5931\u6557\uff0c\u8acb\u7a0d\u5f8c\u91cd\u8a66"
+            ],
+            "Processing...": [
+                "\u8655\u7406\u4e2d..."
+            ],
+            "Other Thread Settings": [
+                "\u5176\u4ed6\u8a71\u984c\u8a2d\u5b9a"
+            ],
+            "Thread Template": [
+                "\u8a71\u984c\u6a21\u677f"
+            ],
+            "Select a template for the thread\uff01": [
+                "\u9078\u64c7\u4e00\u500b\u8a71\u984c\u6a21\u677f\uff01"
+            ],
+            "Custom thread template tutorial": [
+                "\u81ea\u5b9a\u7fa9\u8a71\u984c\u6a21\u677f\u6559\u7a0b"
+            ],
+            "Default template": [
+                "\u9810\u8a2d\u6a21\u677f"
+            ],
+            "Use theme article page template": [
+                "\u4f7f\u7528\u4e3b\u984c\u6587\u7ae0\u9801\u6a21\u677f"
+            ],
+            "Modern design template": [
+                "\u73fe\u4ee3\u8a2d\u8a08\u7bc4\u672c"
+            ],
+            "Thread Comment": [
+                "\u8a71\u984c\u8a55\u8ad6"
+            ],
+            " Post 3-15 comments on the new topic within 7 days to boost engagement!": [
+                "\u57287\u5929\u5167\u767c\u5e033-15\u689d\u8a55\u8ad6\uff0c\u63d0\u5347\u8a71\u984c\u7684\u4e92\u52d5\uff01"
+            ],
+            "Enable AI comments to access!": [
+                "\u555f\u7528AI\u8a55\u8ad6\u529f\u80fd\u5f8c\u53ef\u7528\uff01"
+            ],
+            "Auto Image": [
+                "\u81ea\u52d5\u5716\u7247"
+            ],
+            "Automatically generate images for posts. Enable AI image generation first, then set the image ratio.": [
+                "\u81ea\u52d5\u70ba\u8cbc\u6587\u751f\u6210\u5716\u7247\u3002\u8acb\u5148\u555f\u7528AI\u5716\u7247\u751f\u6210\u529f\u80fd\uff0c\u518d\u8a2d\u5b9a\u5716\u7247\u5360\u6bd4\u3002"
+            ],
+            "Please enable AI image generation first!": [
+                "\u8acb\u5148\u555f\u7528AI\u5716\u50cf\u751f\u6210\uff01"
+            ],
+            "Image Ratio": [
+                "\u914d\u5716\u6bd4\u4f8b"
+            ],
+            "Control how many threads will have images. For example, 50% means half of the threads will have images.": [
+                "\u63a7\u5236\u591a\u5c11\u8a71\u984c\u6703\u751f\u6210\u914d\u5716\uff0c\u4f8b\u598250%\u8868\u793a\u4e00\u534a\u7684\u8a71\u984c\u6703\u6709\u914d\u5716\u3002"
+            ],
+            "Image Percentage": [
+                "\u914d\u5716\u5360\u6bd4"
+            ],
+            "AI Image": [
+                "AI\u5716\u7247"
+            ],
+            "Plugin now supports the classic editor. See docs for details.": [
+                "\u5916\u639b\u73fe\u5df2\u652f\u63f4\u7d93\u5178\u7de8\u8f2f\u5668\u3002\u8a73\u60c5\u8acb\u53c3\u95b1\u8aaa\u660e\u6587\u4ef6\u3002"
+            ],
+            "View Docs": [
+                "\u67e5\u770b\u6587\u4ef6"
+            ],
+            "Confirm Block": [
+                "\u78ba\u8a8d\u5c4f\u853d"
+            ],
+            "This notice will not be shown again after closing. Confirm to block?": [
+                "\u95dc\u9589\u5f8c\u5c07\u4e0d\u518d\u986f\u793a\u8a72\u901a\u77e5\uff0c\u8acb\u78ba\u8a8d\u662f\u5426\u5c4f\u853d\uff1f"
+            ],
+            "Help & FAQs": [
+                "\u5e38\u89c1\u95ee\u9898\uff08FAQ\uff09"
+            ],
+            "Author Email: admin@xhtheme.com": [
+                "\u4f5c\u8005\u90ae\u7bb1\uff1aadmin@xhtheme.com"
+            ],
+            "Quota Balance": [
+                "\u914d\u984d\u9918\u984d"
+            ],
+            "Refresh Quota": [
+                "\u91cd\u65b0\u6574\u7406\u914d\u984d"
+            ],
+            "Data is not real-time, please refer to official statistics!": [
+                "\u8cc7\u6599\u975e\u5373\u6642\uff0c\u8acb\u4ee5\u5b98\u65b9\u7d71\u8a08\u70ba\u6e96\uff01"
+            ],
+            "Statistics Date": [
+                "\u7d71\u8a08\u65e5\u671f"
+            ],
+            "Free Quota": [
+                "\u514d\u8cbb\u914d\u984d"
+            ],
+            "Package Quota": [
+                "\u5957\u9910\u914d\u984d"
+            ],
+            "Free quota will automatically reset %s!": [
+                "\u514d\u8cbb\u984d\u5ea6\u5c07\u65bc%s\u81ea\u52d5\u91cd\u7f6e\uff01"
+            ],
+            "daily at midnight": [
+                "\u6bcf\u65e5\u96f6\u9ede"
+            ],
+            "Plugin Adaptation": [
+                "\u63d2\u4ef6\u81ea\u9069\u61c9"
+            ],
+            "If you encounter program bugs, comment avatar display failure, or need custom post type support, please contact us via the following. Bug feedback will be rewarded with quota!": [
+                "\u5982\u679c\u60a8\u9047\u5230\u7a0b\u5f0fBUG\u3001\u8a55\u8ad6\u982d\u50cf\u4e0d\u986f\u793a\u6216\u9700\u8981\u81ea\u8a02\u6587\u7ae0\u985e\u578b\u652f\u63f4\uff0c\u8acb\u901a\u904e\u4ee5\u4e0b\u65b9\u5f0f\u806f\u7e6b\u6211\u5011\uff0cBUG\u56de\u5831\u5c07\u6709\u984d\u5ea6\u734e\u52f5\u54e6\uff01"
+            ],
+            "Author\uff1a": [
+                "\u4f5c\u8005\uff1a"
+            ],
+            "Contact Us": [
+                "\u806f\u7e6b\u6211\u5011"
+            ],
+            "Email\uff1a": [
+                "\u90f5\u7bb1\uff1a"
+            ],
+            "Thank you for your support!": [
+                "\u611f\u8b1d\u60a8\u7684\u652f\u6301\uff01"
+            ],
+            "Failed to get queue data": [
+                "\u7372\u53d6\u4f47\u5217\u8cc7\u6599\u5931\u6557"
+            ],
+            "An error occurred while getting queue data": [
+                "\u7372\u53d6\u4f47\u5217\u8cc7\u6599\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Acceleration request submitted!": [
+                "\u52a0\u901f\u8acb\u6c42\u5df2\u63d0\u4ea4\uff01"
+            ],
+            "Queue is running!": [
+                "\u4f47\u5217\u6b63\u5728\u57f7\u884c\u4e2d\uff01"
+            ],
+            "An error occurred while executing queue": [
+                "\u57f7\u884c\u4f47\u5217\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Pending": [
+                "\u5f85\u8655\u7406"
+            ],
+            "Running": [
+                "\u57f7\u884c\u4e2d"
+            ],
+            "Retry Pending": [
+                "\u5f85\u91cd\u8a66"
+            ],
+            "Success": [
+                "\u6210\u529f"
+            ],
+            "On Hold": [
+                "\u5f85\u547d\u4e2d"
+            ],
+            "Skipped": [
+                "\u5df2\u8df3\u904e"
+            ],
+            "AI Queue Instructions": [
+                "AI\u968a\u5217\u529f\u80fd\u8aaa\u660e"
+            ],
+            "New tasks have 5-minute cooldown to prevent accidental additions;": [
+                "\u65b0\u4efb\u52d9\u67095\u5206\u9418\u51b7\u537b\u671f\u4ee5\u9632\u6b62\u610f\u5916\u6dfb\u52a0\uff1b"
+            ],
+            "Tasks are processed in batches, lightweight tasks can handle multiple at once;": [
+                "\u4efb\u52d9\u6279\u91cf\u8655\u7406\uff0c\u8f15\u91cf\u7d1a\u4efb\u52d9\u53ef\u540c\u6642\u8655\u7406\u591a\u500b\uff1b"
+            ],
+            "New tasks will start processing in 10-15 minutes at earliest;": [
+                "\u65b0\u4efb\u52d9\u6700\u65e9\u5c07\u572810-15\u5206\u9418\u5f8c\u958b\u59cb\u8655\u7406\uff1b"
+            ],
+            "Execution may be delayed when website traffic is low,": [
+                "\u7db2\u7ad9\u6d41\u91cf\u4f4e\u6642\u57f7\u884c\u53ef\u80fd\u6703\u5ef6\u9072\uff0c"
+            ],
+            "can be": [
+                "\u53ef\u4ee5"
+            ],
+            "Queue Optimization": [
+                "\u968a\u5217\u512a\u5316"
+            ],
+            "to solve;": [
+                "\u89e3\u6c7a\uff1b"
+            ],
+            "Abnormal tasks automatically retry 5 times then stop, with 1-hour intervals;": [
+                "\u7570\u5e38\u4efb\u52d9\u81ea\u52d5\u91cd\u8a665\u6b21\u5f8c\u505c\u6b62\uff0c\u9593\u96941\u5c0f\u6642\uff1b"
+            ],
+            "Failed tasks will be automatically cleaned up 5 days later, and skipped tasks will be cleaned up after 2 days.": [
+                "\u5931\u6557\u4efb\u52d9\u5c07\u57285\u5929\u5f8c\u81ea\u52d5\u6e05\u7406\uff0c\u8df3\u904e\u7684\u4efb\u52d9\u5c07\u57282\u5929\u5f8c\u6e05\u7406\u3002"
+            ],
+            "View documentation for more plugin info and common issue solutions!": [
+                "\u67e5\u770b\u6587\u6a94\u7372\u53d6\u66f4\u591a\u63d2\u4ef6\u4fe1\u606f\u548c\u5e38\u898b\u554f\u984c\u89e3\u6c7a\u65b9\u6848\uff01"
+            ],
+            "Status Filter": [
+                "\u72c0\u614b\u7be9\u9078"
+            ],
+            "Select statuses to hide from the queue list:": [
+                "\u9078\u64c7\u8981\u5f9e\u4f47\u5217\u5217\u8868\u96b1\u85cf\u7684\u72c0\u614b\uff1a"
+            ],
+            "Apply Filter": [
+                "\u5957\u7528\u7be9\u9078"
+            ],
+            "Background Queue": [
+                "\u80cc\u666f\u4f47\u5217"
+            ],
+            "AI Queue is a mechanism based on asynchronous processing to optimize a large number of requests or complex long requests, which can complete a large number of tasks in the background to avoid long waiting times.": [
+                "AI\u4f47\u5217\u662f\u4e00\u7a2e\u57fa\u65bc\u975e\u540c\u6b65\u8655\u7406\u7684\u6a5f\u5236\uff0c\u53ef\u512a\u5316\u5927\u91cf\u8acb\u6c42\u6216\u8907\u96dc\u9577\u8acb\u6c42\uff0c\u80fd\u5728\u80cc\u666f\u4e2d\u5b8c\u6210\u5927\u91cf\u4efb\u52d9\uff0c\u907f\u514d\u9577\u6642\u9593\u7b49\u5f85\u3002"
+            ],
+            "How to use the queue?": [
+                "\u5982\u4f55\u4f7f\u7528\u4f47\u5217\uff1f"
+            ],
+            "Scheduled tasks run every 10 minutes, with a maximum duration of 5 minutes per run. Long content will be processed in batches. Execution may be delayed if site traffic is low. Abnormal tasks will be retried 5 times before stopping.": [
+                "\u5b9a\u6642\u4efb\u52d9\u6bcf10\u5206\u9418\u57f7\u884c\u4e00\u6b21\uff0c\u6bcf\u6b21\u6700\u591a\u6301\u7e8c5\u5206\u9418\u3002\u9577\u5167\u5bb9\u5c07\u5206\u6279\u8655\u7406\u3002\u5982\u7db2\u7ad9\u6d41\u91cf\u8f03\u4f4e\uff0c\u57f7\u884c\u53ef\u80fd\u5ef6\u9072\u3002\u7570\u5e38\u4efb\u52d9\u5c07\u91cd\u8a665\u6b21\u5f8c\u505c\u6b62\u3002"
+            ],
+            "Queue Optimization Tutorial": [
+                "\u4f47\u5217\u512a\u5316\u6559\u5b78"
+            ],
+            "Queue Task List": [
+                "\u4f47\u5217\u4efb\u52d9\u5217\u8868"
+            ],
+            "Confirm Batch Deletion": [
+                "\u78ba\u8a8d\u6279\u6b21\u522a\u9664"
+            ],
+            "Are you sure you want to delete %d selected items?": [
+                "\u78ba\u5b9a\u8981\u522a\u9664\u9078\u4e2d\u7684 %d \u500b\u9805\u76ee\u55ce\uff1f"
+            ],
+            "Delete Failed": [
+                "\u522a\u9664\u5931\u6557"
+            ],
+            "Batch delete failed": [
+                "\u6279\u6b21\u522a\u9664\u5931\u6557"
+            ],
+            "An error occurred while batch deleting queue items": [
+                "\u6279\u6b21\u522a\u9664\u4f47\u5217\u9805\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Deleting...": [
+                "\u522a\u9664\u4e2d..."
+            ],
+            "Delete Selected (%d)": [
+                "\u522a\u9664\u9078\u4e2d\u9805 (%d)"
+            ],
+            "Filter Status": [
+                "\u7be9\u9078\u72c0\u614b"
+            ],
+            "Filter": [
+                "\u7be9\u9078"
+            ],
+            "Confirm Batch Retry": [
+                "\u78ba\u8a8d\u6279\u6b21\u91cd\u8a66"
+            ],
+            "There are %d failed or pending retry tasks. Are you sure you want to perform batch retry?": [
+                "\u6709 %d \u500b\u5931\u6557\u6216\u5f85\u91cd\u8a66\u7684\u4efb\u52d9\u3002\u78ba\u5b9a\u8981\u57f7\u884c\u6279\u6b21\u91cd\u8a66\u55ce\uff1f"
+            ],
+            "Retry Failed": [
+                "\u91cd\u8a66\u5931\u6557"
+            ],
+            "Batch retry failed": [
+                "\u6279\u6b21\u91cd\u8a66\u5931\u6557"
+            ],
+            "An error occurred while batch retrying queue items": [
+                "\u6279\u6b21\u91cd\u8a66\u4f47\u5217\u9805\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Retrying...": [
+                "\u91cd\u8a66\u4e2d..."
+            ],
+            "Retry All (%d)": [
+                "\u91cd\u8a66\u5168\u90e8 (%d)"
+            ],
+            "Task Execution Instructions": [
+                "\u4efb\u52d9\u57f7\u884c\u8aaa\u660e"
+            ],
+            "New tasks have a 10-second cooldown period, image fetch requests have a 2-minute cooldown period, tasks cannot be activated during the cooldown period!": [
+                "\u65b0\u4efb\u52d9\u670910\u79d2\u51b7\u537b\u671f\uff0c\u5716\u7247\u7372\u53d6\u8acb\u6c42\u67092\u5206\u9418\u51b7\u537b\u671f\uff0c\u51b7\u537b\u671f\u5167\u7121\u6cd5\u555f\u7528\u4efb\u52d9\uff01"
+            ],
+            "I understand, continue execution": [
+                "\u6211\u4e86\u89e3\uff0c\u7e7c\u7e8c\u57f7\u884c"
+            ],
+            "Executing...": [
+                "\u57f7\u884c\u4e2d..."
+            ],
+            "Execute Now": [
+                "\u7acb\u5373\u57f7\u884c"
+            ],
+            "Select All": [
+                "\u5168\u9078"
+            ],
+            "Article Title": [
+                "\u6587\u7ae0\u6a19\u984c"
+            ],
+            "Task Name": [
+                "\u4efb\u52d9\u540d\u7a31"
+            ],
+            "Added Time": [
+                "\u65b0\u589e\u6642\u9593"
+            ],
+            "Error Count": [
+                "\u932f\u8aa4\u6b21\u6578"
+            ],
+            "Notes": [
+                "\u5099\u8a3b"
+            ],
+            "Actions": [
+                "\u64cd\u4f5c"
+            ],
+            "Loading queue data...": [
+                "\u6b63\u5728\u8f09\u5165\u4f47\u5217\u8cc7\u6599..."
+            ],
+            "No queue data available": [
+                "\u66ab\u7121\u4f47\u5217\u8cc7\u6599"
+            ],
+            "Confirm Deletion": [
+                "\u78ba\u8a8d\u522a\u9664"
+            ],
+            "Are you sure you want to delete this queue item?": [
+                "\u78ba\u5b9a\u8981\u522a\u9664\u6b64\u4f47\u5217\u9805\u76ee\u55ce\uff1f"
+            ],
+            "An error occurred while deleting queue item": [
+                "\u522a\u9664\u4f47\u5217\u9805\u76ee\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Delete": [
+                "\u522a\u9664"
+            ],
+            "An error occurred while retrying queue item": [
+                "\u91cd\u8a66\u968a\u5217\u9805\u76ee\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Total queue: %d tasks": [
+                "\u4f47\u5217\u7e3d\u6578\uff1a%d \u500b\u4efb\u52d9"
+            ],
+            "Queue is too long, %d tasks not shown.": [
+                "\u4f47\u5217\u592a\u9577\uff0c\u672a\u986f\u793a %d \u500b\u4efb\u52d9\u3002"
+            ],
+            "Failed to get automation rules": [
+                "\u7372\u53d6\u81ea\u52d5\u5316\u898f\u5247\u5931\u6557"
+            ],
+            "An error occurred while getting automation rules": [
+                "\u7372\u53d6\u81ea\u52d5\u5316\u898f\u5247\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "AI English Slug": [
+                "AI\u82f1\u6587\u5225\u540d"
+            ],
+            "AI Auto Categorization": [
+                "AI\u81ea\u52d5\u5206\u985e"
+            ],
+            "AI Topic Generation": [
+                "AI\u8a71\u984c\u751f\u6210"
+            ],
+            "Edit Automation Rule": [
+                "\u7de8\u8f2f\u81ea\u52d5\u5316\u898f\u5247"
+            ],
+            "Add Automation Rule": [
+                "\u65b0\u589e\u81ea\u52d5\u5316\u898f\u5247"
+            ],
+            "Update Rule": [
+                "\u66f4\u65b0\u898f\u5247"
+            ],
+            "Add Rule": [
+                "\u65b0\u589e\u898f\u5247"
+            ],
+            "Please select post type": [
+                "\u8acb\u9078\u64c7\u6587\u7ae0\u985e\u578b"
+            ],
+            "A rule for this post type already exists": [
+                "\u6b64\u6587\u7ae0\u985e\u578b\u7684\u898f\u5247\u5df2\u5b58\u5728"
+            ],
+            "Please enable at least one task": [
+                "\u8acb\u81f3\u5c11\u555f\u7528\u4e00\u500b\u4efb\u52d9"
+            ],
+            "Failed to save rules after updating": [
+                "\u66f4\u65b0\u5f8c\u5132\u5b58\u898f\u5247\u5931\u6557"
+            ],
+            "An error occurred while saving rules after updating": [
+                "\u66f4\u65b0\u5f8c\u5132\u5b58\u898f\u5247\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Failed to save rules after adding new rule": [
+                "\u65b0\u589e\u898f\u5247\u5f8c\u5132\u5b58\u5931\u6557"
+            ],
+            "An error occurred while saving rules after adding new rule": [
+                "\u65b0\u589e\u898f\u5247\u5f8c\u5132\u5b58\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Select Post Type:": [
+                "\u9078\u64c7\u6587\u7ae0\u985e\u578b\uff1a"
+            ],
+            "Select post type": [
+                "\u9078\u64c7\u6587\u7ae0\u985e\u578b"
+            ],
+            "Post type cannot be changed when editing": [
+                "\u7de8\u8f2f\u6642\u7121\u6cd5\u66f4\u6539\u6587\u7ae0\u985e\u578b"
+            ],
+            "Select the post type for the automation rule,": [
+                "\u9078\u64c7\u81ea\u52d5\u5316\u898f\u5247\u7684\u6587\u7ae0\u985e\u578b\uff0c"
+            ],
+            "Only one rule per post type!": [
+                "\u6bcf\u7a2e\u6587\u7ae0\u985e\u578b\u53ea\u80fd\u6709\u4e00\u500b\u898f\u5247\uff01"
+            ],
+            "Saving\/publishing actions trigger the rule when post is not a draft!": [
+                "\u7576\u6587\u7ae0\u4e0d\u662f\u8349\u7a3f\u6642\uff0c\u5132\u5b58\/\u767c\u4f48\u52d5\u4f5c\u6703\u89f8\u767c\u898f\u5247\uff01"
+            ],
+            "Execution Mode:": [
+                "\u57f7\u884c\u6a21\u5f0f\uff1a"
+            ],
+            "Auto mode (can be manually disabled when publishing)": [
+                "\u81ea\u52d5\u6a21\u5f0f\uff08\u767c\u4f48\u6642\u53ef\u624b\u52d5\u505c\u7528\uff09"
+            ],
+            "Manual mode (requires manual activation when publishing)": [
+                "\u624b\u52d5\u6a21\u5f0f\uff08\u767c\u4f48\u6642\u9700\u624b\u52d5\u555f\u7528\uff09"
+            ],
+            "Choose the appropriate execution mode for your needs.": [
+                "\u6839\u64da\u60a8\u7684\u9700\u6c42\u9078\u64c7\u9069\u7576\u7684\u57f7\u884c\u6a21\u5f0f\u3002"
+            ],
+            "Allow auto-publish for following post statuses:": [
+                "\u5141\u8a31\u4ee5\u4e0b\u6587\u7ae0\u72c0\u614b\u81ea\u52d5\u767c\u4f48\uff1a"
+            ],
+            "post status\u0004Pending": [
+                "\u5f85\u5be9\u6838"
+            ],
+            "post status\u0004Private": [
+                "\u79c1\u5bc6"
+            ],
+            "Post will auto-publish after all tasks complete if status matches selected options.": [
+                "\u5982\u679c\u72c0\u614b\u7b26\u5408\u6240\u9078\u9078\u9805\uff0c\u6587\u7ae0\u5c07\u5728\u6240\u6709\u4efb\u52d9\u5b8c\u6210\u5f8c\u81ea\u52d5\u767c\u4f48\u3002"
+            ],
+            "Tasks Configuration": [
+                "\u4efb\u52d9\u914d\u7f6e"
+            ],
+            "Select post type first before configuring tasks!": [
+                "\u914d\u7f6e\u4efb\u52d9\u524d\u8acb\u5148\u9078\u64c7\u6587\u7ae0\u985e\u578b\uff01"
+            ],
+            "Scope:": [
+                "\u7bc4\u570d\uff1a"
+            ],
+            "All Categories": [
+                "\u6240\u6709\u5206\u985e"
+            ],
+            "Only Selected Categories": [
+                "\u50c5\u9078\u5b9a\u7684\u5206\u985e"
+            ],
+            "Exclude Selected Categories": [
+                "\u6392\u9664\u9078\u5b9a\u7684\u5206\u985e"
+            ],
+            "Select at least one category, or it will fallback to all categories!": [
+                "\u8acb\u81f3\u5c11\u9078\u64c7\u4e00\u500b\u5206\u985e\uff0c\u5426\u5247\u5c07\u56de\u9000\u81f3\u6240\u6709\u5206\u985e\uff01"
+            ],
+            "Notice:": [
+                "\u6ce8\u610f\uff1a"
+            ],
+            "Only processes posts in default category or with no category. Other category-limited tasks will wait on hold until auto-categorization completes!": [
+                "\u50c5\u8655\u7406\u9810\u8a2d\u5206\u985e\u6216\u7121\u5206\u985e\u7684\u6587\u7ae0\u3002\u5176\u4ed6\u5206\u985e\u9650\u5236\u7684\u4efb\u52d9\u5c07\u7b49\u5f85\uff0c\u76f4\u5230\u81ea\u52d5\u5206\u985e\u5b8c\u6210\uff01"
+            ],
+            "If post only has a title, other tasks will be on hold until image generation completes!": [
+                "\u5982\u679c\u6587\u7ae0\u53ea\u6709\u6a19\u984c\uff0c\u5176\u4ed6\u4efb\u52d9\u5c07\u7b49\u5f85\uff0c\u76f4\u5230\u5716\u7247\u751f\u6210\u5b8c\u6210\uff01"
+            ],
+            "Welcome to AI Automation Tool": [
+                "\u6b61\u8fce\u4f7f\u7528AI\u81ea\u52d5\u5316\u5de5\u5177"
+            ],
+            "This feature can help you:": [
+                "\u6b64\u529f\u80fd\u53ef\u5354\u52a9\u60a8\uff1a"
+            ],
+            "Create custom automation rules for different content types": [
+                "\u70ba\u4e0d\u540c\u5167\u5bb9\u985e\u578b\u5275\u5efa\u81ea\u8a02\u81ea\u52d5\u5316\u898f\u5247"
+            ],
+            "Configure category filters with whitelist\/blacklist": [
+                "\u4f7f\u7528\u767d\u540d\u55ae\/\u9ed1\u540d\u55ae\u914d\u7f6e\u5206\u985e\u7be9\u9078"
+            ],
+            "Set up AI tasks like summaries, tags, and categorization": [
+                "\u8a2d\u5b9aAI\u4efb\u52d9\uff0c\u5982\u6458\u8981\u3001\u6a19\u7c64\u548c\u5206\u985e"
+            ],
+            "We recommend you check the detailed documentation to learn how to fully utilize these features and their trigger conditions!": [
+                "\u5efa\u8b70\u60a8\u67e5\u95b1\u8a73\u7d30\u8aaa\u660e\u6587\u4ef6\uff0c\u4e86\u89e3\u5982\u4f55\u5145\u5206\u5229\u7528\u9019\u4e9b\u529f\u80fd\u53ca\u5176\u89f8\u767c\u689d\u4ef6\uff01"
+            ],
+            "Maybe Later": [
+                "\u7a0d\u5f8c\u518d\u8aaa"
+            ],
+            "Automation Rules": [
+                "\u81ea\u52d5\u5316\u898f\u5247"
+            ],
+            "Execute AI capabilities automatically based on rules to improve efficiency.": [
+                "\u6839\u64da\u898f\u5247\u81ea\u52d5\u57f7\u884cAI\u529f\u80fd\u4ee5\u63d0\u9ad8\u6548\u7387\u3002"
+            ],
+            "View automation tutorial": [
+                "\u67e5\u770b\u81ea\u52d5\u5316\u6559\u5b78"
+            ],
+            "After post matches rules, system will process tasks in background. Check task queue for progress.": [
+                "\u6587\u7ae0\u7b26\u5408\u898f\u5247\u5f8c\uff0c\u7cfb\u7d71\u5c07\u5728\u80cc\u666f\u8655\u7406\u4efb\u52d9\u3002\u8acb\u6aa2\u67e5\u4efb\u52d9\u4f47\u5217\u4ee5\u67e5\u770b\u9032\u5ea6\u3002"
+            ],
+            "You can set category filters to control which content triggers the automation. Use whitelist to include only specific categories, or blacklist to exclude them.": [
+                "\u60a8\u53ef\u4ee5\u8a2d\u5b9a\u5206\u985e\u7be9\u9078\u4f86\u63a7\u5236\u54ea\u4e9b\u5167\u5bb9\u89f8\u767c\u81ea\u52d5\u5316\u3002\u4f7f\u7528\u767d\u540d\u55ae\u50c5\u5305\u542b\u7279\u5b9a\u5206\u985e\uff0c\u6216\u4f7f\u7528\u9ed1\u540d\u55ae\u6392\u9664\u5b83\u5011\u3002"
+            ],
+            "Automated Rule List": [
+                "\u81ea\u52d5\u5316\u898f\u5247\u5217\u8868"
+            ],
+            "rules": [
+                "\u689d\u898f\u5247"
+            ],
+            "Loading rules...": [
+                "\u8f09\u5165\u898f\u5247\u4e2d..."
+            ],
+            "No automation rules": [
+                "\u6c92\u6709\u81ea\u52d5\u5316\u898f\u5247"
+            ],
+            "Get started by creating your first automation rule.": [
+                "\u958b\u59cb\u5275\u5efa\u60a8\u7684\u7b2c\u4e00\u689d\u81ea\u52d5\u5316\u898f\u5247\u3002"
+            ],
+            "Add Your First Rule": [
+                "\u65b0\u589e\u60a8\u7684\u7b2c\u4e00\u689d\u898f\u5247"
+            ],
+            "No description available...": [
+                "\u66ab\u7121\u63cf\u8ff0..."
+            ],
+            "Type": [
+                "\u985e\u578b"
+            ],
+            "Execution Mode": [
+                "\u57f7\u884c\u6a21\u5f0f"
+            ],
+            "Manual": [
+                "\u624b\u52d5"
+            ],
+            "Task Count": [
+                "\u4efb\u52d9\u6578\u91cf"
+            ],
+            "Auto Publish": [
+                "\u81ea\u52d5\u767c\u4f48"
+            ],
+            "Off": [
+                "\u95dc\u9589"
+            ],
+            "Smart Categorization": [
+                "\u667a\u6167\u5206\u985e"
+            ],
+            "AI Images": [
+                "AI\u5716\u7247"
+            ],
+            "Only processes posts in default category": [
+                "\u50c5\u8655\u7406\u9810\u8a2d\u5206\u985e\u7684\u6587\u7ae0"
+            ],
+            "Applicable Categories": [
+                "\u9069\u7528\u5206\u985e"
+            ],
+            "Excluded Categories": [
+                "\u6392\u9664\u5206\u985e"
+            ],
+            "All Categories Apply": [
+                "\u9069\u7528\u65bc\u6240\u6709\u5206\u985e"
+            ],
+            "Disabled Tasks": [
+                "\u5df2\u7981\u7528\u4efb\u52d9"
+            ],
+            "Edit rule": [
+                "\u7de8\u8f2f\u898f\u5247"
+            ],
+            "Confirm Delete": [
+                "\u78ba\u8a8d\u522a\u9664"
+            ],
+            "Are you sure you want to delete this rule? This action cannot be undone.": [
+                "\u78ba\u5b9a\u8981\u522a\u9664\u6b64\u898f\u5247\u55ce\uff1f\u6b64\u64cd\u4f5c\u7121\u6cd5\u5fa9\u539f\u3002"
+            ],
+            "Failed to save rules after deletion": [
+                "\u522a\u9664\u5f8c\u5132\u5b58\u898f\u5247\u5931\u6557"
+            ],
+            "An error occurred while saving rules after deletion": [
+                "\u522a\u9664\u5f8c\u5132\u5b58\u898f\u5247\u6642\u767c\u751f\u932f\u8aa4"
+            ],
+            "Delete rule": [
+                "\u522a\u9664\u898f\u5247"
+            ]
+        }
+    }
+}

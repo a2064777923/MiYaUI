@@ -1,0 +1,29 @@
+.mi-adminst {
+    padding: 1em;
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.custom-div {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.cmb2-options-page {
+    max-width: 1200px!important;
+}
+.mi-adminlist {
+    padding: 1em;
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.mi-adminlist li {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 1px 0 5px 0;
+    float: left;
+    padding: 5px 10px 5px 0!important;
+}

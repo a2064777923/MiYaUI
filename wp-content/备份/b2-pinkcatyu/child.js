@@ -1,0 +1,111 @@
+//复制成功弹窗
+document.body.oncopy = function() {
+    Qmsg['success']('复制成功', {
+        html: true
+    });
+};
+//首页是否购买VIP判断开始
+var qukuai = new Vue({
+	el:'.sort-mine-wrap',
+	data:{
+	
+	},
+	computed:{
+        userData(){
+            return this.$store.state.userData;
+        }
+    }
+})
+console.log('\n' + ' %c 森鹿语 %c https://www.lsenyu.cn/ ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0; font-size:12px;', 'background: #fadfa3; padding:5px 0; font-size:12px;');
+//文章页面高亮代码复制粘贴
+for (var i = 0; i < $(".prettyprint").length; i++) {
+    $(".prettyprint").eq(i).append('<span class="copy" data-clipboard-target="#copy' + i + '"><svg t="1692961697703" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10558" width="16" height="16"><path d="M691.712 152.576c59.392 0 108.032 48.64 108.032 108.032v646.656c0 59.392-48.64 108.032-108.032 108.032H188.416c-59.392 0-108.032-48.64-108.032-108.032V260.608c0-59.392 48.64-108.032 108.032-108.032h503.296zM188.416 943.104H691.2c19.968 0 35.84-15.872 35.84-35.84V260.608c0-19.968-15.872-35.84-35.84-35.84H188.416c-19.968 0-35.84 15.872-35.84 35.84v646.656c0 19.968 16.384 35.84 35.84 35.84zM835.584 9.216c59.392 0 108.032 48.64 108.032 108.032v682.496c0 19.968-15.872 35.84-35.84 35.84s-35.84-15.872-35.84-35.84V116.736c0-19.968-15.872-35.84-35.84-35.84H296.448c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h539.136zM547.84 727.552c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84H547.84z m72.192-179.712c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h359.424z m0-179.712c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h359.424z" fill="#bfbfbf" p-id="10559"></path></svg></span>');
+    $(".prettyprint").eq(i).attr('id', 'copy' + i);
+}
+var clipboard = new ClipboardJS('.copy');
+clipboard.on('success', function(e) {
+    //console.info(e.text); 提示
+    e.clearSelection();
+    e.trigger.innerHTML = "<svg t=\"1692961288647\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"5210\" width=\"16\" height=\"16\"><path d=\"M678.1 256.5H242.9c-35.3 0-64 28.7-64 64v486.4c0 35.3 28.7 64 64 64h435.2c35.3 0 64-28.7 64-64V320.5c0-35.3-28.7-64-64-64z m12.8 550.4c0 7-5.8 12.8-12.8 12.8H242.9c-7.1 0-12.8-5.7-12.8-12.8V320.5c0-7.1 5.7-12.8 12.8-12.8h435.2c7.1 0 12.8 5.7 12.8 12.8v486.4z m0 0\" p-id=\"5211\" fill=\"#bfbfbf\"></path><path d=\"M780.5 154.1H345.3c-14.1 0-25.6 11.5-25.6 25.6 0 14.1 11.5 25.6 25.6 25.6h435.2c7.1 0 12.8 5.7 12.8 12.8v486.4c0 14.1 11.5 25.6 25.6 25.6 14.1 0 25.6-11.5 25.6-25.6V218.1c0-35.3-28.7-64-64-64z m0 0\" p-id=\"5212\" fill=\"#bfbfbf\"></path><path d=\"M626.2 457.2c10.8 10.7 10.8 28 0 38.7L447.7 673.2c-21.5 21.4-56.4 21.4-77.9 0l-73.4-72.9c-10.8-10.7-10.8-28 0-38.7 10.8-10.7 28.2-10.7 38.9 0l73.4 72.9 178.5-177.3c10.8-10.7 28.2-10.7 39 0z\" p-id=\"5213\" fill=\"#bfbfbf\"></path></svg>";
+    e.trigger.disabled = true;
+    setTimeout(function() {
+        e.trigger.innerHTML = "<svg t=\"1692961697703\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"10558\" width=\"16\" height=\"16\"><path d=\"M691.712 152.576c59.392 0 108.032 48.64 108.032 108.032v646.656c0 59.392-48.64 108.032-108.032 108.032H188.416c-59.392 0-108.032-48.64-108.032-108.032V260.608c0-59.392 48.64-108.032 108.032-108.032h503.296zM188.416 943.104H691.2c19.968 0 35.84-15.872 35.84-35.84V260.608c0-19.968-15.872-35.84-35.84-35.84H188.416c-19.968 0-35.84 15.872-35.84 35.84v646.656c0 19.968 16.384 35.84 35.84 35.84zM835.584 9.216c59.392 0 108.032 48.64 108.032 108.032v682.496c0 19.968-15.872 35.84-35.84 35.84s-35.84-15.872-35.84-35.84V116.736c0-19.968-15.872-35.84-35.84-35.84H296.448c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h539.136zM547.84 727.552c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84H547.84z m72.192-179.712c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h359.424z m0-179.712c19.968 0 35.84 15.872 35.84 35.84s-15.872 35.84-35.84 35.84H260.608c-19.968 0-35.84-15.872-35.84-35.84s15.872-35.84 35.84-35.84h359.424z\" fill=\"#bfbfbf\" p-id=\"10559\"></path></svg>";
+        e.trigger.disabled = false;
+    }, 2000);
+});
+   //设置定时器容器
+        var countDownTimer = null ;
+        //获取元素
+        var day =  document.getElementById("_d");
+        var hour = document.getElementById("_h");
+        var minute = document.getElementById("_m");
+        var second = document.getElementById("_s");
+	    //获取截止时间的时间戳（单位毫秒）
+	    var str = "2022/10/08 00:00:00"
+        var inputTime = +new Date(str);
+        //我们先调用countDown函数，可以避免在打开界面后停一秒后才开始倒计时
+        countDown();
+        //定时器 每隔一秒变化一次
+        countDownTimer =  setInterval(countDown, 1000);
+        function countDown() {
+            //获取当前时间的时间戳（单位毫秒）
+            var nowTime = +new Date();
+            //把剩余时间毫秒数转化为秒
+            var times = (inputTime - nowTime) / 1000;
+            if(times > 0){
+                 //计算天数
+                var d = Math.floor(times/60/60/24)
+                day.innerHTML = d
+                //如果小时数小于 10，要变成 0 + 数字的形式 赋值给盒子
+                day.innerHTML = d < 10 ? "0" + d : d;
+                //计算小时数 转化为整数
+                var h = parseInt(times / 60 / 60 % 24);
+                //如果小时数小于 10，要变成 0 + 数字的形式 赋值给盒子
+                hour.innerHTML = h < 10 ? "0" + h : h;
+                //计算分钟数 转化为整数
+                var m = parseInt(times / 60 % 60);
+                //如果分钟数小于 10，要变成 0 + 数字的形式 赋值给盒子
+                minute.innerHTML = m < 10 ? "0" + m : m;
+                //计算描述 转化为整数
+                var s = parseInt(times % 60);
+                //如果秒钟数小于 10，要变成 0 + 数字的形式 赋值给盒子
+                second.innerHTML = s < 10 ? "0" + s : s;
+                // console.log(d+'天'+h+'时'+m+'分'+s+'秒')
+            }else{
+                // 停止定时器，清空定时器
+                clearInterval(countDownTimer)
+            }
+        }
+let styleDom = document.createElement('style');
+styleDom.innerHTML = `
+    .modules-title-box{
+        background: url(https://www.miyaui.com/wp-content/themes/b2-pinkcatyu/img/title.png) no-repeat;
+        background-position: 0 var(--bp);
+        position: relative;
+        margin-left: -10px;
+        margin-right: 20px;
+        height: 37px;
+    }
+    .module-title{
+        padding-left: 45px;
+        padding-top: 5px;
+        font-size: 22px;
+        text-align: left;
+        font-weight: 600;
+    }
+`;
+document.head.append(styleDom);
+let titleDoms = document.querySelectorAll('div.modules-title-box');
+titleDoms.forEach((dom, index)=>{
+    dom.style = `--bp: -${(index%8)*55}px`;
+});
+$(function(){
+/*弹窗登录效果*/$("#login-box .login-box-content").addClass("b2-radius");
+$('.login-box-content').prepend('<div class="aibk_com_login">'+
+'<div>'+
+'</div>'+
+'</div>'+
+'</div>'
+);
+})
+

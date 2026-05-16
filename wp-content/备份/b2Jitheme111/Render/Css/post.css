@@ -1,0 +1,254 @@
+/*Jitheme文章内页开始*/
+#onecad-single-content {
+	overflow: hidden;
+}
+
+.entry-content > p, .content-show-roles > p {
+	line-height: 2;
+}
+
+.lv-icon {
+	color: var(--b2color)!important;
+}
+
+.w-d-download span button {
+	background-color: var(--b2color);
+	font-weight: 400;
+	text-align: center;
+	font-size: 14px;
+	color: #fff !important;
+}
+
+.w-d-current a {
+	color: var(--b2color)!important;
+}
+
+.oauth-login-button {
+	border-bottom: 1px dashed var(--main-border-color);
+}
+
+.entry-header {
+	border-bottom: unset;
+	margin-bottom: 0px;
+}
+
+.jitheme_post_gg {
+	margin-top: 0px;
+}
+
+.post-meta li span b {
+	font-weight: normal;
+	margin-top: -1px;
+}
+.single .post-meta li span, .single .post-meta .single-edit {
+    margin: 0;
+    padding: 0 10px;
+    height: 25px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: #eee;
+    line-height: 25px;
+}
+.modula .modula-item.effect-pufrobo .figc {
+	text-align: right;
+	display: none;
+}
+
+.post-tags-meat-onecad .post-list-cat {
+	margin: 0px;
+}
+
+.single-article {
+	width: 100%;
+	max-width: 100%;
+	padding-top: 10px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.entry-content pre {
+	max-height: 600px;
+	overflow-y: auto;
+}
+
+.entry-content > h3,.content-hidden h3 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.entry-content > p,.content-hidden p {
+	margin-bottom: 10px;
+}
+
+.entry-content  h2, .content-show-roles  h2 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content-excerpt {
+	line-height: 28px;
+	width: 100%;
+}
+
+.insert-post h2 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.entry-content  h1, .content-show-roles  h1 {
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 12px;
+}
+
+.entry-content > ol li::marker, .entry-content > ul li::marker {
+    /* color: var(--b2color); */
+	font-weight: bold;
+	padding: 0 5px;
+	color: #FF4B2B;
+}
+
+.home_row > div {
+	display: flex;
+	margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+}
+
+.ji-breadcrumb {
+	padding: 10px 0px;
+	height: auto;
+	white-space: nowrap;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.ji-breadcrumb i {
+	font-size: 13px;
+}
+/*Jitheme文章内页结束*/
+/*20221204重构列表*/
+.jitheme_avatar_data {
+	display: flex!important;
+}
+/*.item-in:hover .post-module-thumb img {*/
+/*    transform: scale(1.1);*/
+/*}*/
+.item-in .post-module-thumb img {
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.post-list-meta-box {
+	z-index: 2;
+}
+
+.post-list-meta li span i {
+	margin-right: 5px;
+	font-size: 15px;
+}
+
+.jitheme_cat .post-list-cat a:before {
+	content: '#';
+	line-height: 15px;
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+	margin-right: 5px;
+	color: var(--b2color);
+	text-align: center;
+	float: left;
+	background: var(--b2lightcolor);
+	border-radius: 50%;
+	display: block;
+    /* position: absolute; */
+	left: 0;
+}
+
+.ap-item-meta .post-list-cat:before {
+	content: '#';
+    /* top: 2px; */
+	line-height: 15px;
+	width: 15px;
+	height: 15px;
+	margin-top: 1px;
+	margin-right: 5px;
+	color: var(--b2color);
+	text-align: center;
+	float: left;
+	background: var(--b2lightcolor);
+	border-radius: 50%;
+	display: block;
+    /* position: absolute; */
+	left: 0;
+}
+
+.post-1 .post-list-cat a,.post-2 .post-list-cat a {
+	font-size: 13px;
+	width: fit-content;
+	align-items: center;
+}
+
+a.post-list-cat-item {
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+}
+
+.item-post-style-3 .jitheme-post-info,.item-post-style-6 .jitheme-post-info {
+	margin-top: 0px;
+}
+
+.item-post-style-3 .post-info,.item-post-style-6 .post-info {
+	position: relative;
+	z-index: 2;
+	color: var(--key-color);
+	overflow: unset;
+	align-items: center;
+}
+
+.jitheme_data {
+	color: var(--muted-color);
+}
+
+.jitheme_data_d {
+	padding: 0px 5px;
+}
+
+.list-footer {
+	border-top: 0px solid rgba(255, 255, 255, 0.1);
+}
+
+.qukuai_jb {
+	position: absolute;
+	top: 0px;
+	right: -64px;
+	z-index: 1;
+	width: 150px;
+	height: 22px;
+	color: #fff;
+	line-height: 25px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+	font-size: 12px;
+}
+/*下载框美化*/
+.single-post .download-info li {
+	font-size: 12px;
+	width: 50%;
+	margin-top: 5px;
+	line-height: 1.5;
+}

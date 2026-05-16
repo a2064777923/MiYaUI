@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 移除所有按钮和链接的焦点状态效果 */
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+img  {
+  display :inline
+}
+
+/* 在文件末尾添加 */
+.xht-outside-circle::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -20px;
+  top: 0;
+  background: radial-gradient(circle at 100% 100%, transparent 20px, theme('colors.blue.400') 21px);
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+.xht-scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.xht-scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
