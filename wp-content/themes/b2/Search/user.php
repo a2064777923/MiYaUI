@@ -98,7 +98,9 @@
             echo '<div class="box b2-radius">'.B2_EMPTY.'</div>';
         } 
 
-        wp_add_inline_script( 'b2-js-main', 'b2_search_data = ' . json_encode(array('users' => $ids)) . ';', 'before' )
+        wp_localize_script( 'b2-js-main', 'b2_search_data', array(
+            'users'=>$ids
+        ))
         ?>
     </div>
 </div>

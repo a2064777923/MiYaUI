@@ -289,7 +289,6 @@ class Main{
 
         //加载js rest
         wp_enqueue_script( 'b2-js-main', B2_THEME_URI.'/Assets/fontend/main.js', array(), B2_VERSION , true );
-        wp_add_inline_script( 'b2-js-main', 'var b2_search_data = {"users":[]};', 'before' );
 
         // wp_enqueue_script( 'b2-js-form2object', B2_THEME_URI.'/Assets/fontend/library/formToObject.min.js', array(), B2_VERSION , true );
 

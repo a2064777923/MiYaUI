@@ -1,45 +1,102 @@
 <?php
 /**
- * MiYaUI WordPress 配置模板
+ * The base configuration for WordPress
  *
- * 使用方法：复制此文件为 wp-config.php，然后填入实际值
- * cp wp-config-sample.php wp-config.php
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the website, you can copy this file to "wp-config.php"
+ * and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * Database settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
+ *
+ * @package WordPress
  */
 
-// 处理反向代理 HTTPS（如果使用宝塔反向代理架构，必须保留此代码）
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
-    $_SERVER['HTTPS'] = 'on';
-}
+// ** Database settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'database_name_here' );
 
-// ** 数据库设置 ** //
-define( 'DB_NAME', 'www_miyaui_com' );
-define( 'DB_USER', '你的数据库用户名' );
-define( 'DB_PASSWORD', '你的数据库密码' );
+/** Database username */
+define( 'DB_USER', 'username_here' );
+
+/** Database password */
+define( 'DB_PASSWORD', 'password_here' );
+
+/** Database hostname */
 define( 'DB_HOST', 'localhost' );
+
+/** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
+
+/** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-// ** 安全密钥 ** //
-// 访问 https://api.wordpress.org/secret-key/1.1/salt/ 生成新的密钥并替换以下内容
-define( 'AUTH_KEY',         '在此填入生成的密钥' );
-define( 'SECURE_AUTH_KEY',  '在此填入生成的密钥' );
-define( 'LOGGED_IN_KEY',    '在此填入生成的密钥' );
-define( 'NONCE_KEY',        '在此填入生成的密钥' );
-define( 'AUTH_SALT',        '在此填入生成的密钥' );
-define( 'SECURE_AUTH_SALT', '在此填入生成的密钥' );
-define( 'LOGGED_IN_SALT',   '在此填入生成的密钥' );
-define( 'NONCE_SALT',       '在此填入生成的密钥' );
+/**#@+
+ * Authentication unique keys and salts.
+ *
+ * Change these to different unique phrases! You can generate these using
+ * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ *
+ * You can change these at any point in time to invalidate all existing cookies.
+ * This will force all users to have to log in again.
+ *
+ * @since 2.6.0
+ */
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
+/**#@-*/
+
+/**
+ * WordPress database table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ *
+ * At the installation time, database tables are created with the specified prefix.
+ * Changing this value after WordPress is installed will make your site think
+ * it has not been installed.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
+ */
 $table_prefix = 'wp_';
 
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the documentation.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
+ */
 define( 'WP_DEBUG', false );
 
-// ** 站点地址（根据实际域名修改）** //
-define( 'WP_HOME', 'https://www.miyaui.com' );
-define( 'WP_SITEURL', 'https://www.miyaui.com' );
+/* Add any custom values between this line and the "stop editing" line. */
 
+
+
+/* That's all, stop editing! Happy publishing. */
+
+/** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-    define( 'ABSPATH', __DIR__ . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+/** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';

@@ -1,96 +1,76 @@
-# WordPress .gitignore
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
 
-# ===== 核心文件（不忽略，需要版本控制）=====
-# wp-admin/
-# wp-includes/
-# wp-config.php
-# index.php
+# Build outputs
+.output/
+.nuxt/
+dist/
+*.egg-info/
 
-# ===== 上传的媒体文件（太大，不纳入版本控制）=====
-wp-content/uploads/
-
-# ===== 缓存 =====
-wp-content/cache/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-
-# ===== 备份文件 =====
-*.zip
-*.tar.gz
-*.rar
-*.sql
-*.sql.gz
-
-# ===== 主题备份/历史包 =====
-wp-content/themes/*.zip
-wp-content/themes/*.tar.gz
-wp-content/themes/b2_1_*
-wp-content/themes/b2_5.*
-wp-content/themes/b2child_*
-wp-content/themes/b2-pinkcatyu_*
-wp-content/themes/Jitheme_*
-wp-content/themes/b2-pinkcatyu - 副本_*
-
-# ===== 插件备份/历史包 =====
-wp-content/plugins/*.zip
-wp-content/plugins/*.tar.gz
-wp-content/plugins/*.rar
-wp-content/plugins/b2app_plugin_*
-wp-content/plugins/b2_tongji_*
-wp-content/plugins/devskyr_*
-wp-content/plugins/b2_仿*
-wp-content/plugins/b2订阅*
-wp-content/plugins/mi-jiaobiao*
-wp-content/plugins/v4.*
-wp-content/plugins/wp-netdisk-link-checker*
-wp-content/plugins/anti-account-sharing.rar
-
-# ===== 日志 =====
-*.log
-wp-content/debug.log
-
-# ===== 敏感配置文件 =====
+# Environment
+.env
+.env.local
+.env.*.local
 wp-config.php
+.user.ini
+.htaccess
 
-# ===== 操作系统文件 =====
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# ===== IDE 文件 =====
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
-*~
 
-# ===== Node / Build =====
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# OS
+.DS_Store
+Thumbs.db
 
-# ===== 临时文件 =====
-*.tmp
-*.temp
-*.bak
-*.old
+# Docker / runtime
+postgres_data/
+mysql_data/
+apps/api/celerybeat-schedule
 
-# ===== 站点验证文件 =====
-baidu_verify_codeva-*.html
-MP_verify_*.txt
-huzhan_verify_*.txt
-syTexuyygL.txt
-sogousiteverification.txt
+# Testing
+coverage/
+.pytest_cache/
+htmlcov/
+wp-content/plugins/wp-smtp/tests/_data/
+wp-content/plugins/wp-smtp/tests/_output/
+wp-content/plugins/wp-smtp/tests/_support/_generated/
+wp-content/plugins/wp-smtp/vendor/stellarwp/field-conditions/tests/_output/
+wp-content/plugins/wp-smtp/vendor/stellarwp/field-conditions/tests/_support/_generated/
+wp-content/plugins/wp-smtp/vendor/stellarwp/validation/tests/_output/
+wp-content/plugins/wp-smtp/vendor/stellarwp/validation/tests/_support/_generated/
+
+# Local planning / AI artifacts
+.planning/
+CLAUDE.md
+
+# WordPress data / cache
+backups/
+wp-content/uploads/
+wp-content/cache/
+wp-content/debug.log
+wp-content/object-cache.php.bak
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# Site / server-specific files
 45d5d5e331ac8adb5e29b9e82555884f.txt
 BingSiteAuth.xml
-
-# ===== 敏感/私有文件 =====
+MP_verify_*.txt
+baidu_verify_*.html
+huzhan_verify_*.txt
+sogousiteverification.txt
+syTexuyygL.txt
 wp-content/themes/b2Jitheme/license.lic
-cj/cookie.txt
 
-# ===== 其他 =====
-.htaccess
-.user.ini
-wp-content/plugins/anti-account-sharing/
+# Archives / logs
+*.log
+*.zip
+*.rar
+*.7z
+*.tar.gz

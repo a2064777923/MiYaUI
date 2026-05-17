@@ -1,0 +1,68 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: miyaui
+      POSTGRES_USER: miyaui
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  redis:
+    image: redis:7-alpine
+
+  fastapi:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    ports:
+      - "0.0.0.0:8001:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://miyaui:${POSTGRES_PASSWORD}@postgres:5432/miyaui
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+
+  nuxt:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+      target: dev
+    ports:
+      - "0.0.0.0:3001:3000"
+    environment:
+      FASTAPI_URL: http://fastapi:8000
+      WORDPRESS_URL: http://host.docker.internal:8082
+    depends_on:
+      - fastapi
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  celery-worker:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    command: celery -A app.tasks worker --loglevel=info
+    environment:
+      DATABASE_URL: postgresql+asyncpg://miyaui:${POSTGRES_PASSWORD}@postgres:5432/miyaui
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+
+  celery-beat:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    command: celery -A app.tasks beat --loglevel=info
+    environment:
+      DATABASE_URL: postgresql+asyncpg://miyaui:${POSTGRES_PASSWORD}@postgres:5432/miyaui
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+
+volumes:
+  postgres_data:

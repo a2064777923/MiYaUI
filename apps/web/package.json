@@ -1,0 +1,19 @@
+{
+  "name": "@miyaui/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "nuxt": "^3.16.0",
+    "@nuxt/ui": "^3.0.0",
+    "@pinia/nuxt": "^0.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
