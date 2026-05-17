@@ -30,6 +30,7 @@ define( 'DISALLOW_FILE_EDIT', true );
 define( 'FORCE_SSL_ADMIN', false );
 define( 'WP_CACHE', true );
 define( 'MIYAUI_LOCAL_ENV', true );
+define( 'MIYAUI_BRIDGE_SECRET', getenv( 'WORDPRESS_AUTH_BRIDGE_SECRET' ) ?: 'miyaui-local-bridge-secret' );
 
 define( 'WP_HOME', getenv( 'WP_HOME' ) ?: 'http://localhost:8082' );
 define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ?: 'http://localhost:8082' );

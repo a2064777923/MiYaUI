@@ -1,19 +1,24 @@
-import { getBackendUrl } from '~/server/utils/content-router'
+import { getWordPressPageUrl, normalizeRoutePath } from '~/server/utils/content-router'
 
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
-  const path = getRouterParam(event, 'path') || ''
+  const path = normalizeRoutePath(getRouterParam(event, 'path') || '')
   const query = getQuery(event)
-
-  const backendUrl = getBackendUrl(path, config)
+  const backendUrl = getWordPressPageUrl(path, config, query)
 
   try {
-    return await $fetch(backendUrl, {
-      query,
+    const response = await fetch(backendUrl, {
       headers: {
-        Authorization: getHeader(event, 'authorization') || '',
+        authorization: getHeader(event, 'authorization') || '',
+        cookie: getHeader(event, 'cookie') || '',
       },
     })
+    const body = await response.text()
+    return {
+      status: response.status,
+      url: backendUrl,
+      html: body,
+    }
   } catch (error) {
     throw createError({
       statusCode: 502,

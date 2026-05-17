@@ -36,6 +36,8 @@ apps/api/celerybeat-schedule
 # Testing
 coverage/
 .pytest_cache/
+apps/web/.pnpm-store/
+apps/web/test-results/
 htmlcov/
 wp-content/plugins/wp-smtp/tests/_data/
 wp-content/plugins/wp-smtp/tests/_output/

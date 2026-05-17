@@ -1,4 +1,5 @@
 FROM node:22-alpine AS base
+RUN apk add --no-cache chromium
 RUN corepack enable && corepack prepare pnpm@9 --activate
 WORKDIR /app
 COPY package.json* pnpm-lock.yaml* .npmrc* ./
