@@ -51,6 +51,7 @@ services:
       - "${WORDPRESS_PORT:-8082}:80"
     volumes:
       - ./:/var/www/html
+      - ./docker/local/wordpress/wordpress.htaccess:/var/www/html/.htaccess:ro
       - ./docker/local/wordpress/wp-config.local.php:/var/www/html/wp-config.php:ro
       - ./docker/local/wordpress/php.ini:/usr/local/etc/php/conf.d/zz-miyaui.ini:ro
       - ./wp-content/themes/b2Jitheme/Center/sgcj/linux-x86_64/ixed.8.0.lin:/opt/miyaui/ixed.8.0.lin:ro

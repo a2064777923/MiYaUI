@@ -48,6 +48,7 @@ wp-content/plugins/wp-smtp/vendor/stellarwp/validation/tests/_support/_generated
 # Local planning / AI artifacts
 .planning/
 CLAUDE.md
+.playwright-cli/
 
 # WordPress data / cache
 backups/
